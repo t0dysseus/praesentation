@@ -1489,11 +1489,11 @@
     justify-content: center;
     overflow: hidden;
     min-height: 0;
-    background: #fff;
+    background: transparent;
     border: none;
     border-radius: 12px;
     padding: 16px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    box-shadow: none;
   }
   
   /* Text in Slot-Zellen (für Beispiele mit Text statt Bild) */
