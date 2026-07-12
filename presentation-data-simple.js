@@ -20,7 +20,7 @@ const PRESENTATION_DATA_SIMPLE = {
 
   // ── TITELFOLIE ──────────────────────────────────────────────
   title: {
-    main: "RAEUME FUER JEDEN",
+    main: "tRAEUME FUER JEDEN",
     subtitle: "– inklusiv, immersiv, interaktiv",
     description: "La Forza e forte nella mia famiglia.",
     semester: "SS2026",
