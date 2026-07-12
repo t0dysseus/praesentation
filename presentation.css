@@ -1634,4 +1634,16 @@
   color: var(--muted);
   line-height: 1.6;
   margin: 0;
+
+   /* Beispiel-Folien (a-f) vom allgemeinen Folien-Rahmen befreien */
+.slide-example, 
+.slot-grid-3x2, 
+.slot-grid-2x2, 
+.slot-columns-2, 
+.slot-columns-3, 
+.slot-columns-4 {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
 }
