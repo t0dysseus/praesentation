@@ -88,7 +88,7 @@
   background: rgba(255, 255, 255, 0.80) !important; /* Weiß mit 80% Deckkraft */
   border-radius: 16px !important; /* Abgerundete Ecken */
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08) !important; /* Etwas mehr Tiefe */
-  border: 1px solid rgba(255, 255, 255, 0.5) !important; /* Subtile Lichtkante (Das ist dein weißer Rand) */
+  border: 0px solid rgba(255, 255, 255, 0.5) !important; /* Subtile Lichtkante (Das ist dein weißer Rand) */
   
   /* Breite und Höhe festlegen, damit der Rand zu allen Seiten erzeugt wird */
   width: 1440px !important;  /* Feste Breite für das 16:9 Verhältnis */
