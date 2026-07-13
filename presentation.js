@@ -420,7 +420,8 @@ function renderSlotExamples() {
     { key: 'exampleG', id: 'example-g', maxSlots: 4 },
     { key: 'exampleH', id: 'example-h', maxSlots: 3 },
     { key: 'exampleI', id: 'example-i', maxSlots: 4 },
-    { key: 'exampleJ', id: 'example-j', maxSlots: 2 }
+    { key: 'exampleJ', id: 'example-j', maxSlots: 2 },
+    { key: 'exampleK', id: 'example-k', maxSlots: 2 }
   ];
 
   examples.forEach(function(ex) {

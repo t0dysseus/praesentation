@@ -278,6 +278,16 @@ example4: {
     ]
   },
 
+// ---bild+web ---
+  exampleK: {
+    title: "Interview",
+    layout: "slot-columns-2",
+    slots: [
+      '<img src="images/interview.jpeg" alt="Interview">',
+      '<iframe src="https://t0dysseus.github.io/interviews/" frameborder="0" allowfullscreen></iframe>'
+    ]
+  },
+
 dannenmann1: {
     title: "Dannenmann",
     content: "<p>La Forza sia con te.</p><p>Io sono tuo padre.</p><p>Fare o non fare. Non c'è provare.</p><p>Aiutami, Obi-Wan Kenobi. Sei la mia sola speranza.</p>",
