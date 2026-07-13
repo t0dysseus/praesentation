@@ -1650,6 +1650,10 @@
   border: none !important;
 }
 
+.slide-interview .slide-content > div > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
 
 .slide-interview .slide-content > div > div iframe {
   width: 100%;
