@@ -172,6 +172,12 @@ function renderContent() {
   // SLOT-BEISPIELE a–j
   renderSlotExamples();
 
+  // Interview: iframe-Höhe an Bild anpassen
+  syncInterviewIframe();
+
+  // Lightbox an alle JPG/JPEG Bilder anhängen
+  attachLightboxToImages();
+
 }
 
 function renderIntervention(num, data) {
@@ -445,6 +451,32 @@ function renderSlotExamples() {
 }
 
 // ─────────────────────────────────────────────
+// INTERVIEW: iframe-Höhe an Bild anpassen (nur Seite 9)
+// ─────────────────────────────────────────────
+function syncInterviewIframe() {
+  var slide = document.querySelector('.slide-interview');
+  if (!slide) return;
+  var img = slide.querySelector('img');
+  var iframe = slide.querySelector('iframe');
+  if (!img || !iframe) return;
+
+  function sync() {
+    var h = img.offsetHeight;
+    if (h > 0) {
+      iframe.style.height = h + 'px';
+    }
+  }
+
+  if (img.complete && img.naturalWidth > 0) {
+    sync();
+  } else {
+    img.addEventListener('load', sync);
+  }
+  // Fallback: nach kurzer Verzögerung nochmal versuchen
+  setTimeout(sync, 300);
+}
+
+// ─────────────────────────────────────────────
 // LIGHTBOX (Vollbild-Ansicht)
 // ─────────────────────────────────────────────
 
@@ -619,10 +651,15 @@ document.addEventListener('keydown', (e) => {
   }
   if (e.key === 'Escape') {
     helpOverlay.classList.remove('active');
+    lbOverlay.classList.remove('active');
   }
 }, true); // CAPTURE: läuft VOR Reveal.js!
 
 // ── REVEAL EVENTS ────────────────────────────────────────────
+Reveal.on('resize', () => {
+  syncInterviewIframe();
+});
+
 Reveal.on('ready', () => {
   renderContent();
   const total = Reveal.getTotalSlides();
@@ -644,6 +681,9 @@ Reveal.on('slidechanged', (event) => {
   updateProgress(current, total);
   updateParallax(event.indexh);
 
+  // Interview: iframe-Höhe an Bild anpassen
+  syncInterviewIframe();
+
   var iframe = document.getElementById('inception-iframe');
   if (iframe && !event.currentSlide.classList.contains('slide-inception')) {
     if (document.activeElement === iframe) {
@@ -653,25 +693,32 @@ Reveal.on('slidechanged', (event) => {
 });
 
 
-/* Lightbox für alle JPG/JPEG Bilder */
-(function() {
-  const overlay = document.createElement('div');
-  overlay.className = 'lightbox-overlay';
-  const img = document.createElement('img');
-  overlay.appendChild(img);
-  document.body.appendChild(overlay);
-  
-  overlay.addEventListener('click', () => overlay.classList.remove('active'));
-  
+/* ═══════════════════════════════════════════════════════════════
+   LIGHTBOX für alle JPG/JPEG Bilder
+   Overlay einmal erstellen, Listener nach jedem renderContent() neu setzen
+   ═══════════════════════════════════════════════════════════════ */
+
+var lbOverlay = document.createElement('div');
+lbOverlay.className = 'lightbox-overlay';
+var lbImg = document.createElement('img');
+lbOverlay.appendChild(lbImg);
+document.body.appendChild(lbOverlay);
+
+lbOverlay.addEventListener('click', () => lbOverlay.classList.remove('active'));
+
+function attachLightboxToImages() {
   document.querySelectorAll('img').forEach(el => {
-    const src = el.getAttribute('src') || '';
+    if (el.dataset.lbAttached) return;
+    if (el.closest('.gallery-item')) return;
+    var src = el.getAttribute('src') || '';
     if (/\.jpe?g$/i.test(src)) {
+      el.dataset.lbAttached = '1';
       el.style.cursor = 'zoom-in';
       el.addEventListener('click', (e) => {
         e.stopPropagation();
-        img.src = el.src;
-        overlay.classList.add('active');
+        lbImg.src = el.src;
+        lbOverlay.classList.add('active');
       });
     }
   });
-})();
+}

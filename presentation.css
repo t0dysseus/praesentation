@@ -1653,11 +1653,11 @@
 .slide-interview .slide-content > div > div:nth-child(2) {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .slide-interview .slide-content > div > div iframe {
   width: 100%;
-  flex: 1;
   border: none;
   border-radius: 16px;
   display: block;
