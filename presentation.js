@@ -651,3 +651,27 @@ Reveal.on('slidechanged', (event) => {
     }
   }
 });
+
+
+/* Lightbox für alle JPG/JPEG Bilder */
+(function() {
+  const overlay = document.createElement('div');
+  overlay.className = 'lightbox-overlay';
+  const img = document.createElement('img');
+  overlay.appendChild(img);
+  document.body.appendChild(overlay);
+  
+  overlay.addEventListener('click', () => overlay.classList.remove('active'));
+  
+  document.querySelectorAll('img').forEach(el => {
+    const src = el.getAttribute('src') || '';
+    if (/\.jpe?g$/i.test(src)) {
+      el.style.cursor = 'zoom-in';
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        img.src = el.src;
+        overlay.classList.add('active');
+      });
+    }
+  });
+})();
