@@ -158,7 +158,7 @@ exampleL: {
   layout: "slot-columns-2",
   slots: [
     '<p>Intervention 02 Bushaltestelle als informeller Treffpunkt</p>',
-    '<img src="images/1.jpeg" alt="">'
+    '<img src="images/derort.jpg" alt="">'
   ]
 },              // ← } schließt exampleL, dann Komma
 
@@ -177,7 +177,7 @@ exampleM: {     // ← Jetzt auf der OBEREN Ebene, parallel zu exampleL
   layout: "slot-columns-2",
   slots: [
     '<p>Die Raucherecke ist bereits informeller, sozialer Treffpunkt für Teilnehmende und Mitarbeitende des CJDs</p>',
-    '<img src="images/1.jpeg" alt="">'
+    '<img src="images/buha_zeichnung.png" alt="">'
   ]
 },
 
