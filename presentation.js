@@ -71,9 +71,13 @@ function renderContent() {
    // PARTNER
    document.getElementById('partner-title').textContent = D.partner.title;
    document.getElementById('partner-text').innerHTML = `
-     <p style="font-size:1.3em; margin-bottom:0.8em;"><strong>${D.partner.name}:</strong> ${D.partner.desc1}</p>
-     <p style="font-size:1.1em; margin-bottom:0.8em;"><strong>${D.partner.location}:</strong> ${D.partner.desc2}</p>
-     <p style="font-size:1.1em;"><strong>Transformationswunsch:</strong> ${D.partner.desc3}</p>
+     <ul style="list-style:none; padding:0; margin:0;">
+       ${D.partner.items.map(item => 
+        `<li style="font-size:1.1em; margin-bottom:0.9em; line-height:1.5;">
+        ${item}
+      </li>`
+       ).join('')}
+     </ul>
    `;
    document.getElementById('partner-images').innerHTML = D.partner.images.map(src => 
      `<img src="${src}" alt="" style="width:100%; height:220px; object-fit:cover; border-radius:8px;">`
@@ -99,7 +103,7 @@ function renderContent() {
       ${item}
     </li>`
   ).join('');
-  
+
   // MATRIX
   document.getElementById('matrix-title').textContent = D.matrix.title;
   document.getElementById('matrix-legend').innerHTML = D.matrix.categories.map(cat => `
@@ -687,6 +691,23 @@ Reveal.on('ready', () => {
   }
 });
 
+// STUFE 1 DETAIL (2×3 Grid)
+if (D.stufe1Detail) {
+  document.getElementById('stufe1-detail-title').textContent = D.stufe1Detail.title;
+  document.getElementById('stufe1-detail-text').innerHTML = D.stufe1Detail.text;
+  document.getElementById('stufe1-detail-images').innerHTML = D.stufe1Detail.images.map(src => 
+    `<img src="${src}" alt="" style="width:100%; height:100%; object-fit:cover; border-radius:4px;">`
+  ).join('');
+}
+
+// STUFE 1 DETAIL (2×4 Grid – 8 Bilder)
+if (D.detail4x2) {
+  document.getElementById('detail-4x2-title').textContent = D.detail4x2.title;
+  document.getElementById('detail-4x2-text').innerHTML = D.detail4x2.text;
+  document.getElementById('detail-4x2-images').innerHTML = D.detail4x2.images.map(src => 
+    `<img src="${src}" alt="" style="width:100%; height:100%; object-fit:cover; border-radius:4px;">`
+  ).join('');
+}
    
 Reveal.on('slidechanged', (event) => {
   const total = Reveal.getTotalSlides();

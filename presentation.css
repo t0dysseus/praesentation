@@ -1687,3 +1687,89 @@
   object-fit: contain;
   border-radius: 8px;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   STUFE 1 DETAIL – Text links, 6 Bilder rechts
+   ═══════════════════════════════════════════════════════════════ */
+
+   .stufe1-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;   /* Text schmal, Bilder breit */
+    gap: 32px;
+    height: calc(100% - 70px);
+    align-items: start;
+  }
+  
+  .stufe1-detail-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .stufe1-detail-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 1.2em 0 0.4em 0;
+  }
+  
+  .stufe1-detail-text h3:first-child {
+    margin-top: 0;
+  }
+  
+  .stufe1-detail-text ol {
+    margin: 0 0 1.2em 0;
+    padding-left: 1.2em;
+  }
+  
+  .stufe1-detail-text li {
+    margin-bottom: 0.2em;
+  }
+  
+  .stufe1-detail-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    height: 100%;
+  }
+
+  /* ═══════════════════════════════════════════════════════════════
+   NEU: 4×2 Grid mit Text links (ergänzend, nicht tauschend)
+   ═══════════════════════════════════════════════════════════════ */
+.detail-4x2-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 30px;
+  align-items: start;
+  height: 100%;
+}
+
+.detail-4x2-text {
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.detail-4x2-text ol {
+  padding-left: 1.2em;
+  margin: 0.5em 0;
+}
+
+.detail-4x2-text li {
+  margin-bottom: 0.3em;
+}
+
+.detail-4x2-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  height: 100%;
+}
+
+.detail-4x2-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}

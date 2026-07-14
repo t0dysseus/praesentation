@@ -64,18 +64,18 @@ const PRESENTATION_DATA = {
   // ── PARTNER ────────────────────────────────────────────────
   partner: {
     title: "Rückblick – Unser Partner",
-    name: "CJD",
-    location: "Standort Sickingenstraße Berlin",
-    desc1: "großer sozialer Träger mit Fokus auf Bildung und Inklusion",
-    desc2: "Berufsausbildung und -vorbereitung, Praxisklassen, Verwaltung, Soziales",
-    desc3: "Transformationswunsch: 'Räume anders denken' für bessere Außenwirkung und neue Einnahmequellen",
+    items: [
+      "Großer sozialer Träger: Fokus auf Bildung und Inklusion",
+      "Berufsausbildung und -vorbereitung (BVB), Praxisklassen, Verwaltung, Soziales",
+      "'Räume anders denken': bessere Außenwirkung & neue Einnahmequellen"
+    ],
     images: ["images/buero.jpg","images/eingang.jpg","images/frisoer.jpg"]
   },
 
   // ── AUSGANGSSITUATION ──────────────────────────────────────
   situation: {
     title: "Rückblick – Ausgangssituation",
-    text: "Sichtbar ist eine <strong>Diskrepanz</strong> zwischen der <strong>Herzlichkeit</strong> im Umgang untereinander und der unsanierten <strong>Industrieanlage</strong>.<br><br>Aber auch zwischen dem Wunsch nach <strong>Öffnung</strong> und systemischen <strong>Barrieren</strong>.",
+    text: "<ul style='list-style:none; padding:0; margin:0;'><li style='margin-bottom:1em; line-height:1.5;'>Diskrepanz zwischen der <strong>Herzlichkeit</strong> im Umgang untereinander und der unsanierten <strong>Industrieanlage</strong>.<li style='margin-bottom:1em; line-height:1.5;'>Diskrepanz zwischen dem Wunsch nach <strong>Öffnung</strong> und systemischen <strong>Barrieren</strong>.</li></ul>",
     images: ["images/willkommen.jpg","images/maps.jpg"]
   },
 
@@ -215,6 +215,19 @@ exampleO: {
 },
 
 
+
+stufe1Detail: {
+  title: "Stufe 1: Öffnung",
+  text: "<h3>ABLAUF</h3><ol><li>Aufbau</li><li>Öffnung</li><li>Interaktion</li><li>Beobachtung</li><li>Auswertung</li></ol><h3>LOGIK</h3><p>Informelle Aneignung<br>Positive Aktivierung</p>",
+  images: ["images/1.jpeg","images/2.jpeg","images/3.jpeg","images/4.jpeg","images/5.jpeg","images/6.jpeg"]
+},
+
+// ── NEU: Stufe 1 Detail mit 2×4 Grid (8 Bilder) ──────────
+detail4x2: {
+  title: "Stufe 1: Öffnung",
+  text: "<h3>ABLAUF</h3><ol><li>Aufbau</li><li>Öffnung</li><li>Interaktion</li><li>Beobachtung</li><li>Auswertung</li></ol><h3>LOGIK</h3><p>Informelle Aneignung<br>Positive Aktivierung</p>",
+  images: ["images/1.jpeg","images/2.jpeg","images/3.jpeg","images/4.jpeg","images/5.jpeg","images/6.jpeg","images/7.jpeg","images/8.jpeg"]
+},
 
   // ═══════════════════════════════════════════════════════════
   //  SLOT-BEISPIELE a–j (generische Bild-Raster)
