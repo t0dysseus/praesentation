@@ -74,11 +74,6 @@ function renderContent() {
       if (iframe && D.ci.iframeUrl) iframe.src = D.ci.iframeUrl;
     }
 
-  // FLASHBACK
-  document.getElementById('flashback-title').textContent = D.flashback.title;
-  document.getElementById('flashback-list').innerHTML =
-    D.flashback.items.map(item => `<li>${item}</li>`).join('');
-
   // PARTNER
    // PARTNER
    document.getElementById('partner-title').textContent = D.partner.title;
