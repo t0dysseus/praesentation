@@ -40,26 +40,31 @@ const PRESENTATION_DATA = {
     course: "BHT – Transformation Design & Print"
   },
 
-  // ── TEAM RAUM – GRUNDSÄTZE ──────────────────────────────────
-  principles: {
-    title: "Team Raum – unsere (Gestaltungs-)Grundsätze",
-    items: [
-      { icon: "immersiv",   title: "Immersiv",   text: "Fai o non fare. Non c'è provare." },
-      { icon: "inklusiv",   title: "Inklusiv",   text: "La grandezza non si misura dalla statura." },
-      { icon: "interaktiv", title: "Interaktiv", text: "Concentrati sul momento. Senti, non pensare." }
+  // ── UNSERE CI ──────────────────────────────────────────────
+  ci: {
+    title: "Unsere CI",
+    iframeUrl: "https://www.bht-berlin.de", 
+    colors: [
+      { hex: "#ca5483", label: "#ca5483" },
+      { hex: "#b2d4e4", label: "#b2d4e4" },
+      { hex: "#ef7d18", label: "#ef7d18" },
+      { hex: "#39509e", label: "#39509e" },
+      { hex: "#1d1d1b", label: "#1d1d1b" },
+      { hex: "#ffffff", label: "#ffffff" }
+    ],
+    fonts: [
+      {
+        name: "Atkinson Hyperlegible",
+        sample: "The quick brown fox jumps over the lazy dog 0123456789"
+      },
+      {
+        name: "IBM Plex Sans Serif",
+        sample: "The quick brown fox jumps over the lazy dog 0123456789"
+      }
     ]
   },
 
-  // ── RÜCKBLICK ──────────────────────────────────────────────
-  flashback: {
-    title: "Rückblick",
-    items: [
-      "In una galassia lontana, lontana...",
-      "Aiutami, Obi-Wan Kenobi. Sei la mia unica speranza.",
-      "La paura conduce alla rabbia, la rabbia conduce all'odio.",
-      "Il futuro è sempre in movimento."
-    ]
-  },
+  
 
   // ── PARTNER ────────────────────────────────────────────────
   partner: {

@@ -49,18 +49,30 @@ function renderContent() {
   document.getElementById('title-meta').textContent =
     D.title.description + '  ·  ' + D.title.semester + '  ·  ' + D.title.course;
 
-  // PRINCIPLES
-  document.getElementById('principles-title').textContent = D.principles.title;
-  document.getElementById('principles-grid').innerHTML = D.principles.items.map(item => {
-    const colors = { immersiv: 'var(--hero-orange)', inklusiv: 'var(--hero-lightblue)', interaktiv: 'var(--hero-pink)' };
-    const icons = { immersiv: '◉', inklusiv: '✦', interaktiv: '◈' };
-    return `
-      <div class="principle-card">
-        <div class="icon-circle" style="background:${colors[item.icon] || 'var(--hero-orange)'};color:#fff;">${icons[item.icon] || '◉'}</div>
-        <h3>${item.title}</h3>
-        <p>${item.text}</p>
-      </div>`;
-  }).join('');
+  // CI
+  if (D.ci) {
+    document.getElementById('ci-title').textContent = D.ci.title;
+    document.getElementById('ci-motto').textContent = D.title.main + '  ' + D.title.subtitle;
+    document.getElementById('ci-colors').innerHTML = D.ci.colors.map(c => {
+      const isWhite = c.hex.toLowerCase() === '#ffffff';
+      return `
+        <div class="ci-color-swatch${isWhite ? ' ci-color-white' : ''}" style="background:${c.hex};">
+          <span class="ci-color-label">${c.label}</span>
+        </div>`;
+    }).join('');
+    document.getElementById('ci-font1-name').textContent = D.ci.fonts[0].name;
+    document.getElementById('ci-font1-sample').textContent = D.ci.fonts[0].sample;
+    document.getElementById('ci-font2-name').textContent = D.ci.fonts[1].name;
+    document.getElementById('ci-font2-sample').textContent = D.ci.fonts[1].sample;
+  }
+
+    // CI – IFRAME-Folie
+    if (D.ci) {
+      document.getElementById('ci-iframe-title').textContent = D.ci.title;
+      document.getElementById('ci-iframe-motto').textContent = D.title.main + '  ' + D.title.subtitle;
+      var iframe = document.getElementById('ci-iframe');
+      if (iframe && D.ci.iframeUrl) iframe.src = D.ci.iframeUrl;
+    }
 
   // FLASHBACK
   document.getElementById('flashback-title').textContent = D.flashback.title;
