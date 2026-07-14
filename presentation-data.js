@@ -43,7 +43,7 @@ const PRESENTATION_DATA = {
   // ── UNSERE CI ──────────────────────────────────────────────
   ci: {
     title: "Unsere CI",
-    iframeUrl: "https://www.bht-berlin.de", 
+    iframeUrl: "https://t0dysseus.github.io/praesentation/blume.html", 
     colors: [
       { hex: "#ca5483", label: "#ca5483" },
       { hex: "#b2d4e4", label: "#b2d4e4" },
