@@ -143,20 +143,20 @@
   }
   
   .reveal p {
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--muted);
     margin: 0 0 16px;
   }
   
   .reveal ul, .reveal ol {
-    font-size: 22px;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.5;
     color: var(--muted);
   }
   
   .reveal li {
-    margin-bottom: 8px;
+    margin-bottom: 3px;
   }
   
   /* ── SLIDE: TITLE ─────────────────────────────────────────── */
@@ -221,10 +221,10 @@
   }
   
   .content-list li {
-    font-size: 24px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--muted);
-    padding: 12px 0;
+    padding: 6px 0;
     border-bottom: 1px solid var(--border);
   }
   
@@ -550,10 +550,10 @@
   
   .design-steps li {
     counter-increment: step;
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--muted);
-    padding: 16px 0 16px 60px;
+    padding: 10px 0 10px 50px;
     position: relative;
     border-bottom: 1px solid var(--border);
   }
@@ -566,13 +566,13 @@
     content: counter(step);
     position: absolute;
     left: 0;
-    top: 16px;
-    width: 40px;
-    height: 40px;
+    top: 10px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     background: var(--hero-orange);
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -609,7 +609,7 @@
   }
   
   .result-card .result-text {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     color: var(--muted);
   }
@@ -648,7 +648,7 @@
   }
   
   .nugget-card p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
   }
   
@@ -693,10 +693,10 @@
   }
   
   .phase-card .phase-activities li {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.4;
     color: var(--muted);
-    padding: 4px 0;
+    padding: 2px 0;
   }
   
   /* ── SLIDE: CONCLUSION ───────────────────────────────────── */
@@ -722,10 +722,10 @@
   }
   
   .key-learnings li {
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--muted);
-    padding: 16px 0;
+    padding: 8px 0;
     border-bottom: 1px solid var(--border);
   }
   
@@ -749,10 +749,10 @@
   }
   
   .outlook-list li {
-    font-size: 24px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--muted);
-    padding: 12px 0;
+    padding: 6px 0;
     border-bottom: 1px solid var(--border);
   }
   
@@ -1199,10 +1199,10 @@
   }
   .example-text li,
   .example-text-2 li {
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--muted);
-    padding: 10px 0;
+    padding: 6px 0;
     border-bottom: 1px solid var(--border);
   }
   .example-text li:last-child,
@@ -1322,8 +1322,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 22px;
-    line-height: 1.7;
+    font-size: 18px;
+    line-height: 1.5;
     color: var(--text);
     padding: 20px;
   }
@@ -1399,8 +1399,8 @@
   
   .dannenmann-bottom-text {
     flex: 1;
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--text);
     overflow-y: auto;
   }
@@ -1502,7 +1502,7 @@
   .slot-columns-2 .slide-content > div > div p,
   .slot-columns-3 .slide-content > div > div p,
   .slot-columns-4 .slide-content > div > div p {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.6;
     color: var(--muted);
   }
@@ -1512,8 +1512,8 @@
   .slot-columns-2 .slide-content > div > div ul,
   .slot-columns-3 .slide-content > div > div ul,
   .slot-columns-4 .slide-content > div > div ul {
-    font-size: 20px;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.5;
     color: var(--muted);
     padding-left: 20px;
   }

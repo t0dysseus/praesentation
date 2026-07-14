@@ -68,15 +68,24 @@ function renderContent() {
     D.flashback.items.map(item => `<li>${item}</li>`).join('');
 
   // PARTNER
-  document.getElementById('partner-title').textContent = D.partner.title;
-  document.getElementById('partner-name').textContent = D.partner.name;
-  document.getElementById('partner-location').textContent = D.partner.location;
-  document.getElementById('partner-desc').textContent = D.partner.description;
+   // PARTNER
+   document.getElementById('partner-title').textContent = D.partner.title;
+   document.getElementById('partner-text').innerHTML = `
+     <p style="font-size:1.3em; margin-bottom:0.8em;"><strong>${D.partner.name}:</strong> ${D.partner.desc1}</p>
+     <p style="font-size:1.1em; margin-bottom:0.8em;"><strong>${D.partner.location}:</strong> ${D.partner.desc2}</p>
+     <p style="font-size:1.1em;"><strong>Transformationswunsch:</strong> ${D.partner.desc3}</p>
+   `;
+   document.getElementById('partner-images').innerHTML = D.partner.images.map(src => 
+     `<img src="${src}" alt="" style="width:100%; height:220px; object-fit:cover; border-radius:8px;">`
+   ).join('');
 
   // SITUATION
-  document.getElementById('situation-title').textContent = D.situation.title;
-  document.getElementById('situation-list').innerHTML =
-    D.situation.points.map(item => `<li>${item}</li>`).join('');
+   // SITUATION
+   document.getElementById('situation-title').textContent = D.situation.title;
+   document.getElementById('situation-text').innerHTML = D.situation.text;
+   document.getElementById('situation-images').innerHTML = D.situation.images.map(src => 
+     `<img src="${src}" alt="" style="width:100%; height:auto; border-radius:8px;">`
+   ).join('');
 
   // RESEARCH QUESTION
   document.getElementById('rq-title').textContent = D.researchQuestion.title;
@@ -84,13 +93,13 @@ function renderContent() {
 
   // HYPOTHESES
   document.getElementById('hypotheses-title').textContent = D.hypotheses.title;
-  document.getElementById('hypotheses-grid').innerHTML = D.hypotheses.items.map(item => `
-    <div class="hypothesis-card">
-      <div class="hypo-number">${item.number}</div>
-      <h3>${item.title}</h3>
-      <p>${item.text}</p>
-    </div>`).join('');
-
+  document.getElementById('hypotheses-list').innerHTML = D.hypotheses.items.map(item => 
+    `<li style="margin-bottom:1.5em; padding-left:1.5em; position:relative;">
+      <span style="position:absolute; left:0; top:0.1em;">–</span>
+      ${item}
+    </li>`
+  ).join('');
+  
   // MATRIX
   document.getElementById('matrix-title').textContent = D.matrix.title;
   document.getElementById('matrix-legend').innerHTML = D.matrix.categories.map(cat => `
@@ -427,7 +436,11 @@ function renderSlotExamples() {
     { key: 'exampleH', id: 'example-h', maxSlots: 3 },
     { key: 'exampleI', id: 'example-i', maxSlots: 4 },
     { key: 'exampleJ', id: 'example-j', maxSlots: 2 },
-    { key: 'exampleK', id: 'example-k', maxSlots: 2 }
+    { key: 'exampleK', id: 'example-k', maxSlots: 2 },
+    { key: 'exampleL', id: 'example-l', maxSlots: 2 },
+    {key: 'exampleM', id: 'example-m', maxSlots: 2 },
+    { key: 'exampleN', id: 'example-n', maxSlots: 3 },
+    { key: 'exampleO', id: 'example-o', maxSlots: 3 },
   ];
 
   examples.forEach(function(ex) {

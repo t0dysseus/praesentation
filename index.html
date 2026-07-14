@@ -22,7 +22,72 @@
 
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
 
-
+  <style>
+    /* ═══════════════════════════════════════════════════════
+       NOTFALL-FIX: Schriftgrößen sofort kleiner
+       ═══════════════════════════════════════════════════════ */
+    
+    /* Basis-Texte */
+    .reveal p, .reveal li, .reveal ul, .reveal ol { 
+      font-size: 18px !important; 
+      line-height: 1.45 !important; 
+    }
+    
+    /* Hypothesen-Liste (hat inline-Style im HTML) */
+    #hypotheses-list { 
+      font-size: 18px !important; 
+      line-height: 1.6 !important; 
+      margin-top: 1.5em !important; 
+    }
+    #hypotheses-list li { 
+      margin-bottom: 0.6em !important; 
+      font-size: 18px !important;
+    }
+    
+    /* Partner-Text (wird per JS mit 1.3em eingefügt) */
+    #partner-text p { 
+      font-size: 18px !important; 
+      line-height: 1.45 !important; 
+      margin-bottom: 0.6em !important;
+    }
+    
+    /* Listen-Folien (Rückblick, Ausgangssituation) */
+    .content-list li { 
+      font-size: 18px !important; 
+      padding: 6px 0 !important; 
+      line-height: 1.45 !important;
+    }
+    
+    /* Design-Steps */
+    .design-steps li { 
+      font-size: 18px !important; 
+      padding: 8px 0 8px 50px !important; 
+    }
+    
+    /* Result-Cards */
+    .result-card .result-text { font-size: 18px !important; }
+    
+    /* Goldnuggets */
+    .nugget-card p { font-size: 18px !important; }
+    
+    /* Schlussfolie */
+    .key-learnings li, .outlook-list li { 
+      font-size: 18px !important; 
+      padding: 6px 0 !important; 
+    }
+    
+    /* Dannenmann */
+    .dannenmann-center-content, .dannenmann-bottom-text { 
+      font-size: 18px !important; 
+      line-height: 1.45 !important; 
+    }
+    
+    /* Slot-Beispiele mit Text */
+    .slot-columns-2 p, .slot-columns-3 p { 
+      font-size: 18px !important; 
+      line-height: 1.45 !important; 
+    }
+  </style>
   
 </head>
 <body>
@@ -68,25 +133,25 @@
         </div>
       </section>
 
-      <!-- 04: PARTNER -->
-      <section class="slide-content-page">
-        <div class="slide-content">
-          <h2 id="partner-title"></h2>
-          <div class="partner-card">
-            <h3 id="partner-name"></h3>
-            <p class="partner-location" id="partner-location"></p>
-            <p id="partner-desc"></p>
-          </div>
-        </div>
-      </section>
+           <!-- 04: PARTNER -->
+           <section class="slide-content-page">
+            <div class="slide-content" style="display:flex; flex-direction:column; height:100%;">
+              <h2 id="partner-title"></h2>
+              <div id="partner-text" style="margin-bottom:2em;"></div>
+              <div id="partner-images" style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:auto;"></div>
+            </div>
+          </section>
 
-      <!-- 05: AUSGANGSSITUATION -->
-      <section class="slide-content-page">
-        <div class="slide-content">
-          <h2 id="situation-title"></h2>
-          <ul class="content-list" id="situation-list"></ul>
-        </div>
-      </section>
+          <!-- 05: AUSGANGSSITUATION -->
+          <section class="slide-content-page">
+            <div class="slide-content">
+              <h2 id="situation-title"></h2>
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:start; margin-top:2em;">
+                <div id="situation-text"></div>
+                <div id="situation-images" style="display:grid; grid-template-columns:1fr 1fr; gap:16px;"></div>
+              </div>
+            </div>
+          </section>
 
       <!-- 06: FORSCHUNGSFRAGE -->
       <section class="slide-quote">
@@ -96,13 +161,13 @@
         </div>
       </section>
 
-      <!-- 07: 3 HYPOTHESEN -->
-      <section class="slide-hypotheses">
-        <div class="slide-content">
-          <h2 id="hypotheses-title"></h2>
-          <div class="hypotheses-grid" id="hypotheses-grid"></div>
-        </div>
-      </section>
+           <!-- 07: 3 HYPOTHESEN -->
+           <section class="slide-content-page">
+            <div class="slide-content">
+              <h2 id="hypotheses-title"></h2>
+              <ul id="hypotheses-list" style="list-style:none; padding:0; margin-top:3em; font-size:1.3em; line-height:2.2; color:#333;"></ul>
+            </div>
+          </section>
 
       <!-- 08: INTERVENTIONSMATRIX -->
       <section class="slide-matrix">
@@ -140,6 +205,55 @@
           </div>
         </div>
       </section>
+
+<!-- BEISPIEL L: slot-columns-2 (Text + Bild) -->
+<section class="slot-columns-2">
+  <div class="slide-content">
+    <h2 id="example-l-title"></h2>
+    <div>
+      <div id="example-l-slot1"></div>
+      <div id="example-l-slot2"></div>
+    </div>
+  </div>
+</section>
+
+<!-- BEISPIEL n: slot-columns-3 (3 Karten) -->
+<section class="slot-columns-3">
+  <div class="slide-content">
+    <h2 id="example-n-title"></h2>
+    <div>
+      <div id="example-n-slot1"></div>
+      <div id="example-n-slot2"></div>
+      <div id="example-n-slot3"></div>
+    </div>
+  </div>
+</section>
+
+<!-- BEISPIEL m: slot-columns-2 (Text + Bild) -->
+<section class="slot-columns-2">
+  <div class="slide-content">
+    <h2 id="example-m-title"></h2>
+    <div>
+      <div id="example-m-slot1"></div>
+      <div id="example-m-slot2"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BEISPIEL o: 3 Phasen -->
+<section class="slot-columns-3">
+  <div class="slide-content">
+    <h2 id="example-o-title"></h2>
+    <div>
+      <div id="example-o-slot1"></div>
+      <div id="example-o-slot2"></div>
+      <div id="example-o-slot3"></div>
+    </div>
+  </div>
+</section>
+
+
 
             <!-- ============================================ -->
       <!-- BEISPIEL A: Text links | Bild rechts | 2 Thumbs -->

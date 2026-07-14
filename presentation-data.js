@@ -63,21 +63,20 @@ const PRESENTATION_DATA = {
 
   // ── PARTNER ────────────────────────────────────────────────
   partner: {
-    title: "Partner",
-    name: "",
-    location: "",
-    description: "Le vie della Forza sono misteriose."
+    title: "Rückblick – Unser Partner",
+    name: "CJD",
+    location: "Standort Sickingenstraße Berlin",
+    desc1: "großer sozialer Träger mit Fokus auf Bildung und Inklusion",
+    desc2: "Berufsausbildung und -vorbereitung, Praxisklassen, Verwaltung, Soziales",
+    desc3: "Transformationswunsch: 'Räume anders denken' für bessere Außenwirkung und neue Einnahmequellen",
+    images: ["images/bild1.jpeg","images/bild1.jpeg","images/bild1.jpeg"]
   },
 
   // ── AUSGANGSSITUATION ──────────────────────────────────────
   situation: {
-    title: "Ausgangssituation",
-    points: [
-      "È una trappola!",
-      "Il lato oscuro della Forza è difficile da resistere.",
-      "Non c'è emozione, c'è pace.",
-      "La morte è una parte naturale della vita."
-    ]
+    title: "Rückblick – Ausgangssituation",
+    text: "Sichtbar ist eine <strong>Diskrepanz</strong> zwischen der <strong>Herzlichkeit</strong> im Umgang untereinander und der unsanierten <strong>Industrieanlage</strong>.<br><br>Aber auch zwischen dem Wunsch nach <strong>Öffnung</strong> und systemischen <strong>Barrieren</strong>.",
+    images: ["images/bild1.jpeg","images/bild1.jpeg"]
   },
 
   // ── FORSCHUNGSFRAGE ────────────────────────────────────────
@@ -90,9 +89,9 @@ const PRESENTATION_DATA = {
   hypotheses: {
     title: "3 Hypothesen",
     items: [
-      { number: "1", title: "", text: "Io sono tuo padre." },
-      { number: "2", title: "", text: "La pazienza è una virtù dei Jedi." },
-      { number: "3", title: "", text: "Un Jedi usa la Forza per la conoscenza e la difesa, mai per l'attacco." }
+      "Positive Selbstdarstellung kann strukturelle Probleme überdecken",
+      "Kommunizierte Offenheit hängt in der Umsetzung an vielen Faktoren",
+      "Hilfe ist gut, kann aber auch einschränkende Strukturen begünstigen"
     ]
   },
 
@@ -152,6 +151,67 @@ example4: {
     text: "<ul><li>Problemstellung</li><li>Forschungslücke</li><li>Zielsetzung</li></ul>",
     text2: "<ul><li>Methode A</li><li>Methode B</li><li>Methode C</li></ul>",
     boxes: ["Ergebnis 1", "Ergebnis 2", "Ergebnis 3"]
+},
+
+exampleL: {
+  title: "Bushaltestelle",
+  layout: "slot-columns-2",
+  slots: [
+    '<p>Intervention 02 Bushaltestelle als informeller Treffpunkt</p>',
+    '<img src="images/1.jpeg" alt="">'
+  ]
+},              // ← } schließt exampleL, dann Komma
+
+exampleN: {
+  title: "Analyse-Fokus",
+  layout: "slot-columns-3",
+  slots: [
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Hebel</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Neurahmung eines bereits genutzten informellen Ortes</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Interventionstyp</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Irritation, Wertschätzung, Verstärkung, Interaktion</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Zielgruppe</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Azubis, BvBler, Lehrende, Vorstand, Verwaltung — alle</p></div>'
+  ]
+},
+
+exampleM: {     // ← Jetzt auf der OBEREN Ebene, parallel zu exampleL
+  title: "Warum dieser Ort?",
+  layout: "slot-columns-2",
+  slots: [
+    '<p>Die Raucherecke ist bereits informeller, sozialer Treffpunkt für Teilnehmende und Mitarbeitende des CJDs</p>',
+    '<img src="images/1.jpeg" alt="">'
+  ]
+},
+
+exampleO: {
+  title: "Intervention: Bushaltestelle",
+  layout: "slot-columns-3",
+  slots: [
+    '<div style="text-align:left;">' +
+      '<h3 style="font-size:2.2rem; margin:0 0 1rem 0;">Öffnung</h3>' +
+      '<img src="images/bild1.jpg" alt="Öffnung" style="width:100%; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
+      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
+      '<p style="margin:0 0 1.2rem 0; line-height:1.5;">Treffpunkt sichtbar machen und zur aktiven Nutzung einladen.</p>' +
+      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
+      '<p style="margin:0; line-height:1.5;">Schild, Ticketautomat, Tickets, Weltkarte, Bohnen-Dosen, Plakat.</p>' +
+    '</div>',
+
+    '<div style="text-align:left;">' +
+      '<h3 style="font-size:2.2rem; margin:0 0 1rem 0;">Schließung</h3>' +
+      '<img src="images/bild1.jpg" alt="Schließung" style="width:100%; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
+      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
+      '<p style="margin:0 0 1.2rem 0; line-height:1.5;">Soziale Bedeutung des Ortes durch temporären Entzug prüfen.</p>' +
+      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
+      '<p style="margin:0; line-height:1.5;">Absperrband, Baustellenabsperrung, Hinweis am Bushaltestellenschild.</p>' +
+    '</div>',
+
+    '<div style="text-align:left;">' +
+      '<h3 style="font-size:2.2rem; margin:0 0 1rem 0;">Aufklärung</h3>' +
+      '<img src="images/bild1.jpg" alt="Aufklärung" style="width:100%; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
+      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
+      '<p style="margin:0 0 1.2rem 0; line-height:1.5;">Intervention einordnen, Teilnahme wertschätzen und Erkenntnisse zurück geben.</p>' +
+      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
+      '<p style="margin:0; line-height:1.5;">Poster, 3D-QR-Code, Website, Kreidestifte zur Glasgestaltung.</p>' +
+    '</div>'
+  ]
 },
 
 
