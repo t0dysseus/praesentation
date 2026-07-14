@@ -69,14 +69,14 @@ const PRESENTATION_DATA = {
     desc1: "großer sozialer Träger mit Fokus auf Bildung und Inklusion",
     desc2: "Berufsausbildung und -vorbereitung, Praxisklassen, Verwaltung, Soziales",
     desc3: "Transformationswunsch: 'Räume anders denken' für bessere Außenwirkung und neue Einnahmequellen",
-    images: ["images/bild1.jpeg","images/bild1.jpeg","images/bild1.jpeg"]
+    images: ["images/buero.jpg","images/eingang.jpg","images/frisoer.jpg"]
   },
 
   // ── AUSGANGSSITUATION ──────────────────────────────────────
   situation: {
     title: "Rückblick – Ausgangssituation",
     text: "Sichtbar ist eine <strong>Diskrepanz</strong> zwischen der <strong>Herzlichkeit</strong> im Umgang untereinander und der unsanierten <strong>Industrieanlage</strong>.<br><br>Aber auch zwischen dem Wunsch nach <strong>Öffnung</strong> und systemischen <strong>Barrieren</strong>.",
-    images: ["images/bild1.jpeg","images/bild1.jpeg"]
+    images: ["images/willkommen.jpg","images/maps.jpg"]
   },
 
   // ── FORSCHUNGSFRAGE ────────────────────────────────────────
