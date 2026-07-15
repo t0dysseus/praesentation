@@ -290,7 +290,7 @@ detail4x2: {
     layout: "slot-columns-2",
     slots: [
       '<img src="images/1.jpeg" alt=""><img src="images/1.jpeg" alt="">',
-      '<iframe src="Hhttps://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
+      '<iframe src="https://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
     ]
   },
 
