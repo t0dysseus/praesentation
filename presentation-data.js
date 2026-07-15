@@ -239,12 +239,12 @@ detail4x2: {
     title: "Öffnung",
     layout: "slot-grid-3x2",
     slots: [
-      '<img src="images/1.jpeg" alt="">',
-      '<img src="images/2.jpeg" alt="">',
-      '<img src="images/3.jpeg" alt="">',
-      '<img src="images/4.jpeg" alt="">',
-      '<img src="images/5.jpeg" alt="">',
-      '<img src="images/6.jpeg" alt="">'
+      '<img src="images/oeffnung2.jpg" alt="">',
+      '<img src="images/oeffnung3.jpg" alt="">',
+      '<img src="images/oeffnung4.jpg" alt="">',
+      '<img src="images/oeffnung5.jpg" alt="">',
+      '<img src="images/oeffnung6.jpg" alt="">',
+      '<img src="images/oeffnung7.jpg" alt="">'
     ]
   },
 
@@ -252,12 +252,12 @@ detail4x2: {
     title: "Öffnung",
     layout: "slot-grid-3x2",
     slots: [
-      '<img src="images/1.jpeg" alt="">',
-      '<img src="images/2.jpeg" alt="">',
-      '<img src="images/3.jpeg" alt="">',
-      '<img src="images/4.jpeg" alt="">',
-      '<img src="images/5.jpeg" alt="">',
-      '<img src="images/6.jpeg" alt="">'
+      '<img src="images/aufbau1.jpeg" alt="">',
+      '<img src="images/aufbau2.jpeg" alt="">',
+      '<img src="images/aufbau3.jpg" alt="">',
+      '<img src="images/aufbau4.jpeg" alt="">',
+      '<img src="images/aufbau5.jpg" alt="">',
+      '<img src="images/aufbau6.jpeg" alt="">'
     ]
   },
 
@@ -265,12 +265,12 @@ detail4x2: {
     title: "Öffnung",
     layout: "slot-grid-3x2",
     slots: [
-      '<img src="images/1.jpeg" alt="">',
-      '<img src="images/2.jpeg" alt="">',
-      '<img src="images/3.jpeg" alt="">',
-      '<img src="images/4.jpeg" alt="">',
-      '<img src="images/5.jpeg" alt="">',
-      '<img src="images/6.jpeg" alt="">'
+      '<img src="images/interaktion1.jpeg" alt="">',
+      '<img src="images/interaktion2.jpeg" alt="">',
+      '<img src="images/interaktion3.jpeg" alt="">',
+      '<img src="images/interaktion4.jpeg" alt="">',
+      '<img src="images/interaktion5.jpeg" alt="">',
+      '<img src="images/interaktion6.jpeg" alt="">'
     ]
   },
 
@@ -278,10 +278,10 @@ detail4x2: {
     title: "Schließung",
     layout: "slot-grid-2x2",
     slots: [
-      '<img src="images/1.jpeg" alt="">',
-      '<img src="images/2.jpeg" alt="">',
-      '<img src="images/3.jpeg" alt="">',
-      '<img src="images/4.jpeg" alt="">'
+      '<img src="images/schließung1.jpeg" alt="">',
+      '<img src="images/abgesperrt2.jpeg" alt="">',
+      '<img src="images/schließung.jpeg" alt="">',
+      '<img src="images/baustellenschild.jpeg" alt="">'
     ]
   },
 
