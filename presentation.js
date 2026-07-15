@@ -95,7 +95,7 @@ function renderContent() {
    document.getElementById('situation-title').textContent = D.situation.title;
    document.getElementById('situation-text').innerHTML = D.situation.text;
    document.getElementById('situation-images').innerHTML = D.situation.images.map(src => 
-     `<img src="${src}" alt="" style="width:100%; height:auto; border-radius:8px;">`
+     `<img src="${src}" alt="" style="width:100%; height:220px; object-fit:cover; border-radius:8px;">`
    ).join('');
 
   // RESEARCH QUESTION

@@ -191,29 +191,29 @@ exampleO: {
   layout: "slot-columns-3",
   slots: [
     '<div style="text-align:left;">' +
-      '<h3 style="font-size:2.2rem; margin:0 0 1rem 0;">Öffnung</h3>' +
-      '<img src="images/oeffnung.jpg" alt="Öffnung" style="width:100%; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
-      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
+      '<h3 style="font-size:var(--content-heading); margin:0 0 1rem 0;">Öffnung</h3>' +
+      '<img src="images/oeffnung.jpg" alt="Öffnung" style="width:100%; height:220px; object-fit:cover; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
+      '<h4 style="font-size:var(--content-text); text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
       '<p style="margin:0 0 1.2rem 0; line-height:1.5;">Treffpunkt sichtbar machen und zur aktiven Nutzung einladen.</p>' +
-      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
+      '<h4 style="font-size:var(--content-text); text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
       '<p style="margin:0; line-height:1.5;">Schild, Ticketautomat, Tickets, Weltkarte, Bohnen-Dosen, Plakat.</p>' +
     '</div>',
 
     '<div style="text-align:left;">' +
-      '<h3 style="font-size:2.2rem; margin:0 0 1rem 0;">Schließung</h3>' +
-      '<img src="images/schließung.jpg" alt="Schließung" style="width:100%; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
-      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
+      '<h3 style="font-size:var(--content-heading); margin:0 0 1rem 0;">Schließung</h3>' +
+      '<img src="images/schließung.jpg" alt="Schließung" style="width:100%; height:220px; object-fit:cover; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
+      '<h4 style="font-size:var(--content-text); text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
       '<p style="margin:0 0 1.2rem 0; line-height:1.5;">Soziale Bedeutung des Ortes durch temporären Entzug prüfen.</p>' +
-      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
+      '<h4 style="font-size:var(--content-text); text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
       '<p style="margin:0; line-height:1.5;">Absperrband, Baustellenabsperrung, Hinweis am Bushaltestellenschild.</p>' +
     '</div>',
 
     '<div style="text-align:left;">' +
-      '<h3 style="font-size:2.2rem; margin:0 0 1rem 0;">Aufklärung</h3>' +
-      '<img src="images/aufklaerung.jpg" alt="Aufklärung" style="width:100%; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
-      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
+      '<h3 style="font-size:var(--content-heading); margin:0 0 1rem 0;">Aufklärung</h3>' +
+      '<img src="images/aufklaerung.jpg" alt="Aufklärung" style="width:100%; height:220px; object-fit:cover; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
+      '<h4 style="font-size:var(--content-text); text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">ZIEL</h4>' +
       '<p style="margin:0 0 1.2rem 0; line-height:1.5;">Intervention einordnen, Teilnahme wertschätzen und Erkenntnisse zurück geben.</p>' +
-      '<h4 style="font-size:1rem; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
+      '<h4 style="font-size:var(--content-text); text-transform:uppercase; letter-spacing:0.05em; margin:0 0 0.5rem 0;">MATERIAL</h4>' +
       '<p style="margin:0; line-height:1.5;">Poster, 3D-QR-Code, Website, Kreidestifte zur Glasgestaltung.</p>' +
     '</div>'
   ]

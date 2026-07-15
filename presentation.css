@@ -8,6 +8,14 @@
     --muted: #383838;
     --border: #ececec;
     --bg-soft: #f7f7f7;
+
+    /* ── ZWEI FESTE SCHRIFTGRÖSSEN FÜR INHALTE ──────────────────
+       Hier änderst du künftig die Größe für ALLE Inhalts-Texte
+       im ganzen Deck auf einmal. Betrifft NICHT die großen
+       Folien-Überschriften (h1/h2 pro Folie) und nicht die
+       CI-Folie (die zeigt bewusst konkrete Schriftgrößen). */
+    --content-text: 36px;      /* normaler Fließtext, Listen */
+    --content-heading: 36px;   /* Zwischenüberschriften/Kartentitel innerhalb von Inhalten */
   
     --status-progress: #6a94ff;
     --status-hold: #f8cb00;
@@ -136,21 +144,21 @@
   }
   
   .reveal h3 {
-    font-size: 32px;
+    font-size: var(--content-heading);
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 1.2;
   }
   
   .reveal p {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.45;
     color: var(--muted);
     margin: 0 0 16px;
   }
   
   .reveal ul, .reveal ol {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
     color: var(--muted);
   }
@@ -179,7 +187,7 @@
   }
   
   .slide-title .meta {
-    font-size: 18px;
+    font-size: var(--content-text);
     color: var(--muted);
     margin-top: 40px;
     text-transform: uppercase;
@@ -221,7 +229,7 @@
   }
   
   .content-list li {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.45;
     color: var(--muted);
     padding: 6px 0;
@@ -280,12 +288,12 @@
   }
   
   .principle-card h3 {
-    font-size: 28px;
+    font-size: var(--content-heading);
     margin-bottom: 12px;
   }
   
   .principle-card p {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
   }
   
@@ -316,12 +324,12 @@
   }
   
   .hypothesis-card h3 {
-    font-size: 24px;
+    font-size: var(--content-heading);
     margin-bottom: 12px;
   }
   
   .hypothesis-card p {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
   }
   
@@ -352,13 +360,13 @@
   }
   
   .matrix-item .matrix-name {
-    font-size: 22px;
+    font-size: var(--content-heading);
     font-weight: 600;
     color: var(--text);
   }
   
   .matrix-item .matrix-desc {
-    font-size: 18px;
+    font-size: var(--content-text);
     color: var(--muted);
     margin-left: auto;
   }
@@ -412,7 +420,7 @@
   }
   
   .intervention-card h3 {
-    font-size: 22px;
+    font-size: var(--content-heading);
     margin: 8px 0 6px;
   }
   
@@ -532,7 +540,7 @@
   }
   
   .design-concept {
-    font-size: 24px;
+    font-size: var(--content-heading);
     line-height: 1.6;
     color: var(--muted);
     margin-bottom: 30px;
@@ -550,7 +558,7 @@
   
   .design-steps li {
     counter-increment: step;
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.45;
     color: var(--muted);
     padding: 10px 0 10px 50px;
@@ -609,7 +617,7 @@
   }
   
   .result-card .result-text {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
     color: var(--muted);
   }
@@ -643,12 +651,12 @@
   }
   
   .nugget-card h3 {
-    font-size: 24px;
+    font-size: var(--content-heading);
     margin-bottom: 12px;
   }
   
   .nugget-card p {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
   }
   
@@ -680,7 +688,7 @@
   }
   
   .phase-card .phase-title {
-    font-size: 20px;
+    font-size: var(--content-heading);
     font-weight: 700;
     margin-bottom: 12px;
     color: var(--text);
@@ -693,7 +701,7 @@
   }
   
   .phase-card .phase-activities li {
-    font-size: 14px;
+    font-size: var(--content-text);
     line-height: 1.4;
     color: var(--muted);
     padding: 2px 0;
@@ -722,7 +730,7 @@
   }
   
   .key-learnings li {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.45;
     color: var(--muted);
     padding: 8px 0;
@@ -749,7 +757,7 @@
   }
   
   .outlook-list li {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.45;
     color: var(--muted);
     padding: 6px 0;
@@ -769,7 +777,7 @@
   }
   
   .closing-contact {
-    font-size: 16px;
+    font-size: var(--content-text);
     color: var(--muted);
     margin-top: 16px;
     text-transform: uppercase;
@@ -923,7 +931,7 @@
   #modelviewer-description{
       margin-bottom:20px;
       color:var(--muted);
-      font-size:18px;
+      font-size:var(--content-text);
   }
   
   #model-viewer{
@@ -981,7 +989,7 @@
   #video-description {
     margin-bottom: 20px;
     color: var(--muted);
-    font-size: 18px;
+    font-size: var(--content-text);
   }
   
   #video-player {
@@ -999,7 +1007,7 @@
     justify-content: center;
     background: var(--bg-soft);
     color: var(--muted);
-    font-size: 18px;
+    font-size: var(--content-text);
   }
   
   
@@ -1024,7 +1032,7 @@
   #gallery-description {
     margin-bottom: 20px;
     color: var(--muted);
-    font-size: 18px;
+    font-size: var(--content-text);
   }
   
   /* Das Raster für die Bilder */
@@ -1199,7 +1207,7 @@
   }
   .example-text li,
   .example-text-2 li {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.45;
     color: var(--muted);
     padding: 6px 0;
@@ -1260,7 +1268,7 @@
   .example-layout-d .example-card {
     flex: 1;
     padding: 16px;
-    font-size: 16px;
+    font-size: var(--content-text);
     color: var(--muted);
     display: flex;
     align-items: center;
@@ -1322,7 +1330,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
     color: var(--text);
     padding: 20px;
@@ -1399,7 +1407,7 @@
   
   .dannenmann-bottom-text {
     flex: 1;
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.45;
     color: var(--text);
     overflow-y: auto;
@@ -1465,14 +1473,19 @@
     margin-bottom: 20px;   /* ← Abstand nach unten innerhalb der Box */
   }
   
-  /* shared image treatment across all slot-grid layouts */
+  /* shared image treatment across all slot-grid layouts
+     width/height:100% + object-fit:cover statt max-width/max-height:
+     so füllt jedes Bild seine Zelle komplett aus und alle Bilder auf
+     einer Folie sind gleich groß, egal welches Seitenverhältnis das
+     einzelne Foto hat oder wie viele Bilder auf der Folie sind. */
   .slot-grid-3x2 .slide-content > div > div img,
   .slot-grid-2x2 .slide-content > div > div img,
   .slot-columns-2 .slide-content > div > div img,
   .slot-columns-3 .slide-content > div > div img,
   .slot-columns-4 .slide-content > div > div img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 16px;
     display: block;
     background: transparent;
@@ -1502,7 +1515,7 @@
   .slot-columns-2 .slide-content > div > div p,
   .slot-columns-3 .slide-content > div > div p,
   .slot-columns-4 .slide-content > div > div p {
-    font-size: 16px;
+    font-size: var(--content-text);
     line-height: 1.6;
     color: var(--muted);
   }
@@ -1512,7 +1525,7 @@
   .slot-columns-2 .slide-content > div > div ul,
   .slot-columns-3 .slide-content > div > div ul,
   .slot-columns-4 .slide-content > div > div ul {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
     color: var(--muted);
     padding-left: 20px;
@@ -1522,14 +1535,23 @@
    SLOT-BILDER: Vollständig sichtbar, proportional skaliert
    ═══════════════════════════════════════════════════════════════ */
 .slot-grid-3x2 .slide-content > div > div img,
-.slot-grid-3x2 .slide-content > div > div p,
 .slot-grid-2x2 .slide-content > div > div img,
-.slot-grid-2x2 .slide-content > div > div p,
 .slot-columns-2 .slide-content > div > div img,
-.slot-columns-2 .slide-content > div > div p,
 .slot-columns-3 .slide-content > div > div img,
+.slot-columns-4 .slide-content > div > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: transparent;
+}
+
+.slot-grid-3x2 .slide-content > div > div p,
+.slot-grid-2x2 .slide-content > div > div p,
+.slot-columns-2 .slide-content > div > div p,
 .slot-columns-3 .slide-content > div > div p,
-.slot-columns-4 .slide-content > div > div img,
 .slot-columns-4 .slide-content > div > div p {
   max-width: 100%;
   max-height: 100%;
@@ -1616,14 +1638,15 @@
   box-shadow: none;
 }
 
-/* 6. Bilder in den Zellen perfekt einpassen, OHNE sie abzuschneiden */
+/* 6. Bilder in den Zellen einheitlich einpassen (füllt die Zelle, leichtes Cropping statt Letterboxing) */
 .slot-grid-3x2 .slide-content > div:last-child > div img,
 .slot-grid-2x2 .slide-content > div:last-child > div img,
 .slot-columns-2 .slide-content > div:last-child > div img,
 .slot-columns-3 .slide-content > div:last-child > div img,
 .slot-columns-4 .slide-content > div:last-child > div img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   background: transparent;
   display: block;
   border-radius: 16px;
@@ -1632,7 +1655,7 @@
 /* 7. Fallback für Text-Zellen (Beispiel j) */
 .slot-columns-2 .slide-content > div:last-child > div p {
   padding: 24px;
-  font-size: 22px;
+  font-size: var(--content-heading);
   color: var(--muted);
   line-height: 1.6;
   margin: 0;
@@ -1701,12 +1724,12 @@
   }
   
   .stufe1-detail-text {
-    font-size: 18px;
+    font-size: var(--content-text);
     line-height: 1.5;
   }
   
   .stufe1-detail-text h3 {
-    font-size: 20px;
+    font-size: var(--content-heading);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -1746,7 +1769,7 @@
 }
 
 .detail-4x2-text {
-  font-size: 18px;
+  font-size: var(--content-text);
   line-height: 1.45;
 }
 
