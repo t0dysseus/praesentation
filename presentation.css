@@ -1894,3 +1894,32 @@
   border: none;
   display: block;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   SLIDE: AUFKLÄRUNG (2 Bilder links | iframe rechts)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Linke Spalte: Bilder untereinander statt nebeneinander */
+.slide-aufklaerung .slide-content > div:last-child > div:first-child {
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Beide Bilder gleich groß, füllen die Höhe aus */
+.slide-aufklaerung .slide-content > div:last-child > div:first-child img {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+/* Rechte Spalte: iframe füllt die ganze Zelle aus */
+.slide-aufklaerung .slide-content > div:last-child > div:last-child iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 16px;
+  display: block;
+}

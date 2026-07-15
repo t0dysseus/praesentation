@@ -234,6 +234,66 @@ detail4x2: {
   images: ["images/1.jpeg","images/2.jpeg","images/3.jpeg","images/4.jpeg","images/5.jpeg","images/6.jpeg","images/7.jpeg","images/8.jpeg"]
 },
 
+  // ── NEU: ÖFFNUNG (3 Folien, je 3×2 Bild-Grid) ─────────────
+  oeffnung1: {
+    title: "Öffnung",
+    layout: "slot-grid-3x2",
+    slots: [
+      '<img src="images/1.jpeg" alt="">',
+      '<img src="images/2.jpeg" alt="">',
+      '<img src="images/3.jpeg" alt="">',
+      '<img src="images/4.jpeg" alt="">',
+      '<img src="images/5.jpeg" alt="">',
+      '<img src="images/6.jpeg" alt="">'
+    ]
+  },
+
+  oeffnung2: {
+    title: "Öffnung",
+    layout: "slot-grid-3x2",
+    slots: [
+      '<img src="images/1.jpeg" alt="">',
+      '<img src="images/2.jpeg" alt="">',
+      '<img src="images/3.jpeg" alt="">',
+      '<img src="images/4.jpeg" alt="">',
+      '<img src="images/5.jpeg" alt="">',
+      '<img src="images/6.jpeg" alt="">'
+    ]
+  },
+
+  oeffnung3: {
+    title: "Öffnung",
+    layout: "slot-grid-3x2",
+    slots: [
+      '<img src="images/1.jpeg" alt="">',
+      '<img src="images/2.jpeg" alt="">',
+      '<img src="images/3.jpeg" alt="">',
+      '<img src="images/4.jpeg" alt="">',
+      '<img src="images/5.jpeg" alt="">',
+      '<img src="images/6.jpeg" alt="">'
+    ]
+  },
+
+  schliessung: {
+    title: "Schließung",
+    layout: "slot-grid-2x2",
+    slots: [
+      '<img src="images/1.jpeg" alt="">',
+      '<img src="images/2.jpeg" alt="">',
+      '<img src="images/3.jpeg" alt="">',
+      '<img src="images/4.jpeg" alt="">'
+    ]
+  },
+
+  aufklaerung: {
+    title: "Aufklärung",
+    layout: "slot-columns-2",
+    slots: [
+      '<img src="images/1.jpeg" alt=""><img src="images/1.jpeg" alt="">',
+      '<iframe src="Hhttps://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
+    ]
+  },
+
   // ═══════════════════════════════════════════════════════════
   //  SLOT-BEISPIELE a–j (generische Bild-Raster)
   //  Bilder: images/1.jpg … images/28.jpg

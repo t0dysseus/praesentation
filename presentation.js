@@ -452,6 +452,11 @@ function renderSlotExamples() {
     {key: 'exampleM', id: 'example-m', maxSlots: 2 },
     { key: 'exampleN', id: 'example-n', maxSlots: 3 },
     { key: 'exampleO', id: 'example-o', maxSlots: 3 },
+    { key: 'oeffnung1', id: 'oeffnung1', maxSlots: 6 },
+    { key: 'oeffnung2', id: 'oeffnung2', maxSlots: 6 },
+    { key: 'oeffnung3', id: 'oeffnung3', maxSlots: 6 },
+    { key: 'schliessung', id: 'schliessung', maxSlots: 4 },
+    { key: 'aufklaerung', id: 'aufklaerung', maxSlots: 2 },
   ];
 
   examples.forEach(function(ex) {
