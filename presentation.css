@@ -1911,7 +1911,7 @@
   min-height: 0;
   width: 100%;
   max-height: none;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 16px;
 }
 
