@@ -294,7 +294,7 @@ exampleM: {     // ← Jetzt auf der OBEREN Ebene, parallel zu exampleL
 },
 
 exampleO: {
-  title: "INTERVENTION: BUSHALTESTELLE",
+  title: "DREI STUFEN",
   layout: "slot-columns-3",
   slots: [
     '<div style="text-align:left;">' +
@@ -447,7 +447,7 @@ detail4x2: {
         '<p style="margin:0 0 12px 0; font-size:var(--content-text); color:var(--text); line-height:1.5;">Social Proof Effect, (spielerische) Manipulation</p>' +
         '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">entwendete Stifte</p>' +
         '<hr style="border:none; border-top:2px solid var(--hero-orange); width:160px; margin:24px 0 20px 0;">' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;"><strong>Erkenntnis</strong><br>Mehr physische Robustheit für vandalismussicheren Aufbau</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">Mehr physische Robustheit für vandalismussicheren Aufbau</p>' +
       '</div>',
       // Tag 2
       '<div style="height:100%;">' +
@@ -457,7 +457,7 @@ detail4x2: {
         '<p style="margin:0 0 12px 0; font-size:var(--content-text); color:var(--text); line-height:1.5;">Frustration<br>Verwirrung</p>' +
         '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">Gerüchte<br>Spekulationen</p>' +
         '<hr style="border:none; border-top:2px solid var(--hero-pink); width:160px; margin:24px 0 20px 0;">' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;"><strong>Erkenntnis</strong><br>gezielter Entzug legte tatsächliche soziale Relevanz der Bushaltestelle als Schutzraum offen</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">gezielter Entzug legte tatsächliche soziale Relevanz der Bushaltestelle als Schutzraum offen</p>' +
       '</div>',
       // Tag 3
       '<div style="height:100%;">' +
@@ -466,7 +466,7 @@ detail4x2: {
         '<hr style="border:none; border-top:2px solid var(--hero-darkblue); width:160px; margin:0 0 20px 0;">' +
         '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">keinerlei Beschädigungen</p>' +
         '<hr style="border:none; border-top:2px solid var(--hero-darkblue); width:160px; margin:24px 0 20px 0;">' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;"><strong>Erkenntnis</strong><br>E-Mails als Rückmeldung zeigen höhere Barriere in digitalen Kanälen</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">E-Mails als Rückmeldung zeigen höhere Barriere in digitalen Kanälen</p>' +
       '</div>'
     ]
   },
