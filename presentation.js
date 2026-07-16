@@ -141,14 +141,26 @@ function renderContent() {
     document.getElementById('werkstuecke-hebelhypothese-text').innerHTML = D.werkstueckeHebelhypothese.text;
   }
 
+  // TEAMPROZESS (NEU)
+  if (D.teamprozessUebersicht) {
+    document.getElementById('team-neu-title').textContent = D.teamprozessUebersicht.title;
+    document.getElementById('team-neu-html').innerHTML = D.teamprozessUebersicht.html;
+  }
+
+  // LEARNINGS (NEU)
+  if (D.learningsUebersicht) {
+    document.getElementById('learnings-neu-title').textContent = D.learningsUebersicht.title;
+    document.getElementById('learnings-neu-html').innerHTML = D.learningsUebersicht.html;
+  }
+
+  // PRÄSENZ ZEIGEN (NEU)
+  if (D.praesenzZeigenUebersicht) {
+    document.getElementById('praesenz-neu-title').textContent = D.praesenzZeigenUebersicht.title;
+    document.getElementById('praesenz-neu-html').innerHTML = D.praesenzZeigenUebersicht.html;
+  }
+
   // MATRIX
   document.getElementById('matrix-title').textContent = D.matrix.title;
-  document.getElementById('matrix-legend').innerHTML = D.matrix.categories.map(cat => `
-    <div class="matrix-item">
-      <div class="matrix-color" style="background:${cat.color};"></div>
-      <span class="matrix-name">${cat.name}</span>
-      <span class="matrix-desc">${cat.description}</span>
-    </div>`).join('');
 
   // INTERVENTIONS OVERVIEW
   document.getElementById('overview-title').textContent = D.interventionsOverview.title;
@@ -486,6 +498,11 @@ function renderSlotExamples() {
     { key: 'werkstueckeHebel', id: 'werkstuecke-hebel', maxSlots: 3 },
     { key: 'werkstueckeModellierungValidierung', id: 'werkstuecke-modellierung-validierung', maxSlots: 2 },
     { key: 'werkstueckeErgebnis', id: 'werkstuecke-ergebnis', maxSlots: 2 },
+    { key: 'goldnugget1', id: 'goldnugget1', maxSlots: 2 },
+    { key: 'goldnugget2', id: 'goldnugget2', maxSlots: 2 },
+    { key: 'goldnugget3', id: 'goldnugget3', maxSlots: 2 },
+    { key: 'goldnugget4', id: 'goldnugget4', maxSlots: 2 },
+    { key: 'goldnugget5', id: 'goldnugget5', maxSlots: 2 },
     { key: 'exampleA', id: 'example-a', maxSlots: 6 },
     { key: 'exampleB', id: 'example-b', maxSlots: 4 },
     { key: 'exampleC', id: 'example-c', maxSlots: 2 },

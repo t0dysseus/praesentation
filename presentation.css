@@ -1946,3 +1946,12 @@
   border-radius: 16px;
   display: block;
 }
+/* ============================================ */
+/* NEU: Team / Learnings / Präsenz zeigen        */
+/* ============================================ */
+.slide-team-neu .slide-content,
+.slide-learnings-neu .slide-content,
+.slide-praesenz-neu .slide-content {
+  max-width: 1700px;
+  width: 100%;
+}

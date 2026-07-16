@@ -655,6 +655,168 @@ detail4x2: {
   },
 
   // ═══════════════════════════════════════════════════════════
+  //  TEAM & LEARNINGS & PRÄSENZ (NEU)
+  // ═══════════════════════════════════════════════════════════
+
+  teamprozessUebersicht: {
+    title: "Teamprozess",
+    html:
+      '<div style="position:relative; width:100%; height:640px;">' +
+        '<img src="images/gruppenfoto.jpg" alt="Gruppenfoto" style="position:absolute; left:31%; top:24%; width:31%; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,0.15);">' +
+        '<div style="position:absolute; left:33%; top:90%; color:#555; font-size:1.15em;">Gruppenfoto.jpg</div>' +
+
+        '<div style="position:absolute; left:15%; top:29%; font-weight:700; font-size:1.4em; color:#555;">Rosa</div>' +
+        '<div style="position:absolute; left:9%; top:50%; font-weight:700; font-size:1.4em; color:#555;">Sarah</div>' +
+        '<div style="position:absolute; left:22%; top:65%; font-weight:700; font-size:1.4em; color:#555;">Dirk</div>' +
+        '<div style="position:absolute; left:6%; top:78%; font-weight:700; font-size:1.4em; color:#555;">BVBler</div>' +
+
+        '<div style="position:absolute; left:66%; top:16%; font-weight:700; font-size:1.4em; color:#555;">Tony</div>' +
+        '<div style="position:absolute; left:78%; top:33%; font-weight:700; font-size:1.4em; color:#555;">Chiara</div>' +
+        '<div style="position:absolute; left:69%; top:56%; font-weight:700; font-size:1.4em; color:#555;">Azubis</div>' +
+        '<div style="position:absolute; left:84%; top:66%; font-weight:700; font-size:1.4em; color:#555;">Denise</div>' +
+        '<div style="position:absolute; left:66%; top:86%; font-weight:700; font-size:1.4em; color:#555;">Rebecca</div>' +
+      '</div>'
+  },
+
+  learningsUebersicht: {
+    title: "Learnings",
+    html:
+      '<div style="display:flex; flex-direction:column; margin-top:20px;">' +
+        '<p style="margin:0 0 30px 0; font-size:1.3em; color:#111;">Rollenfindung in neuer Teamdynamik</p>' +
+        '<p style="margin:0 0 30px 0; font-size:1.3em; color:#111;">gegenseitige Unterstützung</p>' +
+        '<p style="margin:0 0 30px 0; font-size:1.3em; color:#111;">gemeinsames Lernen</p>' +
+        '<p style="margin:0 0 30px 0; font-size:1.3em; color:#111;">Feedback einordnen</p>' +
+        '<p style="margin:0 0 30px 0; font-size:1.3em; color:#111;">Konflikte lösen</p>' +
+        '<p style="margin:0 0 30px 0; font-size:1.3em; color:#111;">Persönlichkeitstypen kennenlernen</p>' +
+        '<p style="margin:0; font-size:1.3em; color:#111;">Beziehungen pflegen</p>' +
+      '</div>'
+  },
+
+  praesenzZeigenUebersicht: {
+    title: "Präsenz zeigen",
+    html:
+      '<div>' +
+        '<p style="margin:0 0 0.3em 0; font-weight:700; font-size:1.3em; color:#111;">Transformation braucht</p>' +
+        '<p style="margin:0 0 50px 0; font-size:1.3em; line-height:1.6; color:#111;">Vertrauen &amp; Beziehungen<br>Alltag &amp; Begegnung<br>Augenhöhe &amp; Austausch</p>' +
+
+        '<div style="display:flex; align-items:baseline; gap:10px; margin:0 0 40px 0;">' +
+          '<span style="font-size:2.2em; font-weight:800; color:#2c3e8c;">9x</span>' +
+          '<span style="font-size:1.1em; color:#888;">vor Ort im Semester</span>' +
+        '</div>' +
+
+        '<div style="position:relative; display:flex; justify-content:space-between; align-items:center; padding:0 10px; margin-top:70px;">' +
+          '<div style="position:absolute; left:0; right:0; top:50%; height:2px; background:#2c3e8c; z-index:0;"></div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">21.04</div><div style="color:#333; font-size:0.85em;">K1 Eröffnungstreffen</div></div>' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">12.05</div><div style="color:#333; font-size:0.85em;">Tag der offenen Tür</div></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">18.05</div><div style="color:#333; font-size:0.85em;">Interviews</div></div>' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">26.05</div><div style="color:#333; font-size:0.85em;">K2 Meeting + Dannenmann</div></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">08.06</div><div style="color:#333; font-size:0.85em;">BuHa 1: Öffnung</div></div>' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">10.06</div><div style="color:#333; font-size:0.85em;">BuHa 2: Schließung</div></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">22.06</div><div style="color:#333; font-size:0.85em;">BuHa 3: Aufklärung</div></div>' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">30.06</div><div style="color:#333; font-size:0.85em;">K2 Meeting vor Ort</div></div>' +
+          '</div>' +
+
+          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
+            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">13.07</div><div style="color:#333; font-size:0.85em;">Rollentausch</div></div>' +
+            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
+          '</div>' +
+
+        '</div>' +
+      '</div>'
+  },
+
+  // ═══════════════════════════════════════════════════════════
+  //  GOLDNUGGETS (NEU)
+  // ═══════════════════════════════════════════════════════════
+
+  goldnugget1: {
+    title: "Goldnugget 1",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0; line-height:1.5;"><strong>Entzug als Werkzeug:</strong> Etwas wegzunehmen kann deutlich mehr offenlegen, als etwas anzubieten.</p>' +
+      '</div>',
+      '<img src="images/goldnugget_1.jpg" alt="">'
+    ]
+  },
+
+  goldnugget2: {
+    title: "Goldnugget 2",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0; line-height:1.5;"><strong>Wissen ist Handlungsgrundlage:</strong> Nur bekannte Bedürfnisse können auch berücksichtigt werden. Gesammelte Anliegen vorbringen ist möglicherweise zielführender als Einzelstimmen.</p>' +
+      '</div>',
+      '<img src="images/goldnugget_2.jpg" alt="">'
+    ]
+  },
+
+  goldnugget3: {
+    title: "Goldnugget 3",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0; line-height:1.5;"><strong>Widerstand als Einstiegspunkt:</strong> Sichtbare Abwehr bei heiklen Themen kann zeigen, wo Machtstrukturen sitzen.</p>' +
+      '</div>',
+      '<img src="images/goldnugget_3.jpg" alt="">'
+    ]
+  },
+
+  goldnugget4: {
+    title: "Goldnugget 4",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0; line-height:1.5;"><strong>Verantwortung übergeben:</strong> Zutrauen und Veränderung kann durch konkrete Situationen entstehen.</p>' +
+      '</div>',
+      '<img src="images/goldnugget_4.jpg" alt="">'
+    ]
+  },
+
+  goldnugget5: {
+    title: "Goldnugget 5",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0 0 0.3em 0; line-height:1.5;"><strong>Wahrgenommene Hürden prüfen:</strong></p>' +
+        '<p style="margin:0; line-height:1.5;">Räume/Infrastruktur wirken wie das Problem, der Ursprung sitzt aber oft tiefer.</p>' +
+      '</div>',
+      '<img src="images/goldnugget_5.jpg" alt="">'
+    ]
+  },
+
+  // ═══════════════════════════════════════════════════════════
   //  SLOT-BEISPIELE a–j (generische Bild-Raster)
   //  Bilder: images/1.jpg … images/28.jpg
   //  Texte: Italienische Star-Wars-Zitate (PLATZHALTER)
