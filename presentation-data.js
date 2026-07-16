@@ -288,7 +288,7 @@ exampleM: {     // ← Jetzt auf der OBEREN Ebene, parallel zu exampleL
   title: "LOGIK",
   layout: "slot-columns-2",
   slots: [
-    '<p>Die Raucherecke ist bereits informeller, sozialer Treffpunkt für Teilnehmende und Mitarbeitende des CJDs</p>',
+    '<p>Treffpunkt Bushaltestelle sichtbar machen <br> Symbol als Ort der Veränderung</p>',
     '<img src="images/buha_zeichnung.png" alt="">'
   ]
 },
