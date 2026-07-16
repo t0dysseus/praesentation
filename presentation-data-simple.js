@@ -20,14 +20,14 @@ const PRESENTATION_DATA_SIMPLE = {
   // ── TITELFOLIE ──────────────────────────────────────────────
   title: {
     main: "RÄUME FÜR JEDEN",
-    subtitle: "Inklusiv, Immersiv, Interaktiv",
+    subtitle: "Für alle. Einfach. Gemeinsam.",
     semester: "SS2026",
     course: "BHT – Transformation Design & Print"
   },
 
   // ── UNSERE CI ──────────────────────────────────────────────
   ci: {
-    title: "UNSERE CI",
+    title: "UNSERE AUSSEHEN",
     iframeUrl: "https://t0dysseus.github.io/praesentation/blume.html", 
     colors: [
       { hex: "#ca5483", label: "#ca5483" },
@@ -53,9 +53,9 @@ const PRESENTATION_DATA_SIMPLE = {
   partner: {
     title: "RÜCKBLICK – UNSER PARTNER",
     items: [
-      "Großer sozialer Träger. Fokus auf Bildung und Inklusion.",
-      "Berufsausbildung, Praxisklassen, Verwaltung, Soziales.",
-      "Räume anders denken: Bessere Außenwirkung und neue Einnahmen."
+      "Große soziale Einrichtung. Die Einrichtung setzt sich für Bildung und Inklusion ein.",
+      "Die Einrichtung bietet Berufs-Vorbereitung, Ausbildung, Praxis-Klassen und Beratung an.",
+      "Das Ziel ist: Räume öffnen, mehr Menschen erreichen und neue Möglichkeiten schaffen."
     ],
     images: ["images/buero.jpg","images/eingang.jpg","images/frisoer.jpg"]
   },
@@ -63,8 +63,7 @@ const PRESENTATION_DATA_SIMPLE = {
   // ── AUSGANGSSITUATION ──────────────────────────────────────
   situation: {
     title: "RÜCKBLICK – AUSGANGSSITUATION",
-    text: "<ul style='list-style:none; padding:0; margin:0;'><li style='margin-bottom:1em; line-height:1.5;'>Die Menschen sind herzlich miteinander. Aber das Gebäude ist eine alte Industriehalle.<li style='margin-bottom:1em; line-height:1.5;'>Alle wollen offener sein. Aber das System macht das schwierig.</li></ul>",
-    images: ["images/willkommen.jpg","images/maps.jpg"]
+    text: "<ul style='list-style:none; padding:0; margin:0;'><li style='margin-bottom:1em; line-height:1.5;'>Die Menschen gehen freundlich und offen miteinander um. Die Gebäude wirken dagegen alt und wenig einladend.</li><li style='margin-bottom:1em; line-height:1.5;'>Die Einrichtung möchte offener werden. Es gibt aber noch Hindernisse, die das schwer machen.</li></ul>",    images: ["images/willkommen.jpg","images/maps.jpg"]
   },
 
   // ── FORSCHUNGSFRAGE ────────────────────────────────────────
@@ -166,7 +165,8 @@ example4: {
 
   dannenmannHebelhypothese: {
     title: "HEBELHYPOTHESE",
-    text: "<p>Wenn wir die NS-Vergangenheit des Gründers sichtbar machen, dann muss sich die Organisation mit ihrer Geschichte auseinandersetzen. Das führt zu mehr Ehrlichkeit und Offenheit.</p>"
+    text: '<p>Wenn wir die NS-Vergangenheit des Gründers sichtbar machen, dann muss sich die Organisation mit ihrer Geschichte auseinandersetzen. Das führt zu mehr Ehrlichkeit und Offenheit.</p>'
+
   },
 
   dannenmannHebel: {
@@ -228,15 +228,20 @@ example4: {
 
   dannenmannErgebnis: {
     title: "ERGEBNIS DANNENMANN",
-    text: "<p style="margin:0 0 1.2em 0;"><strong>Unmittelbare Reaktionen:</strong> Unbehagen aber persönliche Offenheit.</p>" +
-          "<p style="margin:0 0 1.2em 0;"><strong>Zweiter Moment:</strong> Trotz Zweifel an Offenheit des Vorstands Bereitschaft es anzusprechen</p>" +
-          "<p style="margin:0 0 1.2em 0;"><strong>Fragebögen:</strong> Nicht allen Bewusst, Interesse ist da</p>" +
-          "<p style="margin:0;"><strong>Interview Vorstand:</strong> Stand kurzzeitig zur Aussicht, kam nie zustande</p>"
+    text: '<p style="margin:0 0 1.2em 0;"><strong>Unmittelbare Reaktionen:</strong> Unbehagen aber persönliche Offenheit.</p>' +
+
+          '<p style="margin:0 0 1.2em 0;"><strong>Zweiter Moment:</strong> Trotz Zweifel an Offenheit des Vorstands Bereitschaft es anzusprechen</p>' +
+
+          '<p style="margin:0 0 1.2em 0;"><strong>Fragebögen:</strong> Nicht allen Bewusst, Interesse ist da</p>' +
+
+          '<p style="margin:0;"><strong>Interview Vorstand:</strong> Stand kurzzeitig zur Aussicht, kam nie zustande</p>'
+
   },
 
   presseabteilung: {
     title: "ERGEBNIS PRESSEABTEILUNG",
-    text: "<p style="margin:0; font-size:1.3em; line-height:1.9; color:#444;">Relativierung<br>Gute Taten nach 2. WK<br>Werte des CJD heute</p>"
+    text: '<p style="margin:0; font-size:1.3em; line-height:1.9; color:#444;">Relativierung<br>Gute Taten nach 2. WK<br>Werte des CJD heute</p>'
+
   },
 
 exampleL: {
@@ -250,7 +255,8 @@ exampleL: {
 
 bushaltestelleHebelhypothese: {
   title: "HEBELHYPOTHESE",
-  text: "<p>Wenn wir einen bereits genutzten Treffpunkt neu gestalten, dann wird sichtbar, welche Bedeutung dieser Ort für alle hat.</p>"
+  text: '<p>Wenn wir einen bereits genutzten Treffpunkt neu gestalten, dann wird sichtbar, welche Bedeutung dieser Ort für alle hat.</p>'
+
 },
 
 exampleN: {
@@ -456,7 +462,8 @@ detail4x2: {
 
   rollentauschHebelhypothese: {
     title: "HEBELHYPOTHESE",
-    text: "<p>Wenn BVBler und Azubis für einen kurzen Wissensmoment Verantwortung übernehmen, dann verändert das die Hierarchien. Es zeigt, was ihnen zugetraut werden kann.</p>"
+    text: '<p>Wenn BVBler und Azubis für einen kurzen Wissensmoment Verantwortung übernehmen, dann verändert das die Hierarchien. Es zeigt, was ihnen zugetraut werden kann.</p>'
+
   },
 
   rollentauschHebel: {
@@ -574,11 +581,16 @@ detail4x2: {
 
   rollentauschErgebnis: {
     title: "Ergebnis Rollentausch",
-    text: "<p style="margin:0 0 1.2em 0;"><strong>Gruppendynamik</strong><br>Respekt und Rücksichtnahme. Persönliche Stärken fließen ein.</p>" +
-          "<p style="margin:0 0 1.2em 0;"><strong>Organisation</strong><br>Selbstständig und selbstbestimmt.</p>" +
-          "<p style="margin:0 0 1.2em 0;"><strong>Wissen</strong><br>Vielseitig und spannend.</p>" +
-          "<p style="margin:0 0 1.2em 0;"><strong>Umsetzung</strong><br>Schnell und kreativ.</p>" +
-          "<p style="margin:0;"><strong>Thema</strong><br>Gefahren von KI beschäftigen alle.</p>"
+    text: '<p style="margin:0 0 1.2em 0;"><strong>Gruppendynamik</strong><br>Respekt und Rücksichtnahme. Persönliche Stärken fließen ein.</p>' +
+
+          '<p style="margin:0 0 1.2em 0;"><strong>Organisation</strong><br>Selbstständig und selbstbestimmt.</p>' +
+
+          '<p style="margin:0 0 1.2em 0;"><strong>Wissen</strong><br>Vielseitig und spannend.</p>' +
+
+          '<p style="margin:0 0 1.2em 0;"><strong>Umsetzung</strong><br>Schnell und kreativ.</p>' +
+
+          '<p style="margin:0;"><strong>Thema</strong><br>Gefahren von KI beschäftigen alle.</p>'
+
   },
 
   // ═══════════════════════════════════════════════════════════
@@ -600,7 +612,8 @@ detail4x2: {
 
   werkstueckeHebelhypothese: {
     title: "HEBELHYPOTHESE",
-    text: "<p>Wenn Auszubildende ihre Fähigkeiten auf einer Plattform zeigen können, dann steigt Motivation, Selbstvertrauen und Zusammenhalt. Weil ihr Können sichtbar und greifbar wird.</p>"
+    text: '<p>Wenn Auszubildende ihre Fähigkeiten auf einer Plattform zeigen können, dann steigt Motivation, Selbstvertrauen und Zusammenhalt. Weil ihr Können sichtbar und greifbar wird.</p>'
+
   },
 
   werkstueckeHebel: {
@@ -1029,6 +1042,7 @@ dannenmann3: {
   }
 
 };
+
 
 // ═══════════════════════════════════════════════════════════════
 //  ENDE DER DATEN – Ab hier nichts ändern!
