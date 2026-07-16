@@ -763,7 +763,7 @@ detail4x2: {
       '<div>' +
         '<p style="margin:0; line-height:1.5;"><strong>Entzug als Werkzeug:</strong> Etwas wegzunehmen kann deutlich mehr offenlegen, als etwas anzubieten.</p>' +
       '</div>',
-      '<img src="images/goldnugget_1.jpg" alt="">'
+      '<img src="images/buha_nugget.jpg" alt="">'
     ]
   },
 
@@ -774,7 +774,7 @@ detail4x2: {
       '<div>' +
         '<p style="margin:0; line-height:1.5;"><strong>Wissen ist Handlungsgrundlage:</strong> Nur bekannte Bedürfnisse können auch berücksichtigt werden. Gesammelte Anliegen vorbringen ist möglicherweise zielführender als Einzelstimmen.</p>' +
       '</div>',
-      '<img src="images/goldnugget_2.jpg" alt="">'
+      '<img src="images/sofaecke.jpg alt="">'
     ]
   },
 
@@ -785,7 +785,7 @@ detail4x2: {
       '<div>' +
         '<p style="margin:0; line-height:1.5;"><strong>Widerstand als Einstiegspunkt:</strong> Sichtbare Abwehr bei heiklen Themen kann zeigen, wo Machtstrukturen sitzen.</p>' +
       '</div>',
-      '<img src="images/goldnugget_3.jpg" alt="">'
+      '<img src="images/dannenmann_nugget.JPG" alt="">'
     ]
   },
 
@@ -796,7 +796,7 @@ detail4x2: {
       '<div>' +
         '<p style="margin:0; line-height:1.5;"><strong>Verantwortung übergeben:</strong> Zutrauen und Veränderung kann durch konkrete Situationen entstehen.</p>' +
       '</div>',
-      '<img src="images/goldnugget_4.jpg" alt="">'
+      '<img src="images/rollentausch_tisch_03.jpg" alt="">'
     ]
   },
 
@@ -808,7 +808,7 @@ detail4x2: {
         '<p style="margin:0 0 0.3em 0; line-height:1.5;"><strong>Wahrgenommene Hürden prüfen:</strong></p>' +
         '<p style="margin:0; line-height:1.5;">Räume/Infrastruktur wirken wie das Problem, der Ursprung sitzt aber oft tiefer.</p>' +
       '</div>',
-      '<img src="images/goldnugget_5.jpg" alt="">'
+      '<img src="images/sperrmuell_nugget.jpg" alt="">'
     ]
   },
 
