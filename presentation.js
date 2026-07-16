@@ -57,7 +57,9 @@ function renderContent() {
   // TITEL
   document.getElementById('title-main').textContent = D.title.main;
   document.getElementById('title-sub').textContent = D.title.subtitle;
-  document.getElementById('title-meta').textContent =
+  var desc = D.title.description || '';
+  var metaText = desc ? (desc + '  ·  ' + D.title.semester + '  ·  ' + D.title.course) : (D.title.semester + '  ·  ' + D.title.course);
+  document.getElementById('title-meta').textContent = metaText;
     D.title.description + '  ·  ' + D.title.semester + '  ·  ' + D.title.course;
 
   // CI
