@@ -577,9 +577,9 @@ detail4x2: {
     title: "ABLAUF",
     layout: "slot-columns-3",
     slots: [
-      '<img src="images/rollentausch_ablauf4_1.jpg" alt="">',
-      '<img src="images/rollentausch_ablauf4_2.jpg" alt="">',
-      '<img src="images/rollentausch_ablauf4_3.jpg" alt="">'
+      '<img src="images/rollentausch_ablauf4_1.jpeg" alt="">',
+      '<img src="images/rollentausch_ablauf4_2.jpeg" alt="">',
+      '<img src="images/rollentausch_ablauf4_3.jpeg" alt="">'
     ]
   },
 
