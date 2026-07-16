@@ -388,12 +388,12 @@ detail4x2: {
     title: "Öffnung",
     layout: "slot-grid-3x2",
     slots: [
-      '<img src="images/interaktion1.jpeg" alt="">',
-      '<img src="images/interaktion2.jpeg" alt="">',
-      '<img src="images/interaktion3.jpeg" alt="">',
-      '<img src="images/interaktion4.jpeg" alt="">',
-      '<img src="images/interaktion5.jpeg" alt="">',
-      '<img src="images/interaktion6.jpeg" alt="">'
+      '<img src="images/inter1.jpg alt="">',
+      '<img src="images/inter2.jpg" alt="">',
+      '<img src="images/inter3.jpg" alt="">',
+      '<img src="images/inter4.jpg" alt="">',
+      '<img src="images/inter5.jpg" alt="">',
+      '<img src="images/inter6.jpg alt="">'
     ]
   },
 
