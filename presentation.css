@@ -2022,3 +2022,20 @@
   max-height: 100%;
   width: auto;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   FIX: Text-Blöcke in slot-columns-2 linksbündig zur Überschrift
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Container und direkte <p> sollen die volle Zellenbreite nutzen 
+   (sonst werden sie horizontal zentriert)               */
+   .slot-columns-2 .slide-content > div:last-child > div > div,
+   .slot-columns-2 .slide-content > div:last-child > div > p {
+     width: 100% !important;
+     text-align: left !important;
+   }
+   
+   /* Das 24px-Padding auf allen <p> in slot-columns-2 entfernen */
+   .slot-columns-2 .slide-content > div:last-child > div p {
+     padding: 0 !important;
+   }
