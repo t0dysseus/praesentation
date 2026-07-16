@@ -523,7 +523,6 @@ function renderSlotExamples() {
     { key: 'goldnugget2', id: 'goldnugget2', maxSlots: 2 },
     { key: 'goldnugget3', id: 'goldnugget3', maxSlots: 2 },
     { key: 'goldnugget4', id: 'goldnugget4', maxSlots: 2 },
-    { key: 'goldnugget5', id: 'goldnugget5', maxSlots: 2 },
     { key: 'exampleA', id: 'example-a', maxSlots: 6 },
     { key: 'exampleB', id: 'example-b', maxSlots: 4 },
     { key: 'exampleC', id: 'example-c', maxSlots: 2 },
