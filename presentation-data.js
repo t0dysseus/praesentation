@@ -42,7 +42,7 @@ const PRESENTATION_DATA = {
 
   // ── UNSERE CI ──────────────────────────────────────────────
   ci: {
-    title: "Unsere CI",
+    title: "UNSERE CI",
     iframeUrl: "https://t0dysseus.github.io/praesentation/blume.html", 
     colors: [
       { hex: "#ca5483", label: "#ca5483" },
@@ -68,7 +68,7 @@ const PRESENTATION_DATA = {
 
   // ── PARTNER ────────────────────────────────────────────────
   partner: {
-    title: "Rückblick – Unser Partner",
+    title: "RÜCKBlICK – UNSER PARTNER",
     items: [
       "Großer sozialer Träger: Fokus auf Bildung und Inklusion",
       "Berufsausbildung und -vorbereitung (BVB), Praxisklassen, Verwaltung, Soziales",
@@ -79,7 +79,7 @@ const PRESENTATION_DATA = {
 
   // ── AUSGANGSSITUATION ──────────────────────────────────────
   situation: {
-    title: "Rückblick – Ausgangssituation",
+    title: "RÜCKBlICK – AUSGANGSSITUATION",
     text: "<ul style='list-style:none; padding:0; margin:0;'><li style='margin-bottom:1em; line-height:1.5;'>Diskrepanz zwischen der <strong>Herzlichkeit</strong> im Umgang untereinander und der unsanierten <strong>Industrieanlage</strong>.<li style='margin-bottom:1em; line-height:1.5;'>Diskrepanz zwischen dem Wunsch nach <strong>Öffnung</strong> und systemischen <strong>Barrieren</strong>.</li></ul>",
     images: ["images/willkommen.jpg","images/maps.jpg"]
   },
@@ -92,7 +92,7 @@ const PRESENTATION_DATA = {
 
   // ── 3 HYPOTHESEN ──────────────────────────────────────────
   hypotheses: {
-    title: "3 Hypothesen",
+    title: "3 HYPOTHESEN",
     items: [
       "Positive Selbstdarstellung kann strukturelle Probleme überdecken",
       "Kommunizierte Offenheit hängt in der Umsetzung an vielen Faktoren",
@@ -102,7 +102,7 @@ const PRESENTATION_DATA = {
 
   // ── INTERVENTIONSMATRIX ────────────────────────────────────
   matrix: {
-    title: "Interventionsmatrix",
+    title: "INTERVENTIONSMATRIX",
     categories: [
       { name: "Irritation",            color: "#ec7d23", description: "" },
       { name: "Verstärkung",           color: "#b1dbe3", description: "" },
@@ -114,7 +114,7 @@ const PRESENTATION_DATA = {
 
   // ── KURZÜBERSICHT ──────────────────────────────────────────
   interventionsOverview: {
-    title: "Kurzübersicht aller Interventionen",
+    title: "KURZÜBERSICHT ALLER INTERVENTIONEN",
     items: [
       { name: "", status: "", categories: [], image: "" },
       { name: "", status: "", categories: [], image: "" },
@@ -125,27 +125,27 @@ const PRESENTATION_DATA = {
 
   // ── LIVE-DEMO (INCEPTION) ──────────────────────────────────
   inception: {
-    title: "Kurzübersicht aller Interventionen",
+    title: "KURZÜBERSICHT ALLER INTERVENTIONEN",
     url: "https://hierrosa.github.io/hierrosa.github.io.-/"
   },
 
   // ── NEU: DANKE + IFRAME (nach Goldnugget 5) ─────────────────
   // url ggf. anpassen, falls ihr eine andere Seite verlinken wollt
   thanks: {
-    title: "Danke",
+    title: "DANKE",
     url: "https://t0dysseus.github.io/praesentation/danke.html"
   },
 
   example1: {
     number: "01",
-    title: "Intervention 1",
+    title: "INTERVENTION 1",
     text: "<ul><li>Erste Erkenntnis aus der Recherche</li><li>Zweiter wichtiger Punkt</li><li>Dritter Aspekt der Intervention</li><li>Vierter Gedanke zur Umsetzung</li></ul>",
     media: "images/beispiel1.jpg",
     thumbs: ["images/thumb1a.jpg", "images/thumb1b.jpg"]
 },
 example2: {
     number: "01",
-    title: "Intervention 1",
+    title: "INTERVENTION 1",
     text: "<ul><li>Analyse der Ausgangslage</li><li>Identifikation der Hebel</li><li>Erste Modellierung</li></ul>",
     media: "images/beispiel2.jpg",
     thumbs: ["images/thumb2a.jpg", "images/thumb2b.jpg", "images/thumb2c.jpg"]
@@ -183,7 +183,7 @@ example4: {
   },
 
   dannenmannHebelhypothese: {
-    title: "Hebelhypothese",
+    title: "HEBELHYPOTHESE",
     text: "<p>Wenn wir die NS-Vergangenheit des Gründers Arnold Dannenmann physisch begreifbar machen, dann zwingt dieser spürbare Widerspruch die Organisation zur Auseinandersetzung mit ihrer eigenen Geschichte und stößt die gewünschte ehrliche und transparente Öffnung an.</p>"
   },
 
@@ -251,7 +251,7 @@ example4: {
   },
 
   dannenmannErgebnis: {
-    title: "Ergebnis Dannenmann",
+    title: "ERGEBNIS DANNENMANN",
     text: "<p style=\"margin:0 0 1.2em 0;\"><strong>Unmittelbare Reaktionen:</strong> Unbehagen aber persönliche Offenheit.</p>" +
           "<p style=\"margin:0 0 1.2em 0;\"><strong>Zweiter Moment:</strong> Trotz Zweifel an Offenheit des Vorstands Bereitschaft es anzusprechen</p>" +
           "<p style=\"margin:0 0 1.2em 0;\"><strong>Fragebögen:</strong></p>" +
@@ -259,12 +259,12 @@ example4: {
   },
 
   presseabteilung: {
-    title: "Ergebnis Presseabteilung",
+    title: "ERGEBNIS PRESSEABTEILUNG",
     text: "<p style=\"margin:0; font-size:1.3em; line-height:1.9; color:#444;\">Relativierung<br>Gute Taten nach 2. WK<br>Werte des CJD heute</p>"
   },
 
 exampleL: {
-  title: "Bushaltestelle",
+  title: "BUSHALTESTELLE",
   layout: "slot-columns-2",
   slots: [
     '<p>Intervention 02 Bushaltestelle als informeller Treffpunkt</p>',
@@ -273,12 +273,12 @@ exampleL: {
 },              // ← } schließt exampleL, dann Komma
 
 bushaltestelleHebelhypothese: {
-  title: "Hebelhypothese",
+  title: "HEBELHYPOTHESE",
   text: "<p>Wenn wir einen bereits genutzten informellen Treffpunkt mittels positiver Verstärkung, Interaktion, Support und gezielter Irritation neu rahmen, dann wird sichtbar, welche soziale Bedeutung dieser Ort für Aufenthalt, Austausch und Gemeinschaft am CJD besitzt.</p>"
 },
 
 exampleN: {
-  title: "Analyse-Fokus",
+  title: "ANALYSE-FOKUS",
   layout: "slot-columns-3",
   slots: [
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Hebel</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Neurahmung eines bereits genutzten informellen Ortes</p></div>',
@@ -288,7 +288,7 @@ exampleN: {
 },
 
 exampleM: {     // ← Jetzt auf der OBEREN Ebene, parallel zu exampleL
-  title: "Warum dieser Ort?",
+  title: "LOGIK",
   layout: "slot-columns-2",
   slots: [
     '<p>Die Raucherecke ist bereits informeller, sozialer Treffpunkt für Teilnehmende und Mitarbeitende des CJDs</p>',
@@ -297,7 +297,7 @@ exampleM: {     // ← Jetzt auf der OBEREN Ebene, parallel zu exampleL
 },
 
 exampleO: {
-  title: "Intervention: Bushaltestelle",
+  title: "INTERVENTION: BUSHALTESTELLE",
   layout: "slot-columns-3",
   slots: [
     '<div style="text-align:left;">' +
@@ -307,7 +307,7 @@ exampleO: {
     '</div>',
 
     '<div style="text-align:left;">' +
-      '<h3 style="font-size:var(--content-heading); margin:0 0 1rem 0;">Schließung</h3>' +
+      '<h3 style="font-size:var(--content-heading); margin:0 0 1rem 0;">Sperrung</h3>' +
       '<img src="images/schließung.jpg" alt="Schließung" style="width:100%; height:220px; object-fit:cover; border-radius:8px; margin-bottom:1.2rem; display:block;">' +
       '<p style="margin:0 0 1.2rem 0; line-height:1.5;">Soziale Bedeutung des Ortes durch temporären Entzug prüfen.</p>' +
     '</div>',
@@ -345,21 +345,21 @@ bushaltestelleGestaltung: {
 
 
 stufe1Detail: {
-  title: "Stufe 1: Öffnung",
+  title: "STUFE 1: ÖFFNUNG",
   text: "<h3>ABLAUF</h3><ol><li>Aufbau</li><li>Öffnung</li><li>Interaktion</li><li>Beobachtung</li><li>Auswertung</li></ol><h3>LOGIK</h3><p>Informelle Aneignung<br>Positive Aktivierung</p>",
   images: ["images/1.jpeg","images/2.jpeg","images/3.jpeg","images/4.jpeg","images/5.jpeg","images/6.jpeg"]
 },
 
 // ── NEU: Stufe 1 Detail mit 2×4 Grid (8 Bilder) ──────────
 detail4x2: {
-  title: "Stufe 1: Öffnung",
+  title: "STUFE 1: ÖFFNUNG",
   text: "<h3>ABLAUF</h3><ol><li>Aufbau</li><li>Öffnung</li><li>Interaktion</li><li>Beobachtung</li><li>Auswertung</li></ol><h3>LOGIK</h3><p>Informelle Aneignung<br>Positive Aktivierung</p>",
   images: ["images/1.jpeg","images/2.jpeg","images/3.jpeg","images/4.jpeg","images/5.jpeg","images/6.jpeg","images/7.jpeg","images/8.jpeg"]
 },
 
   // ── NEU: ÖFFNUNG (3 Folien, je 3×2 Bild-Grid) ─────────────
   oeffnung1: {
-    title: "Öffnung",
+    title: "ÖFFNUNG",
     layout: "slot-grid-3x2",
     slots: [
       '<img src="images/oeffnung2.jpeg" alt="">',
@@ -372,7 +372,7 @@ detail4x2: {
   },
 
   oeffnung2: {
-    title: "Öffnung",
+    title: "ÖFFNUNG",
     layout: "slot-grid-3x2",
     slots: [
       '<img src="images/aufbau1.jpeg" alt="">',
@@ -385,7 +385,7 @@ detail4x2: {
   },
 
   oeffnung3: {
-    title: "Öffnung",
+    title: "ÖFFNUNG",
     layout: "slot-grid-3x2",
     slots: [
       '<img src="images/inter1.jpg alt="">',
@@ -398,7 +398,7 @@ detail4x2: {
   },
 
   schliessung: {
-    title: "Schließung",
+    title: "SPERRUNG",
     layout: "slot-grid-2x2",
     slots: [
       '<img src="images/schließung1.jpg" alt="">',
@@ -409,7 +409,7 @@ detail4x2: {
   },
 
   aufklaerung: {
-    title: "Aufklärung",
+    title: "AUFKLÄRUNG",
     layout: "slot-columns-2",
     slots: [
       '<img src="images/auklärung.jpeg" alt=""><img src="images/poster1.jpeg" alt="">',
@@ -441,7 +441,7 @@ detail4x2: {
   },
 
   ergebnisseBushaltestelle: {
-    title: "Ergebnisse Bushaltestelle",
+    title: "ERGEBNISSE BUSHALTESTELLE",
     layout: "slot-columns-3",
     slots: [
       // Tag 1
@@ -495,7 +495,7 @@ detail4x2: {
   },
 
   rollentauschHebelhypothese: {
-    title: "Hebelhypothese",
+    title: "HEBELHYPOTHESE",
     text: "<p>Wenn BVBler und Azubis, mittels eines begleiteten Rollentauschs zu KI, Verantwortung für einen kleinen, aber relevanten Wissensmoment übernehmen, destabilisiert dieser gegebene Hierarchien, verschiebt die Machtverhältnisse und macht sichtbar, was ihnen zugetraut werden kann.</p>"
   },
 
@@ -542,7 +542,7 @@ detail4x2: {
   },
 
   rollentauschAblauf1: {
-    title: "Ablauf",
+    title: "ABLAUF",
     layout: "slot-columns-3",
     slots: [
       '<img src="images/ablauf1.jpeg" alt="">',
@@ -552,7 +552,7 @@ detail4x2: {
   },
 
   rollentauschAblauf2: {
-    title: "Ablauf",
+    title: "ABLAUF",
     layout: "slot-grid-3x2",
     slots: [
       '<div style="text-align:center;"><img src="images/rollentausch_agenda.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_agenda</p></div>',
@@ -565,7 +565,7 @@ detail4x2: {
   },
 
   rollentauschAblauf3: {
-    title: "Ablauf",
+    title: "ABLAUF",
     layout: "slot-columns-2",
     slots: [
       '<img src="images/rollentausch_plakat.jpg" alt="">',
@@ -574,7 +574,7 @@ detail4x2: {
   },
 
   rollentauschAblauf4: {
-    title: "Ablauf",
+    title: "ABLAUF",
     layout: "slot-columns-3",
     slots: [
       '<img src="images/rollentausch_ablauf4_1.jpg" alt="">',
@@ -648,7 +648,7 @@ detail4x2: {
   },
 
   werkstueckeHebelhypothese: {
-    title: "Hebelhypothese",
+    title: "HEBELHYPOTHESE",
     text: "<p>Wenn die Auszubildenden ihren Fähigkeiten mehr Raum geben können, indem ihnen eine Plattform dafür zur Verfügung gestellt wird, dann steigert dies die Motivation, das Selbstvertrauen und den Zusammenhalt dieser, weil wir damit ihr Können sichtbar und greifbar machen.</p>"
   },
 
@@ -681,7 +681,7 @@ detail4x2: {
   },
 
   werkstueckeErgebnis: {
-    title: "Ergebnis Werkstück",
+    title: "ERGEBNIS WERKSTÜCK",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
@@ -698,7 +698,7 @@ detail4x2: {
   // ═══════════════════════════════════════════════════════════
 
   teamprozessUebersicht: {
-    title: "Teamprozess",
+    title: "TEAMPROZESS",
     html:
       '<div style="position:relative; width:100%; height:640px;">' +
         '<img src="images/gruppenfoto.jpg" alt="Gruppenfoto" style="position:absolute; left:31%; top:24%; width:31%; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,0.15);">' +
@@ -718,7 +718,7 @@ detail4x2: {
   },
 
   learningsUebersicht: {
-    title: "Learnings",
+    title: "LEARNINGS",
     html:
       '<div style="display:flex; flex-direction:column; margin-top:20px;">' +
         '<p style="margin:0 0 30px 0; font-size:1.3em; color:#111;">Rollenfindung in neuer Teamdynamik</p>' +
@@ -732,7 +732,7 @@ detail4x2: {
   },
 
   praesenzZeigenUebersicht: {
-    title: "Präsenz zeigen",
+    title: "PRÄSENZ ZEIGEN",
     html:
       '<div>' +
         '<p style="margin:0 0 0.3em 0; font-weight:700; font-size:1.3em; color:#111;">Transformation braucht</p>' +
@@ -749,7 +749,7 @@ detail4x2: {
   // ═══════════════════════════════════════════════════════════
 
   goldnugget1: {
-    title: "Goldnugget 1",
+    title: "GOLDNUGGET 1",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
@@ -760,7 +760,7 @@ detail4x2: {
   },
 
   goldnugget2: {
-    title: "Goldnugget 2",
+    title: "GOLDNUGGET 2",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
@@ -771,7 +771,7 @@ detail4x2: {
   },
 
   goldnugget3: {
-    title: "Goldnugget 3",
+    title: "GOLDNUGGET 3",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
@@ -782,7 +782,7 @@ detail4x2: {
   },
 
   goldnugget4: {
-    title: "Goldnugget 4",
+    title: "GOLDNUGGET 4",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
@@ -793,7 +793,7 @@ detail4x2: {
   },
 
   goldnugget5: {
-    title: "Goldnugget 5",
+    title: "GOLDNUGGET 5",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
