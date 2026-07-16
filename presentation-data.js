@@ -376,7 +376,7 @@ detail4x2: {
     layout: "slot-grid-3x2",
     slots: [
       '<img src="images/aufbau1.jpeg" alt="">',
-      '<img src="images/aufbau2.jpeg" alt="">',
+      '<img src="images/aufbau2jpeg.jpg" alt="">',
       '<img src="images/aufbau3.jpg" alt="">',
       '<img src="images/aufbau4.jpeg" alt="">',
       '<img src="images/aufbau5.jpg" alt="">',
@@ -388,12 +388,12 @@ detail4x2: {
     title: "ÖFFNUNG",
     layout: "slot-grid-3x2",
     slots: [
-      '<img src="images/inter1.jpg alt="">',
+      '<img src="images/inter1.jpg" alt="">',
       '<img src="images/inter2.jpg" alt="">',
       '<img src="images/inter3.jpg" alt="">',
       '<img src="images/inter4.jpg" alt="">',
       '<img src="images/inter5.jpg" alt="">',
-      '<img src="images/inter6.jpg alt="">'
+      '<img src="images/inter6.jpg" alt="">'
     ]
   },
 
@@ -517,7 +517,7 @@ detail4x2: {
         '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
         '<p style="margin:0; line-height:2; font-size:var(--content-text);">mehr Zutrauen<br>Verantwortung übergeben<br>KI-Expertise bei Azubis/BVBler<br>Mitarbeitende lassen sich leiten<br>Neue Erfahrungen<br>Auswertung</p>' +
       '</div>',
-      '<img src="images/rollentausch Karten.png" alt="">'
+      '<img src="images/rollentausch karten.png" alt="">'
     ]
   },
 
@@ -766,7 +766,7 @@ detail4x2: {
       '<div>' +
         '<p style="margin:0; line-height:1.5;"><strong>Wissen ist Handlungsgrundlage:</strong> Nur bekannte Bedürfnisse können auch berücksichtigt werden. Gesammelte Anliegen vorbringen ist möglicherweise zielführender als Einzelstimmen.</p>' +
       '</div>',
-      '<img src="images/sofaecke.jpg alt="">'
+      '<img src="images/sofaecke.jpg" alt="">'
     ]
   },
 
