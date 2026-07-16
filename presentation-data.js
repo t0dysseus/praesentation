@@ -205,7 +205,7 @@ example4: {
         '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
         '<p style="margin:0; line-height:2; font-size:var(--content-text);">Widersprüche sichtbar machen<br>Physisches Erleben von Informationen<br>Reflektieren<br>Überdenken<br>Öffnen</p>' +
       '</div>',
-      '<img src="images/dannenmann_logik.jpg" alt="">'
+      '<img src="images/dannekreuz.jpeg" alt="">'
     ]
   },
 
@@ -394,7 +394,7 @@ detail4x2: {
     title: "SPERRUNG",
     layout: "slot-grid-2x2",
     slots: [
-      '<img src="images/schließung1.jpg" alt="">',
+      '<img src="images/buha_nugget.jpg" alt="">',
       '<img src="images/abgesperrt2.jpg" alt="">',
       '<img src="images/schließung.jpg" alt="">',
       '<img src="images/baustellenschild.jpg" alt="">'
@@ -405,7 +405,7 @@ detail4x2: {
     title: "AUFKLÄRUNG",
     layout: "slot-columns-2",
     slots: [
-      '<img src="images/xaufklaerung.jpg" alt=""><img src="images/poster1.jpeg" alt="">',
+      '<img src="images/xauklaerung.jpg" alt=""><img src="images/poster1.jpeg" alt="">',
       '<iframe src="https://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
     ]
   },
@@ -687,6 +687,7 @@ detail4x2: {
 
   teamprozessUebersicht: {
     title: "TEAMPROZESS",
+    // Hier eure Iframe-URL eintragen:
     url: "https://t0dysseus.github.io/praesentation/gruppe.html"
   },
 
