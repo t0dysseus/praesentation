@@ -19,6 +19,17 @@ const PARALLAX_CONFIGS = [
 let currentLayer = 'standard';
 let D = PRESENTATION_DATA;
 
+// ── SICHERHEITS-FIX: Folien nach Folie 56 wurden entfernt ────
+// Damit Code, der noch versucht auf Elemente entfernter Folien
+// zuzugreifen (z.B. Beispiel-Folien, Interventionen, Galerie),
+// nicht mit einem Fehler abbricht, liefert getElementById für
+// nicht mehr existierende IDs ein harmloses Platzhalter-Element
+// statt null zurück.
+const _origGetElementById = document.getElementById.bind(document);
+document.getElementById = function(id) {
+  return _origGetElementById(id) || document.createElement('div');
+};
+
 // ── REVEAL.JS INITIALISIERUNG ────────────────────────────────
 Reveal.initialize({
   controls: false,
@@ -127,6 +138,12 @@ function renderContent() {
   if (D.presseabteilung) {
     document.getElementById('presseabteilung-title').textContent = D.presseabteilung.title;
     document.getElementById('presseabteilung-text').innerHTML = D.presseabteilung.text;
+  }
+
+  // BUSHALTESTELLE – HEBELHYPOTHESE
+  if (D.bushaltestelleHebelhypothese) {
+    document.getElementById('bushaltestelle-hebelhypothese-title').textContent = D.bushaltestelleHebelhypothese.title;
+    document.getElementById('bushaltestelle-hebelhypothese-text').innerHTML = D.bushaltestelleHebelhypothese.text;
   }
 
   // ROLLENTAUSCH – HEBELHYPOTHESE
@@ -529,6 +546,7 @@ function renderSlotExamples() {
     {key: 'exampleM', id: 'example-m', maxSlots: 2 },
     { key: 'exampleN', id: 'example-n', maxSlots: 3 },
     { key: 'exampleO', id: 'example-o', maxSlots: 3 },
+    { key: 'bushaltestelleGestaltung', id: 'bushaltestelle-gestaltung', maxSlots: 2 },
     { key: 'oeffnung1', id: 'oeffnung1', maxSlots: 6 },
     { key: 'oeffnung2', id: 'oeffnung2', maxSlots: 6 },
     { key: 'oeffnung3', id: 'oeffnung3', maxSlots: 6 },

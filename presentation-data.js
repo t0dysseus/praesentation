@@ -272,6 +272,11 @@ exampleL: {
   ]
 },              // ← } schließt exampleL, dann Komma
 
+bushaltestelleHebelhypothese: {
+  title: "Hebelhypothese",
+  text: "<p>Wenn wir einen bereits genutzten informellen Treffpunkt mittels positiver Verstärkung, Interaktion, Support und gezielter Irritation neu rahmen, dann wird sichtbar, welche soziale Bedeutung dieser Ort für Aufenthalt, Austausch und Gemeinschaft am CJD besitzt.</p>"
+},
+
 exampleN: {
   title: "Analyse-Fokus",
   layout: "slot-columns-3",
@@ -324,6 +329,27 @@ exampleO: {
   ]
 },
 
+
+// ── NEU: GESTALTUNGSKONZEPT BUSHALTESTELLE (nach Folie 23) ──
+bushaltestelleGestaltung: {
+  title: "",
+  layout: "slot-columns-2",
+  slots: [
+    '<div>' +
+      '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">Gestaltungskonzept</h2>' +
+      '<p style="margin:0 0 1em 0; font-size:1.1em;"> Anlehnung an reale Bushaltestelle</p>' +
+      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Wiedererkennung</h4>' +
+      '<p style="margin:0 0 1em 0;">unbewusste Wirkung durch \u2018bewegten\u2019 Symbolort</p>' +
+      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Inhalte</h4>' +
+      '<p style="margin:0 0 1em 0;">Aufgreifen der Dekonstruktionsergebnisse (Fokus Ziele &amp; Wünsche)</p>' +
+      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Materialanspruch</h4>' +
+      '<p style="margin:0 0 1em 0;">günstig &amp; nachhaltig<br>kurzzeitig nutzbar<br>schnell reproduzierbar</p>' +
+      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Interaktivität</h4>' +
+      '<p style="margin:0;">leichte Sprache<br>mehrere Partizipationsstufen</p>' +
+    '</div>',
+    '<img src="images/bushaltestelle_gestaltung.jpg" alt="">'
+  ]
+},
 
 
 stufe1Detail: {
