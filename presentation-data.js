@@ -178,7 +178,7 @@ example4: {
         '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Dannenmann</h2>' +
         '<p style="margin:0; font-size:1.5em; color:#111;">Ein Blick in die Vergangenheit</p>' +
       '</div>',
-      '<img src="images/dannenmann_intro.jpg" alt="">'
+      '<img src="images/frageboegen_dannenmann.jpg" alt="">'
     ]
   },
 
@@ -405,7 +405,7 @@ detail4x2: {
     title: "AUFKLÄRUNG",
     layout: "slot-columns-2",
     slots: [
-      '<img src="images/auklaerung.jpeg" alt=""><img src="images/poster1.jpeg" alt="">',
+      '<img src="images/auklaerungx.jpg" alt=""><img src="images/poster1.jpeg" alt="">',
       '<iframe src="https://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
     ]
   },
@@ -916,7 +916,7 @@ detail4x2: {
 
 // ---bild+web ---
   exampleK: {
-    title: "Interview",
+    title: "INTERVIEW",
     layout: "slot-columns-2",
     slots: [
       '<img src="images/interview.jpeg" alt="Interview">',
