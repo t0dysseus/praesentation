@@ -568,7 +568,7 @@ detail4x2: {
       '<div style="text-align:center;"><img src="images/rollentausch_bildchen.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_bildchen</p></div>',
       '<div style="text-align:center;"><img src="images/rollenkarte1.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollenkarte1</p></div>',
       '<div style="text-align:center;"><img src="images/rollentausch_tisch_01.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_tisch_01</p></div>',
-      '<div style="text-align:center;"><img src="images/rollentausch-kreise.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch-kreise</p></div>'
+      '<div style="text-align:center;"><img src="images/kreise.jpeg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch-kreise</p></div>'
     ]
   },
 
@@ -577,7 +577,7 @@ detail4x2: {
     layout: "slot-columns-2",
     slots: [
       '<img src="images/rollentausch_plakat.jpg" alt="">',
-      '<img src="images/rollentausch_ablauf3_2.jpg" alt="">'
+      '<img src="images/kahoot.jpg" alt="">'
     ]
   },
 
@@ -651,7 +651,7 @@ detail4x2: {
         '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Werkstücke</h2>' +
         '<p style="margin:0; font-size:1.5em; color:#111;">Ausstellung von Arbeiten aus der Metallwerkstatt</p>' +
       '</div>',
-      '<img src="images/werkstuecke_intro.jpg" alt="">'
+      '<img src="images/werstueck4.jpg" alt="">'
     ]
   },
 
@@ -748,7 +748,7 @@ detail4x2: {
 
 
 
-        '<img src="images/praesenz_zeigen.jpg" alt="Präsenz zeigen" style="width:100%; max-height:340px; object-fit:cover; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.18); display:block; margin-top:10px;">' +
+        '<img src="images/zeitstrahl.png" alt="Präsenz zeigen" style="width:100%; max-height:340px; object-fit:cover; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.18); display:block; margin-top:10px;">' +
       '</div>'
   },
 
