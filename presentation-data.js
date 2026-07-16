@@ -442,6 +442,156 @@ detail4x2: {
   },
 
   // ═══════════════════════════════════════════════════════════
+  //  INTERVENTION 03 – ROLLENTAUSCH (NEU)
+  // ═══════════════════════════════════════════════════════════
+
+  rollentauschIntro: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0 0 0.4em 0; font-size:1.05em; color:#111;">Intervention 03</p>' +
+        '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Rollentausch</h2>' +
+        '<p style="margin:0; font-size:1.5em; color:#111;">BVBler und Azubis als KI Expert:innen</p>' +
+      '</div>',
+      '<img src="images/rollentausch_intro.jpg" alt="">'
+    ]
+  },
+
+  rollentauschHebelhypothese: {
+    title: "Hebelhypothese",
+    text: "<p>Wenn BVBler und Azubis, mittels eines begleiteten Rollentauschs zu KI, Verantwortung für einen kleinen, aber relevanten Wissensmoment übernehmen, destabilisiert dieser gegebene Hierarchien, verschiebt die Machtverhältnisse und macht sichtbar, was ihnen zugetraut werden kann.</p>"
+  },
+
+  rollentauschHebel: {
+    title: "",
+    layout: "slot-columns-3",
+    slots: [
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Hebel</h3><p style="margin:0 0 1em 0; color:#444; line-height:1.5; font-size:0.95em;">In einem sicheren und begleiteten Rahmen Verantwortung übernehmen</p><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Umkehren wer in der Rolle der Expert\'innen auftritt</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Interventionstyp</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Support<br>positive Verstärkung</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Zielgruppe</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Azubis<br>BVBler<br>Mitarbeitende</p></div>'
+    ]
+  },
+
+  rollentauschLogik: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
+        '<p style="margin:0; line-height:2; font-size:var(--content-text);">mehr Zutrauen<br>Verantwortung übergeben<br>KI-Expertise bei Azubis/BVBler<br>Mitarbeitende lassen sich leiten<br>Neue Erfahrungen<br>Auswertung</p>' +
+      '</div>',
+      '<img src="images/rollentausch_logik.jpg" alt="">'
+    ]
+  },
+
+  rollentauschGestaltung: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">Gestaltungskonzept</h2>' +
+        '<p style="margin:0 0 1em 0; font-size:1.1em;">Inhalt erarbeiten und selbständig vermitteln</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Grundhaltung</h4>' +
+        '<p style="margin:0 0 1em 0;">Freiheit<br>Selbstbestimmung<br>sicherer Rahmen</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Arbeitsmaterialien</h4>' +
+        '<p style="margin:0 0 1em 0;">als Baukasten nach Bedarf</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Support</h4>' +
+        '<p style="margin:0 0 1em 0;">wenn nötig oder gewünscht</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Inklusion</h4>' +
+        '<p style="margin:0;">leichte Sprache</p>' +
+      '</div>',
+      '<img src="images/rollentausch_gestaltung.jpg" alt="">'
+    ]
+  },
+
+  rollentauschAblauf1: {
+    title: "Ablauf",
+    layout: "slot-columns-3",
+    slots: [
+      '<img src="images/rollentausch_ablauf1_1.jpg" alt="">',
+      '<img src="images/rollentausch_ablauf1_2.jpg" alt="">',
+      '<img src="images/rollentausch_ablauf1_3.jpg" alt="">'
+    ]
+  },
+
+  rollentauschAblauf2: {
+    title: "Ablauf",
+    layout: "slot-grid-3x2",
+    slots: [
+      '<div style="text-align:center;"><img src="images/rollentausch_agenda.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_agenda</p></div>',
+      '<div style="text-align:center;"><img src="images/faktensheet_ki.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">faktensheet_ki</p></div>',
+      '<div style="text-align:center;"><img src="images/rollentausch_bildchen.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_bildchen</p></div>',
+      '<div style="text-align:center;"><img src="images/rollenkarte1.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollenkarte1</p></div>',
+      '<div style="text-align:center;"><img src="images/rollentausch_tisch_01.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_tisch_01</p></div>',
+      '<div style="text-align:center;"><img src="images/rollentausch-kreise.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch-kreise</p></div>'
+    ]
+  },
+
+  rollentauschAblauf3: {
+    title: "Ablauf",
+    layout: "slot-columns-2",
+    slots: [
+      '<img src="images/rollentausch_ablauf3_1.jpg" alt="">',
+      '<img src="images/rollentausch_ablauf3_2.jpg" alt="">'
+    ]
+  },
+
+  rollentauschAblauf4: {
+    title: "Ablauf",
+    layout: "slot-columns-3",
+    slots: [
+      '<img src="images/rollentausch_ablauf4_1.jpg" alt="">',
+      '<img src="images/rollentausch_ablauf4_2.jpg" alt="">',
+      '<img src="images/rollentausch_ablauf4_3.jpg" alt="">'
+    ]
+  },
+
+  rollentauschModellierungValidierung: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      // Links: Modellierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
+        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Kommunikationscodes:<br>Art. des Lehrens</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ mehr Eigenverantwortung<br>--&gt; Selbstvertrauen<br>--&gt; mehr Motivation<br>→ Selbstbestimmung</p>' +
+      '</div>',
+      // Rechts: Validierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--muted);">Validierung:</h3>' +
+        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Feedbackbögen CJD Teilnehmer (Vortragende)<br>- Feedbackbögen CJD Mitarbeiter (Zuhörer)</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Beobachtungen während des Workshops<br>- Feedbackrunde am Ende</p>' +
+      '</div>'
+    ]
+  },
+
+  rollentauschErgebnisMessung: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:1.05em; font-weight:700;">Zutrauen</h4>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;">Mitarbeitende trauen Teilnehmenden tendenziell mehr zu, als diese sich selbst</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:1.05em; font-weight:700;">Neues Wissen</h4>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;">Lerneffekt ist beidseitig, bei Teilnehmenden als "Expert*innen" sogar leicht stärker</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:1.05em; font-weight:700;">Hierarchien</h4>' +
+        '<p style="margin:0; line-height:1.5;">Mitarbeitende skeptisch, ob sich an Hierarchien etwas ändert<br>Teilnehmende wünschen sich ausdrücklich mehr <strong>als Experten auftreten</strong> zu können</p>' +
+      '</div>',
+      '<img src="images/rollentausch_ergebnis_chart.jpg" alt="">'
+    ]
+  },
+
+  rollentauschErgebnis: {
+    title: "Ergebnis Rollentausch",
+    text: "<p style=\"margin:0 0 1.2em 0;\"><strong>Gruppendynamik</strong><br>Respekt und Rücksichtnahme, persönliche Stärken fließen ein</p>" +
+          "<p style=\"margin:0 0 1.2em 0;\"><strong>Organisation</strong><br>Selbstständig und selbstbestimmt</p>" +
+          "<p style=\"margin:0 0 1.2em 0;\"><strong>Wissen</strong><br>Vielseitig und spannend</p>" +
+          "<p style=\"margin:0 0 1.2em 0;\"><strong>Umsetzung</strong><br>Schnell und kreativ</p>" +
+          "<p style=\"margin:0;\"><strong>Thema</strong><br>Gefahren von KI beschäftigen alle</p>"
+  },
+
+  // ═══════════════════════════════════════════════════════════
   //  SLOT-BEISPIELE a–j (generische Bild-Raster)
   //  Bilder: images/1.jpg … images/28.jpg
   //  Texte: Italienische Star-Wars-Zitate (PLATZHALTER)

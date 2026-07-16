@@ -123,6 +123,18 @@ function renderContent() {
     document.getElementById('dannenmann-ergebnis-text').innerHTML = D.dannenmannErgebnis.text;
   }
 
+  // ROLLENTAUSCH – HEBELHYPOTHESE
+  if (D.rollentauschHebelhypothese) {
+    document.getElementById('rollentausch-hebelhypothese-title').textContent = D.rollentauschHebelhypothese.title;
+    document.getElementById('rollentausch-hebelhypothese-text').innerHTML = D.rollentauschHebelhypothese.text;
+  }
+
+  // ROLLENTAUSCH – ERGEBNIS
+  if (D.rollentauschErgebnis) {
+    document.getElementById('rollentausch-ergebnis-title').textContent = D.rollentauschErgebnis.title;
+    document.getElementById('rollentausch-ergebnis-text').innerHTML = D.rollentauschErgebnis.text;
+  }
+
   // MATRIX
   document.getElementById('matrix-title').textContent = D.matrix.title;
   document.getElementById('matrix-legend').innerHTML = D.matrix.categories.map(cat => `
@@ -454,6 +466,16 @@ function renderSlotExamples() {
     { key: 'dannenmannLogik', id: 'dannenmann-logik', maxSlots: 2 },
     { key: 'dannenmannGestaltung', id: 'dannenmann-gestaltung', maxSlots: 2 },
     { key: 'dannenmannModellierungValidierung', id: 'dannenmann-modellierung-validierung', maxSlots: 2 },
+    { key: 'rollentauschIntro', id: 'rollentausch-intro', maxSlots: 2 },
+    { key: 'rollentauschHebel', id: 'rollentausch-hebel', maxSlots: 3 },
+    { key: 'rollentauschLogik', id: 'rollentausch-logik', maxSlots: 2 },
+    { key: 'rollentauschGestaltung', id: 'rollentausch-gestaltung', maxSlots: 2 },
+    { key: 'rollentauschAblauf1', id: 'rollentausch-ablauf1', maxSlots: 3 },
+    { key: 'rollentauschAblauf2', id: 'rollentausch-ablauf2', maxSlots: 6 },
+    { key: 'rollentauschAblauf3', id: 'rollentausch-ablauf3', maxSlots: 2 },
+    { key: 'rollentauschAblauf4', id: 'rollentausch-ablauf4', maxSlots: 3 },
+    { key: 'rollentauschModellierungValidierung', id: 'rollentausch-modellierung-validierung', maxSlots: 2 },
+    { key: 'rollentauschErgebnisMessung', id: 'rollentausch-ergebnis-messung', maxSlots: 2 },
     { key: 'exampleA', id: 'example-a', maxSlots: 6 },
     { key: 'exampleB', id: 'example-b', maxSlots: 4 },
     { key: 'exampleC', id: 'example-c', maxSlots: 2 },
