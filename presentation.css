@@ -1955,3 +1955,70 @@
   max-width: 1700px;
   width: 100%;
 }
+
+
+/* ═══════════════════════════════════════════════════════════════
+   FIX: Text in den 4 Gestaltungskonzept-Folien lesbar machen
+   Inhalte bleiben 1:1 erhalten – nur Schriftgröße & Layout
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Die linke Text-Zelle: oben bündig, nicht abschneiden */
+#dannenmann-gestaltung-slot1,
+#bushaltestelle-gestaltung-slot1,
+#rollentausch-gestaltung-slot1,
+#rollentausch-ergebnis-messung-slot1 {
+  overflow: visible !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+/* Hauptüberschriften (z. B. "Gestaltungskonzept") */
+#dannenmann-gestaltung-slot1 h2,
+#bushaltestelle-gestaltung-slot1 h2,
+#rollentausch-gestaltung-slot1 h2,
+#rollentausch-ergebnis-messung-slot1 h2 {
+  font-size: 30px !important;
+  margin: 0 0 0.15em 0 !important;
+}
+
+/* Zwischenüberschriften (z. B. "Greifbar machen") */
+#dannenmann-gestaltung-slot1 h3,
+#bushaltestelle-gestaltung-slot1 h3,
+#rollentausch-gestaltung-slot1 h3,
+#rollentausch-ergebnis-messung-slot1 h3 {
+  font-size: 26px !important;
+  margin: 0 0 0.1em 0 !important;
+}
+
+/* Kleine Zwischenüberschriften (z. B. "Materialanspruch") */
+#dannenmann-gestaltung-slot1 h4,
+#bushaltestelle-gestaltung-slot1 h4,
+#rollentausch-gestaltung-slot1 h4,
+#rollentausch-ergebnis-messung-slot1 h4 {
+  font-size: 22px !important;
+  margin: 0.3em 0 0.05em 0 !important;
+}
+
+/* Fließtext und Listen – kompakter */
+#dannenmann-gestaltung-slot1 p,
+#bushaltestelle-gestaltung-slot1 p,
+#rollentausch-gestaltung-slot1 p,
+#rollentausch-ergebnis-messung-slot1 p,
+#dannenmann-gestaltung-slot1 li,
+#bushaltestelle-gestaltung-slot1 li,
+#rollentausch-gestaltung-slot1 li,
+#rollentausch-ergebnis-messung-slot1 li {
+  font-size: 22px !important;
+  line-height: 1.35 !important;
+  margin: 0 0 0.25em 0 !important;
+}
+
+/* Bild rechts: nicht beschneiden, sondern passend skalieren */
+#dannenmann-gestaltung-slot2 img,
+#bushaltestelle-gestaltung-slot2 img,
+#rollentausch-gestaltung-slot2 img,
+#rollentausch-ergebnis-messung-slot2 img {
+  object-fit: contain !important;
+  max-height: 100%;
+  width: auto;
+}
