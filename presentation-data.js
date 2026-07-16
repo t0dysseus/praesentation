@@ -34,8 +34,8 @@ const PRESENTATION_DATA = {
   // ── TITELFOLIE ──────────────────────────────────────────────
   title: {
     main: "RÄUME FÜR JEDEN",
-    subtitle: "– inklusiv, immersiv, interaktiv",
-    description: "Che la forza sia con te.",
+    subtitle: "Inklusiv, Immersiv, Interaktiv",
+    
     semester: "SS2026",
     course: "BHT – Transformation Design & Print"
   },
