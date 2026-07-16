@@ -264,7 +264,7 @@ exampleL: {
   title: "BUSHALTESTELLE",
   layout: "slot-columns-2",
   slots: [
-    '<p>Intervention 02 Bushaltestelle als informeller Treffpunkt</p>',
+    '<p>Intervention 02 Raucherecke als informeller Treffpunkt</p>',
     '<img src="images/derort.jpg" alt="">'
   ]
 },              // ← } schließt exampleL, dann Komma
