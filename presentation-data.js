@@ -405,7 +405,7 @@ detail4x2: {
     title: "AUFKLÄRUNG",
     layout: "slot-columns-2",
     slots: [
-      '<img src="images/auklaerungx.jpg" alt=""><img src="images/poster1.jpeg" alt="">',
+      '<img src="images/xauklaerung.jpg" alt=""><img src="images/poster1.jpeg" alt="">',
       '<iframe src="https://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
     ]
   },
