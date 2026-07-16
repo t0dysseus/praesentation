@@ -214,7 +214,7 @@ example4: {
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">Gestaltungskonzept</h2>' +
+        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
         '<p style="margin:0 0 1em 0; font-size:1.1em;"> 3D Büste mit versteckten Informationen</p>' +
         '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Greifbar machen</h4>' +
         '<p style="margin:0 0 1em 0;">Physische Interaktion mit Informationen anregen</p>' +
@@ -328,7 +328,7 @@ bushaltestelleGestaltung: {
   layout: "slot-columns-2",
   slots: [
     '<div>' +
-      '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">Gestaltungskonzept</h2>' +
+      '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
       '<p style="margin:0 0 1em 0; font-size:1.1em;"> Anlehnung an reale Bushaltestelle</p>' +
       '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Wiedererkennung</h4>' +
       '<p style="margin:0 0 1em 0;">unbewusste Wirkung durch \u2018bewegten\u2019 Symbolort</p>' +
@@ -526,7 +526,7 @@ detail4x2: {
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">Gestaltungskonzept</h2>' +
+        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
         '<p style="margin:0 0 1em 0; font-size:1.1em;">Inhalt erarbeiten und selbständig vermitteln</p>' +
         '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Grundhaltung</h4>' +
         '<p style="margin:0 0 1em 0;">Freiheit<br>Selbstbestimmung<br>sicherer Rahmen</p>' +
