@@ -154,12 +154,6 @@ function renderContent() {
     document.getElementById('rollentausch-hebelhypothese-text').innerHTML = D.rollentauschHebelhypothese.text;
   }
 
-  // ROLLENTAUSCH – ERGEBNIS
-  if (D.rollentauschErgebnis) {
-    document.getElementById('rollentausch-ergebnis-title').textContent = D.rollentauschErgebnis.title;
-    document.getElementById('rollentausch-ergebnis-text').innerHTML = D.rollentauschErgebnis.text;
-  }
-
   // WERKSTÜCKE – HEBELHYPOTHESE
   if (D.werkstueckeHebelhypothese) {
     document.getElementById('werkstuecke-hebelhypothese-title').textContent = D.werkstueckeHebelhypothese.title;
@@ -521,12 +515,9 @@ function renderSlotExamples() {
     { key: 'rollentauschAblauf1', id: 'rollentausch-ablauf1', maxSlots: 3 },
     { key: 'rollentauschAblauf2', id: 'rollentausch-ablauf2', maxSlots: 6 },
     { key: 'rollentauschAblauf3', id: 'rollentausch-ablauf3', maxSlots: 2 },
-    { key: 'rollentauschAblauf4', id: 'rollentausch-ablauf4', maxSlots: 3 },
     { key: 'rollentauschModellierungValidierung', id: 'rollentausch-modellierung-validierung', maxSlots: 3 },
     { key: 'rollentauschErgebnisMessung', id: 'rollentausch-ergebnis-messung', maxSlots: 2 },
     { key: 'werkstueckeIntro', id: 'werkstuecke-intro', maxSlots: 2 },
-    { key: 'werkstueckeHebel', id: 'werkstuecke-hebel', maxSlots: 3 },
-    { key: 'werkstueckeModellierungValidierung', id: 'werkstuecke-modellierung-validierung', maxSlots: 2 },
     { key: 'werkstueckeErgebnis', id: 'werkstuecke-ergebnis', maxSlots: 2 },
     { key: 'goldnugget1', id: 'goldnugget1', maxSlots: 2 },
     { key: 'goldnugget2', id: 'goldnugget2', maxSlots: 2 },

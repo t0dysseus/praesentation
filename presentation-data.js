@@ -254,7 +254,7 @@ example4: {
     title: "ERGEBNIS DANNENMANN",
     text: "<p style=\"margin:0 0 1.2em 0;\"><strong>Unmittelbare Reaktionen:</strong> Unbehagen aber persönliche Offenheit.</p>" +
           "<p style=\"margin:0 0 1.2em 0;\"><strong>Zweiter Moment:</strong> Trotz Zweifel an Offenheit des Vorstands Bereitschaft es anzusprechen</p>" +
-          "<p style=\"margin:0 0 1.2em 0;\"><strong>Fragebögen:</strong>Nicht allen Bewusst, Interesse ist da</p>" +
+          "<p style=\"margin:0 0 1.2em 0;\"><strong>Fragebögen:</strong> Nicht allen Bewusst, Interesse ist da</p>" +
           "<p style=\"margin:0;\"><strong>Interview Vorstand:</strong> Stand kurzzeitig zur Aussicht, kam nie zustande</p>"
   },
 
