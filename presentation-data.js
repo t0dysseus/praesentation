@@ -129,6 +129,13 @@ const PRESENTATION_DATA = {
     url: "https://hierrosa.github.io/hierrosa.github.io.-/"
   },
 
+  // ── NEU: DANKE + IFRAME (nach Goldnugget 5) ─────────────────
+  // url ggf. anpassen, falls ihr eine andere Seite verlinken wollt
+  thanks: {
+    title: "Danke",
+    url: "https://hierrosa.github.io/hierrosa.github.io.-/"
+  },
+
   example1: {
     number: "01",
     title: "Intervention 1",
@@ -224,18 +231,21 @@ example4: {
 
   dannenmannModellierungValidierung: {
     title: "",
-    layout: "slot-columns-2",
+    layout: "slot-columns-3",
     slots: [
-      // Links: Modellierung
-      '<div style="height:100%;">' +
-        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
-        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Visuelle Codes:<br>Skulptur betrachten und anfassen/öffnen</p>' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ Motivation sich damit auseinanderzusetzen<br>--&gt; Bilder bleiben länger hängen<br>--&gt; längere Auseinandersetzung mit der Thematik<br>--&gt;  Erhöhte kommunikative Öffnung des CJD</p>' +
+      // Spalte 1: was links oben stand (Modellierung-Header + erster Absatz)
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;">' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Modellierung</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Visuelle Codes:<br>Skulptur betrachten und anfassen/öffnen</p>' +
       '</div>',
-      // Rechts: Validierung
-      '<div style="height:100%;">' +
-        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--muted);">Validierung:</h3>' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Beobachtungsbögen<br>- Kurzfragebogen<br>- Diskurs(-protokoll)</p>' +
+      // Spalte 2: der Teil mit den Pfeilen
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;">' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">→ Motivation sich damit auseinanderzusetzen<br>--&gt; Bilder bleiben länger hängen<br>--&gt; längere Auseinandersetzung mit der Thematik<br>--&gt;  Erhöhte kommunikative Öffnung des CJD</p>' +
+      '</div>',
+      // Spalte 3: Validierung
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;">' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Validierung</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">- Beobachtungsbögen<br>- Kurzfragebogen<br>- Diskurs(-protokoll)</p>' +
       '</div>'
     ]
   },
@@ -388,18 +398,21 @@ detail4x2: {
   // ── NEU: MODELLIERUNG / VALIDIERUNG ─────────────────────────
   modellierungValidierung: {
     title: "",
-    layout: "slot-columns-2",
+    layout: "slot-columns-3",
     slots: [
-      // Links: Modellierung
-      '<div style="height:100%;">' +
-        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
-        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Visuelle Codes:<br>Ziele und Stärken sichtbar machen</p>' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ Zieldefinition<br>--&gt; Orientierung<br>--&gt; mehr Motivation</p>' +
+      // Spalte 1: was links oben stand (Modellierung-Header + erster Absatz)
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;">' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Modellierung</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Visuelle Codes:<br>Ziele und Stärken sichtbar machen</p>' +
       '</div>',
-      // Rechts: Validierung
-      '<div style="height:100%;">' +
-        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--muted);">Validierung:</h3>' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Beobachtungsbögen Tag 1<br>- Beobachtungsbögen Tag 2<br>- QR-Code Tracking Woche 3</p>' +
+      // Spalte 2: der Teil mit den Pfeilen
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;">' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">→ Zieldefinition<br>--&gt; Orientierung<br>--&gt; mehr Motivation</p>' +
+      '</div>',
+      // Spalte 3: Validierung
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;">' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Validierung</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">- Beobachtungsbögen Tag 1<br>- Beobachtungsbögen Tag 2<br>- QR-Code Tracking Woche 3</p>' +
       '</div>'
     ]
   },
@@ -549,19 +562,22 @@ detail4x2: {
 
   rollentauschModellierungValidierung: {
     title: "",
-    layout: "slot-columns-2",
+    layout: "slot-columns-3",
     slots: [
-      // Links: Modellierung
-      '<div style="height:100%;">' +
-        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
-        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Kommunikationscodes:<br>Art. des Lehrens</p>' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ mehr Eigenverantwortung<br>--&gt; Selbstvertrauen<br>--&gt; mehr Motivation<br>→ Selbstbestimmung</p>' +
+      // Spalte 1: was links oben stand (Modellierung-Header + erster Absatz)
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;">' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Modellierung</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Kommunikationscodes:<br>Art. des Lehrens</p>' +
       '</div>',
-      // Rechts: Validierung
-      '<div style="height:100%;">' +
-        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--muted);">Validierung:</h3>' +
-        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Feedbackbögen CJD Teilnehmer (Vortragende)<br>- Feedbackbögen CJD Mitarbeiter (Zuhörer)</p>' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Beobachtungen während des Workshops<br>- Feedbackrunde am Ende</p>' +
+      // Spalte 2: der Teil mit den Pfeilen
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;">' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">→ mehr Eigenverantwortung<br>--&gt; Selbstvertrauen<br>--&gt; mehr Motivation<br>→ Selbstbestimmung</p>' +
+      '</div>',
+      // Spalte 3: Validierung
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;">' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Validierung</h3>' +
+        '<p style="margin:0 0 24px 0; color:#444; line-height:1.5; font-size:0.95em;">- Feedbackbögen CJD Teilnehmer (Vortragende)<br>- Feedbackbögen CJD Mitarbeiter (Zuhörer)</p>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">- Beobachtungen während des Workshops<br>- Feedbackrunde am Ende</p>' +
       '</div>'
     ]
   },
@@ -699,60 +715,9 @@ detail4x2: {
         '<p style="margin:0 0 0.3em 0; font-weight:700; font-size:1.3em; color:#111;">Transformation braucht</p>' +
         '<p style="margin:0 0 50px 0; font-size:1.3em; line-height:1.6; color:#111;">Vertrauen &amp; Beziehungen<br>Alltag &amp; Begegnung<br>Augenhöhe &amp; Austausch</p>' +
 
-        '<div style="display:flex; align-items:baseline; gap:10px; margin:0 0 40px 0;">' +
-          '<span style="font-size:2.2em; font-weight:800; color:#2c3e8c;">9x</span>' +
-          '<span style="font-size:1.1em; color:#888;">vor Ort im Semester</span>' +
-        '</div>' +
+        
 
-        '<div style="position:relative; display:flex; justify-content:space-between; align-items:center; padding:0 10px; margin-top:70px;">' +
-          '<div style="position:absolute; left:0; right:0; top:50%; height:2px; background:#2c3e8c; z-index:0;"></div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">21.04</div><div style="color:#333; font-size:0.85em;">K1 Eröffnungstreffen</div></div>' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">12.05</div><div style="color:#333; font-size:0.85em;">Tag der offenen Tür</div></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">18.05</div><div style="color:#333; font-size:0.85em;">Interviews</div></div>' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">26.05</div><div style="color:#333; font-size:0.85em;">K2 Meeting + Dannenmann</div></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">08.06</div><div style="color:#333; font-size:0.85em;">BuHa 1: Öffnung</div></div>' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">10.06</div><div style="color:#333; font-size:0.85em;">BuHa 2: Schließung</div></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">22.06</div><div style="color:#333; font-size:0.85em;">BuHa 3: Aufklärung</div></div>' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-            '<div style="margin-top:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">30.06</div><div style="color:#333; font-size:0.85em;">K2 Meeting vor Ort</div></div>' +
-          '</div>' +
-
-          '<div style="display:flex; flex-direction:column; align-items:center; flex:1; position:relative; z-index:1;">' +
-            '<div style="margin-bottom:8px; text-align:center;"><div style="font-weight:700; color:#2c3e8c; font-size:0.95em;">13.07</div><div style="color:#333; font-size:0.85em;">Rollentausch</div></div>' +
-            '<div style="width:14px; height:14px; border-radius:50%; background:#e08e45;"></div>' +
-          '</div>' +
-
-        '</div>' +
+        '<img src="images/praesenz_zeigen.jpg" alt="Präsenz zeigen" style="width:100%; max-height:340px; object-fit:cover; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.18); display:block; margin-top:10px;">' +
       '</div>'
   },
 

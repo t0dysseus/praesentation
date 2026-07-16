@@ -185,6 +185,11 @@ function renderContent() {
   // INCEPTION (Live-Website im iframe)
   document.getElementById('inception-title').textContent = D.inception.title;
 
+  // DANKE + IFRAME (NEU, nach Goldnugget 5)
+  if (D.thanks) {
+    document.getElementById('thanks-title').textContent = D.thanks.title;
+  }
+
   // INTERVENTIONS
   renderIntervention(1, D.intervention1);
   renderIntervention(2, D.intervention2);
@@ -483,7 +488,7 @@ function renderSlotExamples() {
     { key: 'dannenmannHebel', id: 'dannenmann-hebel', maxSlots: 3 },
     { key: 'dannenmannLogik', id: 'dannenmann-logik', maxSlots: 2 },
     { key: 'dannenmannGestaltung', id: 'dannenmann-gestaltung', maxSlots: 2 },
-    { key: 'dannenmannModellierungValidierung', id: 'dannenmann-modellierung-validierung', maxSlots: 2 },
+    { key: 'dannenmannModellierungValidierung', id: 'dannenmann-modellierung-validierung', maxSlots: 3 },
     { key: 'rollentauschIntro', id: 'rollentausch-intro', maxSlots: 2 },
     { key: 'rollentauschHebel', id: 'rollentausch-hebel', maxSlots: 3 },
     { key: 'rollentauschLogik', id: 'rollentausch-logik', maxSlots: 2 },
@@ -492,7 +497,7 @@ function renderSlotExamples() {
     { key: 'rollentauschAblauf2', id: 'rollentausch-ablauf2', maxSlots: 6 },
     { key: 'rollentauschAblauf3', id: 'rollentausch-ablauf3', maxSlots: 2 },
     { key: 'rollentauschAblauf4', id: 'rollentausch-ablauf4', maxSlots: 3 },
-    { key: 'rollentauschModellierungValidierung', id: 'rollentausch-modellierung-validierung', maxSlots: 2 },
+    { key: 'rollentauschModellierungValidierung', id: 'rollentausch-modellierung-validierung', maxSlots: 3 },
     { key: 'rollentauschErgebnisMessung', id: 'rollentausch-ergebnis-messung', maxSlots: 2 },
     { key: 'werkstueckeIntro', id: 'werkstuecke-intro', maxSlots: 2 },
     { key: 'werkstueckeHebel', id: 'werkstuecke-hebel', maxSlots: 3 },
@@ -523,7 +528,7 @@ function renderSlotExamples() {
     { key: 'oeffnung3', id: 'oeffnung3', maxSlots: 6 },
     { key: 'schliessung', id: 'schliessung', maxSlots: 4 },
     { key: 'aufklaerung', id: 'aufklaerung', maxSlots: 2 },
-    { key: 'modellierungValidierung', id: 'modellierung-validierung', maxSlots: 2 },
+    { key: 'modellierungValidierung', id: 'modellierung-validierung', maxSlots: 3 },
     { key: 'ergebnisseBushaltestelle', id: 'ergebnisse-bushaltestelle', maxSlots: 3 },
   ];
 
@@ -769,6 +774,12 @@ Reveal.on('ready', () => {
     iframe.src = D.inception.url;
     iframe.setAttribute('data-loaded', 'true');
   }
+
+  var thanksIframe = document.getElementById('thanks-iframe');
+  if (thanksIframe && D.thanks && !thanksIframe.getAttribute('data-loaded')) {
+    thanksIframe.src = D.thanks.url;
+    thanksIframe.setAttribute('data-loaded', 'true');
+  }
 });
 
 // STUFE 1 DETAIL (2×3 Grid)
@@ -802,6 +813,13 @@ Reveal.on('slidechanged', (event) => {
   if (iframe && !event.currentSlide.classList.contains('slide-inception')) {
     if (document.activeElement === iframe) {
       iframe.blur();
+    }
+  }
+
+  var thanksIframe = document.getElementById('thanks-iframe');
+  if (thanksIframe && !event.currentSlide.classList.contains('slide-thanks')) {
+    if (document.activeElement === thanksIframe) {
+      thanksIframe.blur();
     }
   }
 });
