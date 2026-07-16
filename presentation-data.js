@@ -592,6 +592,69 @@ detail4x2: {
   },
 
   // ═══════════════════════════════════════════════════════════
+  //  INTERVENTION 04 – WERKSTÜCKE (NEU)
+  // ═══════════════════════════════════════════════════════════
+
+  werkstueckeIntro: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0 0 0.4em 0; font-size:1.05em; color:#111;">Intervention 04</p>' +
+        '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Werkstücke</h2>' +
+        '<p style="margin:0; font-size:1.5em; color:#111;">Ausstellung von Arbeiten aus der Metallwerkstatt</p>' +
+      '</div>',
+      '<img src="images/werkstuecke_intro.jpg" alt="">'
+    ]
+  },
+
+  werkstueckeHebelhypothese: {
+    title: "Hebelhypothese",
+    text: "<p>Wenn die Auszubildenden ihren Fähigkeiten mehr Raum geben können, indem ihnen eine Plattform dafür zur Verfügung gestellt wird, dann steigert dies die Motivation, das Selbstvertrauen und den Zusammenhalt dieser, weil wir damit ihr Können sichtbar und greifbar machen.</p>"
+  },
+
+  werkstueckeHebel: {
+    title: "",
+    layout: "slot-columns-3",
+    slots: [
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Hebel</h3><p style="margin:0; color:#444; line-height:1.6; font-size:0.95em;">Fähigkeiten nutzen und zeigen<br><br>Selbstbewusstsein steigern<br><br>Zusammenhalt stärken</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Interventionstyp</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Support<br>positive Verstärkung</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Zielgruppe</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Azubis</p></div>'
+    ]
+  },
+
+  werkstueckeModellierungValidierung: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      // Links: Modellierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
+        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Visuelle Codes::<br>Stärken sichtbar machen</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ Vertrauen ins eigene Können<br>--&gt; weniger Angst<br>--&gt; mehr Motivation</p>' +
+      '</div>',
+      // Rechts: Validierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--muted);">Validierung:</h3>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Feedbackbögen Projekterschaffer<br>- Feedbackbögen andere CJD Teilnehmer<br>- Feedbackbögen CJD Mitarbeiter</p>' +
+      '</div>'
+    ]
+  },
+
+  werkstueckeErgebnis: {
+    title: "Ergebnis Werkstück",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Kommunikation:</strong> gestrandet</p>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Ausstellung:</strong> alter Stand</p>' +
+        '<p style="margin:0; line-height:1.5;"><strong>Erkenntnis:</strong> Austausch zwischen den Bereichen wirkt stockend</p>' +
+      '</div>',
+      '<img src="images/werkstuecke_ergebnis.jpg" alt="">'
+    ]
+  },
+
+  // ═══════════════════════════════════════════════════════════
   //  SLOT-BEISPIELE a–j (generische Bild-Raster)
   //  Bilder: images/1.jpg … images/28.jpg
   //  Texte: Italienische Star-Wars-Zitate (PLATZHALTER)

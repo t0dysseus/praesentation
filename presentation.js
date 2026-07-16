@@ -135,6 +135,12 @@ function renderContent() {
     document.getElementById('rollentausch-ergebnis-text').innerHTML = D.rollentauschErgebnis.text;
   }
 
+  // WERKSTÜCKE – HEBELHYPOTHESE
+  if (D.werkstueckeHebelhypothese) {
+    document.getElementById('werkstuecke-hebelhypothese-title').textContent = D.werkstueckeHebelhypothese.title;
+    document.getElementById('werkstuecke-hebelhypothese-text').innerHTML = D.werkstueckeHebelhypothese.text;
+  }
+
   // MATRIX
   document.getElementById('matrix-title').textContent = D.matrix.title;
   document.getElementById('matrix-legend').innerHTML = D.matrix.categories.map(cat => `
@@ -476,6 +482,10 @@ function renderSlotExamples() {
     { key: 'rollentauschAblauf4', id: 'rollentausch-ablauf4', maxSlots: 3 },
     { key: 'rollentauschModellierungValidierung', id: 'rollentausch-modellierung-validierung', maxSlots: 2 },
     { key: 'rollentauschErgebnisMessung', id: 'rollentausch-ergebnis-messung', maxSlots: 2 },
+    { key: 'werkstueckeIntro', id: 'werkstuecke-intro', maxSlots: 2 },
+    { key: 'werkstueckeHebel', id: 'werkstuecke-hebel', maxSlots: 3 },
+    { key: 'werkstueckeModellierungValidierung', id: 'werkstuecke-modellierung-validierung', maxSlots: 2 },
+    { key: 'werkstueckeErgebnis', id: 'werkstuecke-ergebnis', maxSlots: 2 },
     { key: 'exampleA', id: 'example-a', maxSlots: 6 },
     { key: 'exampleB', id: 'example-b', maxSlots: 4 },
     { key: 'exampleC', id: 'example-c', maxSlots: 2 },
