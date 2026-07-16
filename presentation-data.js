@@ -240,7 +240,8 @@ example4: {
       '</div>',
       // Spalte 2: der Teil mit den Pfeilen
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;">' +
-        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">→ Motivation sich damit auseinanderzusetzen<br>--&gt; Bilder bleiben länger hängen<br>--&gt; längere Auseinandersetzung mit der Thematik<br>--&gt;  Erhöhte kommunikative Öffnung des CJD</p>' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Kausalkette</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">--> Motivation sich damit auseinanderzusetzen<br>--&gt; Bilder bleiben länger hängen<br>--&gt; längere Auseinandersetzung mit der Thematik<br>--&gt;  Erhöhte kommunikative Öffnung des CJD</p>' +
       '</div>',
       // Spalte 3: Validierung
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;">' +
@@ -430,7 +431,8 @@ detail4x2: {
       '</div>',
       // Spalte 2: der Teil mit den Pfeilen
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;">' +
-        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">→ Zieldefinition<br>--&gt; Orientierung<br>--&gt; mehr Motivation</p>' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Kausalkette</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">--> Zieldefinition<br>--&gt; Orientierung<br>--&gt; mehr Motivation</p>' +
       '</div>',
       // Spalte 3: Validierung
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;">' +
@@ -594,7 +596,8 @@ detail4x2: {
       '</div>',
       // Spalte 2: der Teil mit den Pfeilen
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;">' +
-        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">→ mehr Eigenverantwortung<br>--&gt; Selbstvertrauen<br>--&gt; mehr Motivation<br>→ Selbstbestimmung</p>' +
+        '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Kausalkette</h3>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">--> mehr Eigenverantwortung<br>--&gt; Selbstvertrauen<br>--&gt; mehr Motivation<br>--&gt; Selbstbestimmung</p>' +
       '</div>',
       // Spalte 3: Validierung
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;">' +
@@ -670,7 +673,7 @@ detail4x2: {
       '<div style="height:100%;">' +
         '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
         '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Visuelle Codes::<br>Stärken sichtbar machen</p>' +
-        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ Vertrauen ins eigene Können<br>--&gt; weniger Angst<br>--&gt; mehr Motivation</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">--> Vertrauen ins eigene Können<br>--&gt; weniger Angst<br>--&gt; mehr Motivation</p>' +
       '</div>',
       // Rechts: Validierung
       '<div style="height:100%;">' +
