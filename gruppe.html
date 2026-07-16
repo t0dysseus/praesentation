@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaktive Namenswolke</title>
+
+  <!-- Einbindung der extrem gut lesbaren Schriftart Atkinson Hyperlegible -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── GRUND-STYLING ──────────────────────────────── */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Atkinson Hyperlegible', system-ui, -apple-system, sans-serif;
+      background: #f7f7f7;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+
+    .hint {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 24px;
+    }
+
+    /* ── CONTAINER FÜR FOTO + CANVAS ───────────────── */
+    .cloud-container {
+      position: relative;
+      width: 640px;
+      height: 480px;
+      background: #fff;
+      border: 1px solid #ececec;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Gruppenfoto genau in der Mitte positioniert */
+    .group-photo {
+      position: absolute;
+      width: 280px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+      z-index: 1; /* Liegt in der Mitte */
+      pointer-events: none; /* Klicks gehen durch das Bild auf das Canvas */
+    }
+
+    /* Das Canvas liegt über/um das Foto herum */
+    #wordcloud-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      cursor: grab;
+    }
+
+    #wordcloud-canvas:active {
+      cursor: grabbing;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Unser Team</h1>
+  <p class="hint">Ziehen zum Drehen · Namen bewegen sich um das Foto</p>
+
+  <div class="cloud-container">
+    <!-- Gruppenfoto im Hintergrund/Mitte -->
+    <img src="images/gruppenfoto.jpg" alt="Gruppenfoto" class="group-photo">
+    
+    <!-- Canvas für die 3D-Namenswolke darüber -->
+    <canvas id="wordcloud-canvas" width="640" height="480"></canvas>
+  </div>
+
+  <script>
+    // Namen aus dem Screenshot
+    var words = [
+      { word: "Rosa", size: 4 },
+      { word: "Sarah", size: 4 },
+      { word: "Dirk", size: 4 },
+      { word: "BVBler", size: 4 },
+      { word: "Tony", size: 4 },
+      { word: "Chiara", size: 4 },
+      { word: "Azubis", size: 4 },
+      { word: "Denise", size: 4 },
+      { word: "Rebecca", size: 4 }
+    ];
+
+    // Canvas und Kontext holen
+    var canvas = document.getElementById("wordcloud-canvas");
+    var ctx = canvas.getContext("2d");
+
+    // Deine Wunschfarben
+    var colors = ["#b1dbe3", "#ec7d23", "#ca5482", "#384f9e"];
+
+    // Kugel-Einstellungen
+    var radius = 200;          
+    var angleX = 0.003;         
+    var angleY = 0.005;         
+
+    // Namen auf der Kugeloberfläche verteilen
+    var nodes = [];
+    for (var i = 0; i < words.length; i++) {
+      var phi = Math.acos(-1 + (2 * i) / words.length);
+      var theta = Math.sqrt(words.length * Math.PI) * phi;
+      nodes.push({
+        index: i,
+        x3d: radius * Math.sin(phi) * Math.cos(theta),
+        y3d: radius * Math.sin(phi) * Math.sin(theta),
+        z3d: radius * Math.cos(phi),
+        screenX: 0,
+        screenY: 0,
+        scale: 0
+      });
+    }
+
+    // ── MAUS-STEUERUNG ────────────────────────────────
+    var isDragging = false;
+    var prevX = 0, prevY = 0;
+
+    canvas.addEventListener("mousedown", function(e) {
+      isDragging = true;
+      var rect = canvas.getBoundingClientRect();
+      prevX = e.clientX - rect.left;
+      prevY = e.clientY - rect.top;
+    });
+
+    canvas.addEventListener("mousemove", function(e) {
+      if (!isDragging) return;
+      var rect = canvas.getBoundingClientRect();
+      var curX = e.clientX - rect.left;
+      var curY = e.clientY - rect.top;
+      angleY = (curX - prevX) * 0.005;
+      angleX = -(curY - prevY) * 0.005;
+      prevX = curX;
+      prevY = curY;
+    });
+
+    canvas.addEventListener("mouseup", function() { isDragging = false; });
+    canvas.addEventListener("mouseleave", function() { isDragging = false; });
+
+    // ── 3D-ROTATION ──────────────────────────────────
+    function rotateX(pt, a) {
+      var c = Math.cos(a), s = Math.sin(a);
+      var y = pt.y3d * c - pt.z3d * s;
+      var z = pt.z3d * c + pt.y3d * s;
+      pt.y3d = y; pt.z3d = z;
+    }
+
+    function rotateY(pt, a) {
+      var c = Math.cos(a), s = Math.sin(a);
+      var x = pt.x3d * c - pt.z3d * s;
+      var z = pt.z3d * c + pt.x3d * s;
+      pt.x3d = x; pt.z3d = z;
+    }
+
+    // ── 3D ZU 2D PROJEKTION ──────────────────────────
+    function project(x, y, z, cx, cy) {
+      var fov = 350;
+      var scale = fov / (fov + z);
+      return { x: cx + x * scale, y: cy + y * scale, scale: scale };
+    }
+
+    // ── ANIMATION ────────────────────────────────────
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      var cx = canvas.width / 2;
+      var cy = canvas.height / 2;
+
+      if (!isDragging) {
+        angleX *= 0.98;
+        angleY *= 0.98;
+        if (Math.abs(angleX) < 0.002) angleX = 0.002;
+        if (Math.abs(angleY) < 0.003) angleY = 0.003;
+      }
+
+      nodes.forEach(function(node) {
+        rotateX(node, angleX);
+        rotateY(node, angleY);
+        var p = project(node.x3d, node.y3d, node.z3d, cx, cy);
+        node.screenX = p.x;
+        node.screenY = p.y;
+        node.scale = p.scale;
+      });
+
+      // Sortieren nach Tiefe
+      var sorted = nodes.slice().sort(function(a, b) {
+        return b.z3d - a.z3d;
+      });
+
+      sorted.forEach(function(node) {
+        var w = words[node.index];
+
+        var baseSize = 16 + (w.size || 1) * 3;
+        var fontSize = Math.max(12, baseSize * node.scale);
+
+        // Atkinson Hyperlegible setzen, Fettgedruckt, Kantenscharf ohne Schatten
+        ctx.font = "700 " + fontSize + "px 'Atkinson Hyperlegible', sans-serif";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+
+        // Keine Schatteneffekte für maximale Randschärfe
+        ctx.shadowBlur = 0;
+
+        // Farbe zuweisen
+        ctx.fillStyle = colors[node.index % colors.length];
+
+        // Volle, ungefilterte Deckkraft für maximale Farbtreue
+        ctx.globalAlpha = 1.0;
+        ctx.fillText(w.word, node.screenX, node.screenY);
+      });
+
+      requestAnimationFrame(draw);
+    }
+
+    draw();
+  </script>
+
+</body>
+</html>
