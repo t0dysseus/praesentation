@@ -158,6 +158,96 @@ example4: {
     boxes: ["Ergebnis 1", "Ergebnis 2", "Ergebnis 3"]
 },
 
+  // ═══════════════════════════════════════════════════════════
+  //  INTERVENTION 01 – DANNENMANN (NEU)
+  // ═══════════════════════════════════════════════════════════
+
+  dannenmannIntro: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<p style="margin:0 0 0.4em 0; font-size:1.05em; color:#111;">Intervention 01</p>' +
+        '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Dannenmann</h2>' +
+        '<p style="margin:0; font-size:1.5em; color:#111;">Ein Blick in die Vergangenheit</p>' +
+      '</div>',
+      '<img src="images/dannenmann_intro.jpg" alt="">'
+    ]
+  },
+
+  dannenmannHebelhypothese: {
+    title: "Hebelhypothese",
+    text: "<p>Wenn wir die NS-Vergangenheit des Gründers Arnold Dannenmann physisch begreifbar machen, dann zwingt dieser spürbare Widerspruch die Organisation zur Auseinandersetzung mit ihrer eigenen Geschichte und stößt die gewünschte ehrliche und transparente Öffnung an.</p>"
+  },
+
+  dannenmannHebel: {
+    title: "",
+    layout: "slot-columns-3",
+    slots: [
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Hebel</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Greifbar machen von Widersprüchen</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #e76f51; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Interventionstyp</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Zuspitzung, Physische Erfahrung</p></div>',
+      '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Zielgruppe</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Vorstand, Leitung, Öffentlichkeitsarbeit</p></div>'
+    ]
+  },
+
+  dannenmannLogik: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
+        '<p style="margin:0; line-height:2; font-size:var(--content-text);">Widersprüche sichtbar machen<br>Physisches Erleben von Informationen<br>Reflektieren<br>Überdenken<br>Öffnen</p>' +
+      '</div>',
+      '<img src="images/dannenmann_logik.jpg" alt="">'
+    ]
+  },
+
+  dannenmannGestaltung: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      '<div>' +
+        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">Gestaltungskonzept</h2>' +
+        '<p style="margin:0 0 1em 0; font-size:1.1em;"> 3D Büste mit versteckten Informationen</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Greifbar machen</h4>' +
+        '<p style="margin:0 0 1em 0;">Physische Interaktion mit Informationen anregen</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Inhalte</h4>' +
+        '<p style="margin:0 0 1em 0;">Widersprüche in der Vergangenheit des CJD-Gründers</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Materialanspruch</h4>' +
+        '<p style="margin:0 0 1em 0;">Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
+        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Interaktivität</h4>' +
+        '<p style="margin:0;">Öffnen<br>Lesen</p>' +
+      '</div>',
+      '<img src="images/dannenmann_gestaltung.jpg" alt="">'
+    ]
+  },
+
+  dannenmannModellierungValidierung: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      // Links: Modellierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
+        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Visuelle Codes:<br>Skulptur betrachten und anfassen/öffnen</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ Motivation sich damit auseinanderzusetzen<br>--&gt; Bilder bleiben länger hängen<br>--&gt; längere Auseinandersetzung mit der Thematik<br>--&gt;  Erhöhte kommunikative Öffnung des CJD</p>' +
+      '</div>',
+      // Rechts: Validierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--muted);">Validierung:</h3>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Beobachtungsbögen<br>- Kurzfragebogen<br>- Diskurs(-protokoll)</p>' +
+      '</div>'
+    ]
+  },
+
+  dannenmannErgebnis: {
+    title: "Ergebnis Dannenmann",
+    text: "<p style=\"margin:0 0 1.2em 0;\"><strong>Unmittelbare Reaktionen:</strong> Unbehagen aber persönliche Offenheit.</p>" +
+          "<p style=\"margin:0 0 1.2em 0;\"><strong>Zweiter Moment:</strong> Trotz Zweifel an Offenheit des Vorstands Bereitschaft es anzusprechen</p>" +
+          "<p style=\"margin:0 0 1.2em 0;\"><strong>Fragebögen:</strong></p>" +
+          "<p style=\"margin:0;\"><strong>Interview Vorstand:</strong> Stand kurzzeitig zur Aussicht, kam nie zustande</p>"
+  },
+
 exampleL: {
   title: "Bushaltestelle",
   layout: "slot-columns-2",

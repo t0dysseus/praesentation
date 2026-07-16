@@ -111,6 +111,18 @@ function renderContent() {
     </li>`
   ).join('');
 
+  // DANNENMANN – HEBELHYPOTHESE
+  if (D.dannenmannHebelhypothese) {
+    document.getElementById('dannenmann-hebelhypothese-title').textContent = D.dannenmannHebelhypothese.title;
+    document.getElementById('dannenmann-hebelhypothese-text').innerHTML = D.dannenmannHebelhypothese.text;
+  }
+
+  // DANNENMANN – ERGEBNIS
+  if (D.dannenmannErgebnis) {
+    document.getElementById('dannenmann-ergebnis-title').textContent = D.dannenmannErgebnis.title;
+    document.getElementById('dannenmann-ergebnis-text').innerHTML = D.dannenmannErgebnis.text;
+  }
+
   // MATRIX
   document.getElementById('matrix-title').textContent = D.matrix.title;
   document.getElementById('matrix-legend').innerHTML = D.matrix.categories.map(cat => `
@@ -437,6 +449,11 @@ function renderGallery() {
 function renderSlotExamples() {
 
   var examples = [
+    { key: 'dannenmannIntro', id: 'dannenmann-intro', maxSlots: 2 },
+    { key: 'dannenmannHebel', id: 'dannenmann-hebel', maxSlots: 3 },
+    { key: 'dannenmannLogik', id: 'dannenmann-logik', maxSlots: 2 },
+    { key: 'dannenmannGestaltung', id: 'dannenmann-gestaltung', maxSlots: 2 },
+    { key: 'dannenmannModellierungValidierung', id: 'dannenmann-modellierung-validierung', maxSlots: 2 },
     { key: 'exampleA', id: 'example-a', maxSlots: 6 },
     { key: 'exampleB', id: 'example-b', maxSlots: 4 },
     { key: 'exampleC', id: 'example-c', maxSlots: 2 },
