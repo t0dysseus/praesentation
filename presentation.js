@@ -143,6 +143,9 @@ function renderContent() {
   // INCEPTION (Live-Website im iframe)
   document.getElementById('inception-title').textContent = D.inception.title;
 
+  // NEU: HEBELHYPOTHESE (Treffpunkt)
+  document.getElementById('hebelhypothese-treffpunkt-text').textContent = D.hebelhypotheseTreffpunkt.text;
+
   // INTERVENTIONS
   renderIntervention(1, D.intervention1);
   renderIntervention(2, D.intervention2);

@@ -129,6 +129,11 @@ const PRESENTATION_DATA = {
     url: "https://hierrosa.github.io/hierrosa.github.io.-/"
   },
 
+  // ── NEU: HEBELHYPOTHESE (Treffpunkt) ───────────────────────
+  hebelhypotheseTreffpunkt: {
+    text: "Wenn wir einen bereits genutzten informellen Treffpunkt mittels positiver Verstärkung, Interaktion, Support und gezielter Irritation neu rahmen, dann wird sichtbar, welche soziale Bedeutung dieser Ort für Aufenthalt, Austausch und Gemeinschaft am CJD besitzt."
+  },
+
   example1: {
     number: "01",
     title: "Intervention 1",
