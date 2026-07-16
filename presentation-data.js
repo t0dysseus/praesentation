@@ -216,14 +216,10 @@ example4: {
       '<div>' +
         '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
         '<p style="margin:0 0 1em 0; font-size:1.1em;"> 3D Büste mit versteckten Informationen</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Greifbar machen</h4>' +
-        '<p style="margin:0 0 1em 0;">Physische Interaktion mit Informationen anregen</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Inhalte</h4>' +
-        '<p style="margin:0 0 1em 0;">Widersprüche in der Vergangenheit des CJD-Gründers</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Materialanspruch</h4>' +
-        '<p style="margin:0 0 1em 0;">Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Interaktivität</h4>' +
-        '<p style="margin:0;">Öffnen<br>Lesen</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Greifbar machen:</strong> Physische Interaktion mit Informationen anregen</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Inhalte:</strong> Widersprüche in der Vergangenheit des CJD-Gründers</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
+        '<p style="margin:0;"><strong>Interaktivität:</strong> Öffnen<br>Lesen</p>' +
       '</div>',
       '<img src="images/dannenmann_gestaltung.jpg" alt="">'
     ]
@@ -331,14 +327,10 @@ bushaltestelleGestaltung: {
     '<div>' +
       '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
       '<p style="margin:0 0 1em 0; font-size:1.1em;"> Anlehnung an reale Bushaltestelle</p>' +
-      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Wiedererkennung</h4>' +
-      '<p style="margin:0 0 1em 0;">unbewusste Wirkung durch \u2018bewegten\u2019 Symbolort</p>' +
-      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Inhalte</h4>' +
-      '<p style="margin:0 0 1em 0;">Aufgreifen der Dekonstruktionsergebnisse (Fokus Ziele &amp; Wünsche)</p>' +
-      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Materialanspruch</h4>' +
-      '<p style="margin:0 0 1em 0;">günstig &amp; nachhaltig<br>kurzzeitig nutzbar<br>schnell reproduzierbar</p>' +
-      '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Interaktivität</h4>' +
-      '<p style="margin:0;">leichte Sprache<br>mehrere Partizipationsstufen</p>' +
+      '<p style="margin:0 0 1em 0;"><strong>Wiedererkennung:</strong> unbewusste Wirkung durch \u2018bewegten\u2019 Symbolort</p>' +
+      '<p style="margin:0 0 1em 0;"><strong>Inhalte:</strong> Aufgreifen der Dekonstruktionsergebnisse (Fokus Ziele &amp; Wünsche)</p>' +
+      '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> günstig &amp; nachhaltig<br>kurzzeitig nutzbar<br>schnell reproduzierbar</p>' +
+      '<p style="margin:0;"><strong>Interaktivität:</strong> leichte Sprache<br>mehrere Partizipationsstufen</p>' +
     '</div>',
     '<img src="images/bushaltestelle_gestaltung.jpg" alt="">'
   ]
@@ -530,14 +522,10 @@ detail4x2: {
       '<div>' +
         '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
         '<p style="margin:0 0 1em 0; font-size:1.1em;">Inhalt erarbeiten und selbständig vermitteln</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Grundhaltung</h4>' +
-        '<p style="margin:0 0 1em 0;">Freiheit<br>Selbstbestimmung<br>sicherer Rahmen</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Arbeitsmaterialien</h4>' +
-        '<p style="margin:0 0 1em 0;">als Baukasten nach Bedarf</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Support</h4>' +
-        '<p style="margin:0 0 1em 0;">wenn nötig oder gewünscht</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:0.95em; font-weight:700;">Inklusion</h4>' +
-        '<p style="margin:0;">leichte Sprache</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Grundhaltung:</strong> Freiheit<br>Selbstbestimmung<br>sicherer Rahmen</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Arbeitsmaterialien:</strong> als Baukasten nach Bedarf</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Support:</strong> wenn nötig oder gewünscht</p>' +
+        '<p style="margin:0;"><strong>Inklusion:</strong> leichte Sprache</p>' +
       '</div>',
       '<img src="images/rollentausch_gestaltung.jpg" alt="">'
     ]
@@ -613,12 +601,9 @@ detail4x2: {
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:1.05em; font-weight:700;">Zutrauen</h4>' +
-        '<p style="margin:0 0 1.2em 0; line-height:1.5;">Mitarbeitende trauen Teilnehmenden tendenziell mehr zu, als diese sich selbst</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:1.05em; font-weight:700;">Neues Wissen</h4>' +
-        '<p style="margin:0 0 1.2em 0; line-height:1.5;">Lerneffekt ist beidseitig, bei Teilnehmenden als "Expert*innen" sogar leicht stärker</p>' +
-        '<h4 style="margin:0 0 0.3em 0; font-size:1.05em; font-weight:700;">Hierarchien</h4>' +
-        '<p style="margin:0; line-height:1.5;">Mitarbeitende skeptisch, ob sich an Hierarchien etwas ändert<br>Teilnehmende wünschen sich ausdrücklich mehr <strong>als Experten auftreten</strong> zu können</p>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Zutrauen:</strong> Mitarbeitende trauen Teilnehmenden tendenziell mehr zu, als diese sich selbst</p>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Neues Wissen:</strong> Lerneffekt ist beidseitig, bei Teilnehmenden als "Expert*innen" sogar leicht stärker</p>' +
+        '<p style="margin:0; line-height:1.5;"><strong>Hierarchien:</strong> Mitarbeitende skeptisch, ob sich an Hierarchien etwas ändert<br>Teilnehmende wünschen sich ausdrücklich mehr <strong>als Experten auftreten</strong> zu können</p>' +
       '</div>',
       '<img src="images/rollentausch_ergebnis_chart.jpg" alt="">'
     ]
