@@ -551,7 +551,6 @@ function renderSlotExamples() {
     { key: 'bushaltestelleGestaltung', id: 'bushaltestelle-gestaltung', maxSlots: 2 },
     { key: 'oeffnung1', id: 'oeffnung1', maxSlots: 6 },
     { key: 'oeffnung2', id: 'oeffnung2', maxSlots: 6 },
-    { key: 'oeffnung3', id: 'oeffnung3', maxSlots: 6 },
     { key: 'schliessung', id: 'schliessung', maxSlots: 4 },
     { key: 'aufklaerung', id: 'aufklaerung', maxSlots: 2 },
     { key: 'modellierungValidierung', id: 'modellierung-validierung', maxSlots: 3 },
