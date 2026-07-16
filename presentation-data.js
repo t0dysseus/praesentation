@@ -129,11 +129,6 @@ const PRESENTATION_DATA = {
     url: "https://hierrosa.github.io/hierrosa.github.io.-/"
   },
 
-  // ── NEU: HEBELHYPOTHESE (Treffpunkt) ───────────────────────
-  hebelhypotheseTreffpunkt: {
-    text: "Wenn wir einen bereits genutzten informellen Treffpunkt mittels positiver Verstärkung, Interaktion, Support und gezielter Irritation neu rahmen, dann wird sichtbar, welche soziale Bedeutung dieser Ort für Aufenthalt, Austausch und Gemeinschaft am CJD besitzt."
-  },
-
   example1: {
     number: "01",
     title: "Intervention 1",
@@ -296,6 +291,63 @@ detail4x2: {
     slots: [
       '<img src="images/1.jpeg" alt=""><img src="images/1.jpeg" alt="">',
       '<iframe src="https://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
+    ]
+  },
+
+  // ── NEU: ERGEBNISSE BUSHALTESTELLE (3 Tage im Vergleich) ────
+  // ── NEU: MODELLIERUNG / VALIDIERUNG ─────────────────────────
+  modellierungValidierung: {
+    title: "",
+    layout: "slot-columns-2",
+    slots: [
+      // Links: Modellierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Modellierung:</h3>' +
+        '<p style="margin:0 0 24px 0; font-size:var(--content-text); color:var(--text); line-height:1.6;">Visuelle Codes:<br>Ziele und Stärken sichtbar machen</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.6;">→ Zieldefinition<br>--&gt; Orientierung<br>--&gt; mehr Motivation</p>' +
+      '</div>',
+      // Rechts: Validierung
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 24px 0; font-size:var(--content-heading); font-weight:700; color:var(--muted);">Validierung:</h3>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--muted); line-height:1.6;">- Beobachtungsbögen Tag 1<br>- Beobachtungsbögen Tag 2<br>- QR-Code Tracking Woche 3</p>' +
+      '</div>'
+    ]
+  },
+
+  ergebnisseBushaltestelle: {
+    title: "Ergebnisse Bushaltestelle",
+    layout: "slot-columns-3",
+    slots: [
+      // Tag 1
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 16px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Tag 1</h3>' +
+        '<p style="margin:0 0 20px 0; font-size:var(--content-text); color:var(--text);">keine negativen Reaktionen</p>' +
+        '<hr style="border:none; border-top:2px solid var(--hero-orange); width:160px; margin:0 0 20px 0;">' +
+        '<p style="margin:0 0 12px 0; font-size:var(--content-text); color:var(--text); line-height:1.5;">keine Berührungsängste, besonders Frauen initiieren</p>' +
+        '<p style="margin:0 0 12px 0; font-size:var(--content-text); color:var(--text); line-height:1.5;">Social Proof Effect, (spielerische) Manipulation</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">entwendete Stifte</p>' +
+        '<hr style="border:none; border-top:2px solid var(--hero-orange); width:160px; margin:24px 0 20px 0;">' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;"><strong>Erkenntnis</strong><br>Mehr physische Robustheit für vandalismussicheren Aufbau</p>' +
+      '</div>',
+      // Tag 2
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 16px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Tag 2</h3>' +
+        '<p style="margin:0 0 20px 0; font-size:var(--content-text); color:var(--text);">keine positiven Reaktionen</p>' +
+        '<hr style="border:none; border-top:2px solid var(--hero-pink); width:160px; margin:0 0 20px 0;">' +
+        '<p style="margin:0 0 12px 0; font-size:var(--content-text); color:var(--text); line-height:1.5;">Frustration<br>Verwirrung</p>' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">Gerüchte<br>Spekulationen</p>' +
+        '<hr style="border:none; border-top:2px solid var(--hero-pink); width:160px; margin:24px 0 20px 0;">' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;"><strong>Erkenntnis</strong><br>gezielter Entzug legte tatsächliche soziale Relevanz der Bushaltestelle als Schutzraum offen</p>' +
+      '</div>',
+      // Tag 3
+      '<div style="height:100%;">' +
+        '<h3 style="margin:0 0 16px 0; font-size:var(--content-heading); font-weight:700; color:var(--text);">Tag 3</h3>' +
+        '<p style="margin:0 0 20px 0; font-size:var(--content-text); color:var(--text); line-height:1.5;">14 Zugriffe Webseite<br>0 E-Mails</p>' +
+        '<hr style="border:none; border-top:2px solid var(--hero-darkblue); width:160px; margin:0 0 20px 0;">' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;">keinerlei Beschädigungen</p>' +
+        '<hr style="border:none; border-top:2px solid var(--hero-darkblue); width:160px; margin:24px 0 20px 0;">' +
+        '<p style="margin:0; font-size:var(--content-text); color:var(--text); line-height:1.5;"><strong>Erkenntnis</strong><br>E-Mails als Rückmeldung zeigen höhere Barriere in digitalen Kanälen</p>' +
+      '</div>'
     ]
   },
 
