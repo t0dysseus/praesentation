@@ -133,7 +133,7 @@ const PRESENTATION_DATA = {
   // url ggf. anpassen, falls ihr eine andere Seite verlinken wollt
   thanks: {
     title: "Danke",
-    url: "https://hierrosa.github.io/hierrosa.github.io.-/"
+    url: "https://t0dysseus.github.io/praesentation/danke.html"
   },
 
   example1: {
