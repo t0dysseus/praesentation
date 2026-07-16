@@ -687,7 +687,6 @@ detail4x2: {
 
   teamprozessUebersicht: {
     title: "TEAMPROZESS",
-    // Hier eure Iframe-URL eintragen:
     url: "https://t0dysseus.github.io/praesentation/gruppe.html"
   },
 
