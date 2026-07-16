@@ -178,7 +178,7 @@ example4: {
         '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Dannenmann</h2>' +
         '<p style="margin:0; font-size:1.5em; color:#111;">Ein Blick in die Vergangenheit</p>' +
       '</div>',
-      '<img src="images/frageboegen_dannenmann.jpg" alt="">'
+      '<img src="images/dannetease.jpeg" alt="">'
     ]
   },
 
@@ -221,7 +221,7 @@ example4: {
         '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
         '<p style="margin:0;"><strong>Interaktivität:</strong> Öffnen<br>Lesen</p>' +
       '</div>',
-      '<img src="images/dannenmann_gestaltung.jpg" alt="">'
+      '<img src="images/dannebuch.jpeg" alt="">'
     ]
   },
 
