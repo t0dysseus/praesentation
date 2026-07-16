@@ -370,9 +370,9 @@ detail4x2: {
     title: "Öffnung",
     layout: "slot-grid-3x2",
     slots: [
-      '<img src="images/oeffnung2.jpg" alt="">',
+      '<img src="images/oeffnung2.jpeg" alt="">',
       '<img src="images/oeffnung3.jpg" alt="">',
-      '<img src="images/oeffnung4.jpg" alt="">',
+      '<img src="images/oeffnung4.jpeg" alt="">',
       '<img src="images/oeffnung5.jpg" alt="">',
       '<img src="images/oeffnung6.jpg" alt="">',
       '<img src="images/oeffnung7.jpg" alt="">'
@@ -409,10 +409,10 @@ detail4x2: {
     title: "Schließung",
     layout: "slot-grid-2x2",
     slots: [
-      '<img src="images/schließung1.jpeg" alt="">',
-      '<img src="images/abgesperrt2.jpeg" alt="">',
-      '<img src="images/schließung.jpeg" alt="">',
-      '<img src="images/baustellenschild.jpeg" alt="">'
+      '<img src="images/schließung1.jpg" alt="">',
+      '<img src="images/abgesperrt2.jpg" alt="">',
+      '<img src="images/schließung.jpg" alt="">',
+      '<img src="images/baustellenschild.jpg" alt="">'
     ]
   },
 
@@ -420,7 +420,7 @@ detail4x2: {
     title: "Aufklärung",
     layout: "slot-columns-2",
     slots: [
-      '<img src="images/1.jpeg" alt=""><img src="images/1.jpeg" alt="">',
+      '<img src="images/auklärung.jpeg" alt=""><img src="images/poster1.jpeg" alt="">',
       '<iframe src="https://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
     ]
   },
