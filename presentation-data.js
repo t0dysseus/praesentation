@@ -555,12 +555,12 @@ detail4x2: {
     title: "ABLAUF",
     layout: "slot-grid-3x2",
     slots: [
-      '<div style="text-align:center;"><img src="images/rollentausch_agenda.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_agenda</p></div>',
-      '<div style="text-align:center;"><img src="images/faktensheet_ki.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">faktensheet_ki</p></div>',
-      '<div style="text-align:center;"><img src="images/rollentausch_bildchen.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_bildchen</p></div>',
-      '<div style="text-align:center;"><img src="images/rollenkarte1.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollenkarte1</p></div>',
-      '<div style="text-align:center;"><img src="images/rollentausch_tisch_01.jpg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch_tisch_01</p></div>',
-      '<div style="text-align:center;"><img src="images/kreise.jpeg" alt="" style="width:100%; display:block; margin-bottom:8px;"><p style="margin:0; font-size:0.9em; color:#444;">rollentausch-kreise</p></div>'
+      '<img src="images/rollentausch_agenda.jpg" alt="">',
+      '<img src="images/faktensheet_ki.jpg" alt="">',
+      '<img src="images/rollentausch_bildchen.jpg" alt="">',
+      '<img src="images/rollenkarte1.jpg" alt="">',
+      '<img src="images/rollentausch_tisch_01.jpg" alt="">',
+      '<img src="images/kreise.jpeg" alt="">'
     ]
   },
 
