@@ -35,7 +35,7 @@ const PRESENTATION_DATA = {
   title: {
     main: "RÄUME FÜR JEDEN",
     subtitle: "Inklusiv, Immersiv, Interaktiv",
-    
+
     semester: "SS2026",
     course: "BHT – Transformation Design & Print"
   },
@@ -256,6 +256,11 @@ example4: {
           "<p style=\"margin:0 0 1.2em 0;\"><strong>Zweiter Moment:</strong> Trotz Zweifel an Offenheit des Vorstands Bereitschaft es anzusprechen</p>" +
           "<p style=\"margin:0 0 1.2em 0;\"><strong>Fragebögen:</strong></p>" +
           "<p style=\"margin:0;\"><strong>Interview Vorstand:</strong> Stand kurzzeitig zur Aussicht, kam nie zustande</p>"
+  },
+
+  presseabteilung: {
+    title: "Ergebnis Presseabteilung",
+    text: "<p style=\"margin:0; font-size:1.3em; line-height:1.9; color:#444;\">Relativierung<br>Gute Taten nach 2. WK<br>Werte des CJD heute</p>"
   },
 
 exampleL: {
@@ -715,7 +720,7 @@ detail4x2: {
         '<p style="margin:0 0 0.3em 0; font-weight:700; font-size:1.3em; color:#111;">Transformation braucht</p>' +
         '<p style="margin:0 0 50px 0; font-size:1.3em; line-height:1.6; color:#111;">Vertrauen &amp; Beziehungen<br>Alltag &amp; Begegnung<br>Augenhöhe &amp; Austausch</p>' +
 
-        
+
 
         '<img src="images/praesenz_zeigen.jpg" alt="Präsenz zeigen" style="width:100%; max-height:340px; object-fit:cover; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.18); display:block; margin-top:10px;">' +
       '</div>'

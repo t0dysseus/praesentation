@@ -123,6 +123,12 @@ function renderContent() {
     document.getElementById('dannenmann-ergebnis-text').innerHTML = D.dannenmannErgebnis.text;
   }
 
+  // ERGEBNIS PRESSEABTEILUNG
+  if (D.presseabteilung) {
+    document.getElementById('presseabteilung-title').textContent = D.presseabteilung.title;
+    document.getElementById('presseabteilung-text').innerHTML = D.presseabteilung.text;
+  }
+
   // ROLLENTAUSCH – HEBELHYPOTHESE
   if (D.rollentauschHebelhypothese) {
     document.getElementById('rollentausch-hebelhypothese-title').textContent = D.rollentauschHebelhypothese.title;
