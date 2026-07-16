@@ -498,7 +498,7 @@ detail4x2: {
         '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Rollentausch</h2>' +
         '<p style="margin:0; font-size:1.5em; color:#111;">BVBler und Azubis als KI Expert:innen</p>' +
       '</div>',
-      '<img src="images/rollentausch_intro.jpg" alt="">'
+      '<img src="images/rollentausch_tisch_02.jpg" alt="">'
     ]
   },
 
@@ -525,7 +525,7 @@ detail4x2: {
         '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
         '<p style="margin:0; line-height:2; font-size:var(--content-text);">mehr Zutrauen<br>Verantwortung übergeben<br>KI-Expertise bei Azubis/BVBler<br>Mitarbeitende lassen sich leiten<br>Neue Erfahrungen<br>Auswertung</p>' +
       '</div>',
-      '<img src="images/rollentausch_logik.jpg" alt="">'
+      '<img src="images/rollentausch Karten.png" alt="">'
     ]
   },
 
@@ -553,9 +553,9 @@ detail4x2: {
     title: "Ablauf",
     layout: "slot-columns-3",
     slots: [
-      '<img src="images/rollentausch_ablauf1_1.jpg" alt="">',
-      '<img src="images/rollentausch_ablauf1_2.jpg" alt="">',
-      '<img src="images/rollentausch_ablauf1_3.jpg" alt="">'
+      '<img src="images/ablauf1.jpeg" alt="">',
+      '<img src="images/ablauf2.jpeg" alt="">',
+      '<img src="images/ablauf3.jpeg" alt="">'
     ]
   },
 
@@ -576,7 +576,7 @@ detail4x2: {
     title: "Ablauf",
     layout: "slot-columns-2",
     slots: [
-      '<img src="images/rollentausch_ablauf3_1.jpg" alt="">',
+      '<img src="images/rollentausch_plakat.jpg" alt="">',
       '<img src="images/rollentausch_ablauf3_2.jpg" alt="">'
     ]
   },
@@ -697,7 +697,7 @@ detail4x2: {
         '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Ausstellung:</strong> alter Stand</p>' +
         '<p style="margin:0; line-height:1.5;"><strong>Erkenntnis:</strong> Austausch zwischen den Bereichen wirkt stockend</p>' +
       '</div>',
-      '<img src="images/werkstuecke_ergebnis.jpg" alt="">'
+      '<img src="images/werkstuecke_schild.jpg" alt="">'
     ]
   },
 
