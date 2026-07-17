@@ -506,11 +506,11 @@ detail4x2: {
   },
 
   rollentauschLogik: {
-    title: "",
+    title: "LOGIK",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
+    
         '<p style="margin:0; line-height:2; font-size:var(--content-text);">mehr Zutrauen<br>Verantwortung übergeben<br>KI-Expertise bei Azubis/BVBler<br>Mitarbeitende lassen sich leiten<br>Neue Erfahrungen<br>Auswertung</p>' +
       '</div>',
       '<img src="images/rollentausch karten.png" alt="">'
