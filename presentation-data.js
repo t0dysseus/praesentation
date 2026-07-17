@@ -528,7 +528,7 @@ detail4x2: {
         '<p style="margin:0 0 1em 0;"><strong>Support:</strong><br> wenn nötig oder gewünscht</p>' +
         '<p style="margin:0;"><strong>Inklusion:</strong><br> leichte Sprache</p>' +
       '</div>',
-      '<img src="images/rollentausch_gestaltung.jpg" alt="">'
+      '<img src="images/rollen1.jpeg" alt="">'
     ]
   },
 
