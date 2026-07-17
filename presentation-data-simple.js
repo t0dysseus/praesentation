@@ -159,7 +159,7 @@ example4: {
         '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Dannenmann</h2>' +
         '<p style="margin:0; font-size:1.5em; color:#111;">Ein Blick in die Vergangenheit</p>' +
       '</div>',
-      '<img src="images/frageboegen_dannenmann.jpg" alt="">'
+      '<img src="images/dannetease.jpeg" alt="">'
     ]
   },
 
@@ -187,7 +187,7 @@ example4: {
         '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
         '<p style="margin:0; line-height:2; font-size:var(--content-text);">Widersprüche sichtbar machen<br>Informationen physisch erleben<br>Nachdenken<br>Überdenken<br>Öffnen</p>' +
       '</div>',
-      '<img src="images/dannenmann_logik.jpg" alt="">'
+      '<img src="images/dannekreuz.jpeg" alt="">'
     ]
   },
 
@@ -203,7 +203,7 @@ example4: {
         '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
         '<p style="margin:0;"><strong>Interaktivität:</strong> Öffnen<br>Lesen</p>' +
       '</div>',
-      '<img src="images/dannenmann_gestaltung.jpg" alt="">'
+      '<img src="images/dannebuch.jpeg" alt="">'
     ]
   },
 
@@ -314,7 +314,7 @@ bushaltestelleGestaltung: {
       '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> Günstig und nachhaltig<br>Kurzzeitig nutzbar<br>Schnell reproduzierbar</p>' +
       '<p style="margin:0;"><strong>Interaktivität:</strong> Leichte Sprache<br>Mehrere Partizipationsstufen</p>' +
     '</div>',
-    '<img src="images/bushaltestelle_gestaltung.jpg" alt="">'
+    '<img src="images/buha_skizze.jpg" alt="">'
   ]
 },
 
@@ -374,7 +374,7 @@ detail4x2: {
     title: "SPERRUNG",
     layout: "slot-grid-2x2",
     slots: [
-      '<img src="images/schließung1.jpg" alt="">',
+      '<img src="images/buha_nugget.jpg" alt="">',
       '<img src="images/abgesperrt2.jpg" alt="">',
       '<img src="images/schließung.jpg" alt="">',
       '<img src="images/baustellenschild.jpg" alt="">'
@@ -385,7 +385,7 @@ detail4x2: {
     title: "AUFKLÄRUNG",
     layout: "slot-columns-2",
     slots: [
-      '<img src="images/xauklaerung.jpg" alt=""><img src="images/poster1.jpeg" alt="">',
+      '<img src="images/xaufklaerung.jpg" alt=""><img src="images/poster1.jpeg" alt="">',
       '<iframe src="https://chiarabrinkmann10-ux.github.io/BushaltestelleZukunft-/" frameborder="0" allowfullscreen></iframe>'
     ]
   },
@@ -663,7 +663,7 @@ detail4x2: {
     title: "TEAMPROZESS",
     html:
       '<div style="position:relative; width:100%; height:640px;">' +
-        '<img src="images/gruppe.jpg" alt="Gruppenfoto" style="position:absolute; left:31%; top:24%; width:31%; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,0.15);">' +
+        '<img src="images/gruppenfoto.jpg" alt="Gruppenfoto" style="position:absolute; left:31%; top:24%; width:31%; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,0.15);">' +
 
         '<div style="position:absolute; left:15%; top:29%; font-weight:700; font-size:1.4em; color:var(--hero-orange);">Rosa</div>' +
         '<div style="position:absolute; left:9%; top:50%; font-weight:700; font-size:1.4em; color:var(--hero-darkblue);">Sarah</div>' +

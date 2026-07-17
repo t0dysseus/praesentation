@@ -194,11 +194,13 @@
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   }
   
-  .title-qr-link {
-    margin-top: 12px;
+  .title-qr-block .title-qr-link {
+    margin: 12px 0 0 0;
     font-size: var(--content-text);
     color: var(--muted);
     text-decoration: none;
+    text-align: center;
+    width: 100%;
   }
   
   .title-text {
@@ -1377,7 +1379,6 @@
   }
   
   .dannenmann-grid-2x2 .dannenmann-cell {
-    background: #ec7d23;
     border-radius: 16px;
     overflow: hidden;
     border: 1px solid var(--border);
@@ -1386,14 +1387,24 @@
     justify-content: center;
     height: 300px;                  /* ← an grid-template-rows anpassen */
   }
-  
+
+  /* 3D-Objekte: Hintergrund in unserem Orange */
+  .dannenmann-grid-2x2 .dannenmann-cell.dannenmann-model {
+    background: #ec7d23;
+  }
+
+  /* Bild & Gif: kein Orange, neutraler Hintergrund */
+  .dannenmann-grid-2x2 .dannenmann-cell.dannenmann-image {
+    background: var(--bg-soft);
+  }
+
   .dannenmann-grid-2x2 .dannenmann-cell img,
   .dannenmann-grid-2x2 .dannenmann-cell model-viewer {
     width: 100%;
     height: 100%;
     object-fit: contain;          /* ← contain statt cover: kein Beschnitt */
     display: block;
-    background: var(--bg-soft);   /* ← dezenter Hintergrund bei Letterboxing */
+    background: transparent;      /* ← lässt die Zellen-Hintergrundfarbe durchscheinen */
   }
   
   .dannenmann-grid-2x2 .dannenmann-cell img[src=""],
@@ -1414,7 +1425,7 @@
     height: 100%;
     object-fit: contain;          /* ← contain statt cover: kein Beschnitt */
     display: block;
-    background: var(--bg-soft);   /* ← dezenter Hintergrund bei Letterboxing */
+    background: transparent;      /* ← lässt die Zellen-Hintergrundfarbe durchscheinen */
   }
   
   /* ── DANNENMANN 3: Bilder oben, Text unten ── */
