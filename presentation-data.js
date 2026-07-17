@@ -431,7 +431,7 @@ detail4x2: {
       // Spalte 3: Validierung
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #2a9d8f; height:100%; box-sizing:border-box;">' +
         '<h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Validierung</h3>' +
-        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;"> Beobachtungsbögen Tag 1<br> Beobachtungsbögen Tag 2<br> QR-Code Tracking Woche 3</p>' +
+        '<p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;"> Beobachtungsb. Tag 1<br> Beobachtungsb. Tag 2<br> QR-Code Tag 3</p>' +
       '</div>'
     ]
   },
