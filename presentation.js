@@ -698,6 +698,8 @@ function updateProgress(current, total) {
 // ── NAV BUTTONS ─────────────────────────────────────────────
 document.getElementById('prev-btn').addEventListener('click', () => Reveal.prev());
 document.getElementById('next-btn').addEventListener('click', () => Reveal.next());
+document.getElementById('layer-simple-btn').addEventListener('click', () => switchLayer('simple'));
+document.getElementById('layer-standard-btn').addEventListener('click', () => switchLayer('standard'));
 document.getElementById('overview-btn').addEventListener('click', () => Reveal.toggleOverview());
 document.getElementById('fullscreen-btn').addEventListener('click', () => {
   if (!document.fullscreenElement) {

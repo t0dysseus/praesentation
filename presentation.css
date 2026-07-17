@@ -175,6 +175,25 @@
     height: 100%;
   }
   
+  .slide-title-content {
+    flex-direction: row !important;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .title-qr {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .title-text {
+    flex: 1;
+  }
+  
   .slide-title h1 {
     font-size: 80px;
   }
