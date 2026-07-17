@@ -689,7 +689,7 @@ detail4x2: {
     title: "TEAMPROZESS",
     html:
       '<div style="position:relative; width:100%; height:640px;">' +
-        '<img src="images/gruppe.jpg" alt="Gruppenfoto" style="position:absolute; left:31%; top:24%; width:31%; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,0.15);">' +
+        '<img src="images/gruppenfoto.jpg" alt="Gruppenfoto" style="position:absolute; left:31%; top:24%; width:31%; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,0.15);">' +
 
         '<div style="position:absolute; left:15%; top:29%; font-weight:700; font-size:1.4em; color:var(--hero-orange);">Rosa</div>' +
         '<div style="position:absolute; left:9%; top:50%; font-weight:700; font-size:1.4em; color:var(--hero-darkblue);">Sarah</div>' +
