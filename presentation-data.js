@@ -216,7 +216,7 @@ example4: {
         '<p style="margin:0 0 1em 0; font-size:1.1em;"> 3D Büste mit versteckten Informationen</p>' +
         '<p style="margin:0 0 1em 0;"><strong>Greifbar machen:</strong><br> Physische Interaktion mit Informationen anregen</p>' +
         '<p style="margin:0 0 1em 0;"><strong>Inhalte:</strong><br> Widersprüche in der Vergangenheit des CJD-Gründers</p>' +
-        '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong><br> Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
         '<p style="margin:0;"><strong>Interaktivität:</strong><br> Öffnen<br>Lesen</p>' +
       '</div>',
       '<img src="images/dannebuch.jpeg" alt="">'

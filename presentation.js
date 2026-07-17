@@ -118,8 +118,7 @@ function renderContent() {
   // HYPOTHESES
   document.getElementById('hypotheses-title').textContent = D.hypotheses.title;
   document.getElementById('hypotheses-list').innerHTML = D.hypotheses.items.map(item => 
-    `<li style="margin-bottom:1.5em; padding-left:1.5em; position:relative;">
-      <span style="position:absolute; left:0; top:0.1em;">–</span>
+    `<li style="margin-bottom:1.5em;">
       ${item}
     </li>`
   ).join('');
