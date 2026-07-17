@@ -687,8 +687,21 @@ detail4x2: {
 
   teamprozessUebersicht: {
     title: "TEAMPROZESS",
-    // Hier eure Iframe-URL eintragen:
-    url: "https://t0dysseus.github.io/praesentation/gruppe.html"
+    html:
+      '<div style="position:relative; width:100%; height:640px;">' +
+        '<img src="images/gruppe.jpg" alt="Gruppenfoto" style="position:absolute; left:31%; top:24%; width:31%; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,0.15);">' +
+
+        '<div style="position:absolute; left:15%; top:29%; font-weight:700; font-size:1.4em; color:var(--hero-orange);">Rosa</div>' +
+        '<div style="position:absolute; left:9%; top:50%; font-weight:700; font-size:1.4em; color:var(--hero-darkblue);">Sarah</div>' +
+        '<div style="position:absolute; left:22%; top:65%; font-weight:700; font-size:1.4em; color:var(--hero-pink);">Dirk</div>' +
+        '<div style="position:absolute; left:6%; top:78%; font-weight:700; font-size:1.4em; color:var(--hero-lightblue);">BVBler</div>' +
+
+        '<div style="position:absolute; left:66%; top:16%; font-weight:700; font-size:1.4em; color:var(--hero-darkblue);">Tony</div>' +
+        '<div style="position:absolute; left:78%; top:33%; font-weight:700; font-size:1.4em; color:var(--hero-orange);">Chiara</div>' +
+        '<div style="position:absolute; left:69%; top:56%; font-weight:700; font-size:1.4em; color:var(--hero-pink);">Azubis</div>' +
+        '<div style="position:absolute; left:84%; top:66%; font-weight:700; font-size:1.4em; color:var(--hero-darkblue);">Denise</div>' +
+        '<div style="position:absolute; left:66%; top:86%; font-weight:700; font-size:1.4em; color:var(--hero-lightblue);">Rebecca</div>' +
+      '</div>'
   },
 
   learningsUebersicht: {
