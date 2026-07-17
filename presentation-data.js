@@ -198,11 +198,10 @@ example4: {
   },
 
   dannenmannLogik: {
-    title: "",
+    title: "LOGIK",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<h2 style="margin:0 0 1em 0; font-size:var(--content-heading); font-weight:800;">Logik</h2>' +
         '<p style="margin:0; line-height:2; font-size:var(--content-text);">Widersprüche sichtbar machen<br>Physisches Erleben von Informationen<br>Reflektieren<br>Überdenken<br>Öffnen</p>' +
       '</div>',
       '<img src="images/dannekreuz.jpeg" alt="">'
@@ -926,19 +925,19 @@ detail4x2: {
   },
 
 dannenmann1: {
-    title: "Dannenmann",
+    title: "GESTALTUNGSKONZEPT",
     content: "<p>La Forza sia con te.</p><p>Io sono tuo padre.</p><p>Fare o non fare. Non c'è provare.</p><p>Aiutami, Obi-Wan Kenobi. Sei la mia sola speranza.</p>",
     leftImage: "",
     rightImage: ""
 },
 dannenmann2: {
-    title: "Dannenmann",
+    title: "GESTALTUNGSKONZEPT",
     image: "images/original.jpeg",
     models: ["models/original.glb", "models/cut.glb",],
     gif: "images/3d.gif"
 },
 dannenmann3: {
-    title: "Dannenmann",
+    title: "GESTALTUNGSKONZEPT",
     images: ["images/d1.jpeg", "images/d2.jpeg", "images/d3.jpeg"],
 },
   
