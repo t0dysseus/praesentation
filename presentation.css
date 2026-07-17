@@ -181,13 +181,24 @@
     gap: 60px;
   }
   
-  .title-qr {
+  .title-qr-block {
     flex-shrink: 0;
+    text-align: center;
+  }
+  
+  .title-qr {
     width: 400px;
     height: 400px;
     object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .title-qr-link {
+    margin-top: 12px;
+    font-size: var(--content-text);
+    color: var(--muted);
+    text-decoration: none;
   }
   
   .title-text {

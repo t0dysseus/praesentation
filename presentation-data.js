@@ -210,16 +210,15 @@ example4: {
   },
 
   dannenmannGestaltung: {
-    title: "",
+    title: "GESTALTUNGSKONZEPT",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
         '<p style="margin:0 0 1em 0; font-size:1.1em;"> 3D Büste mit versteckten Informationen</p>' +
-        '<p style="margin:0 0 1em 0;"><strong>Greifbar machen:</strong> Physische Interaktion mit Informationen anregen</p>' +
-        '<p style="margin:0 0 1em 0;"><strong>Inhalte:</strong> Widersprüche in der Vergangenheit des CJD-Gründers</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Greifbar machen:</strong><br> Physische Interaktion mit Informationen anregen</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Inhalte:</strong><br> Widersprüche in der Vergangenheit des CJD-Gründers</p>' +
         '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> Nachhaltig<br>schnell reproduzierbar<br>authentisch</p>' +
-        '<p style="margin:0;"><strong>Interaktivität:</strong> Öffnen<br>Lesen</p>' +
+        '<p style="margin:0;"><strong>Interaktivität:</strong><br> Öffnen<br>Lesen</p>' +
       '</div>',
       '<img src="images/dannebuch.jpeg" alt="">'
     ]
@@ -261,10 +260,14 @@ example4: {
   },
 
 exampleL: {
-  title: "BUSHALTESTELLE",
+  title: "",
   layout: "slot-columns-2",
   slots: [
-    '<p>Intervention 02 Raucherecke als informeller Treffpunkt</p>',
+    '<div>' +
+      '<p style="margin:0 0 0.4em 0; font-size:1.05em; color:#111;">Intervention 02</p>' +
+      '<h2 style="margin:0 0 0.6em 0; font-size:2.2em; font-weight:800; color:#111;">Bushaltestelle</h2>' +
+      '<p style="margin:0; font-size:1.5em; color:#111;">Raucherecke als informeller Treffpunkt</p>' +
+    '</div>',
     '<img src="images/derort.jpg" alt="">'
   ]
 },              // ← } schließt exampleL, dann Komma
@@ -275,7 +278,6 @@ bushaltestelleHebelhypothese: {
 },
 
 exampleN: {
-  title: "ANALYSE-FOKUS",
   layout: "slot-columns-3",
   slots: [
       '<div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-left:5px solid #f4a261; height:100%; box-sizing:border-box;"><h3 style="margin:0 0 12px 0; font-size:1.1em; font-weight:700; color:#111;">Hebel</h3><p style="margin:0; color:#444; line-height:1.5; font-size:0.95em;">Neurahmung eines bereits genutzten informellen Ortes</p></div>',
@@ -321,18 +323,19 @@ exampleO: {
 
 // ── NEU: GESTALTUNGSKONZEPT BUSHALTESTELLE (nach Folie 23) ──
 bushaltestelleGestaltung: {
-  title: "",
+  title: "GESTALTUNGSKONZEPT",
   layout: "slot-columns-2",
   slots: [
     '<div>' +
-      '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
       '<p style="margin:0 0 1em 0; font-size:1.1em;"> Anlehnung an reale Bushaltestelle</p>' +
-      '<p style="margin:0 0 1em 0;"><strong>Wiedererkennung:</strong> unbewusste Wirkung durch \u2018bewegten\u2019 Symbolort</p>' +
-      '<p style="margin:0 0 1em 0;"><strong>Inhalte:</strong> Aufgreifen der Dekonstruktionsergebnisse (Fokus Ziele &amp; Wünsche)</p>' +
-      '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong> günstig &amp; nachhaltig<br>kurzzeitig nutzbar<br>schnell reproduzierbar</p>' +
-      '<p style="margin:0;"><strong>Interaktivität:</strong> leichte Sprache<br>mehrere Partizipationsstufen</p>' +
+      '<p style="margin:0 0 1em 0;"><strong>Wiedererkennung:</strong><br> unbewusste Wirkung durch \u2018bewegten\u2019 Symbolort</p>' +
+      '<p style="margin:0 0 1em 0;"><strong>Inhalte:</strong><br> Aufgreifen der Dekonstruktionsergebnisse (Fokus Ziele &amp; Wünsche)</p>' +
+      '<p style="margin:0 0 1em 0;"><strong>Materialanspruch:</strong><br> günstig &amp; nachhaltig<br>kurzzeitig nutzbar<br>schnell reproduzierbar</p>' +
+      '<p style="margin:0;"><strong>Interaktivität:</strong><br> leichte Sprache<br>mehrere Partizipationsstufen</p>' +
     '</div>',
-    '<img src="images/bushaltestelle_gestaltung.jpg" alt="">'
+   
+      '<img src="images/buha_skizze.jpg" alt="" style="width:100%; height:100%; object-fit:cover; border-radius:16px; display:block;">' +
+    '</div>'
   ]
 },
 
@@ -516,16 +519,15 @@ detail4x2: {
   },
 
   rollentauschGestaltung: {
-    title: "",
+    title: "GESTALTUNGSKONZEPT",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<h2 style="margin:0 0 0.2em 0; font-size:var(--content-heading); font-weight:800;">GESTALTUNGSKONZEPT</h2>' +
         '<p style="margin:0 0 1em 0; font-size:1.1em;">Inhalt erarbeiten und selbständig vermitteln</p>' +
-        '<p style="margin:0 0 1em 0;"><strong>Grundhaltung:</strong> Freiheit<br>Selbstbestimmung<br>sicherer Rahmen</p>' +
-        '<p style="margin:0 0 1em 0;"><strong>Arbeitsmaterialien:</strong> als Baukasten nach Bedarf</p>' +
-        '<p style="margin:0 0 1em 0;"><strong>Support:</strong> wenn nötig oder gewünscht</p>' +
-        '<p style="margin:0;"><strong>Inklusion:</strong> leichte Sprache</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Grundhaltung:</strong><br> Freiheit<br>Selbstbestimmung<br>sicherer Rahmen</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Arbeitsmaterialien:</strong><br> als Baukasten nach Bedarf</p>' +
+        '<p style="margin:0 0 1em 0;"><strong>Support:</strong><br> wenn nötig oder gewünscht</p>' +
+        '<p style="margin:0;"><strong>Inklusion:</strong><br> leichte Sprache</p>' +
       '</div>',
       '<img src="images/rollentausch_gestaltung.jpg" alt="">'
     ]
@@ -597,13 +599,13 @@ detail4x2: {
   },
 
   rollentauschErgebnisMessung: {
-    title: "",
+    title: "ERGEBNIS",
     layout: "slot-columns-2",
     slots: [
       '<div>' +
-        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Zutrauen:</strong> Mitarbeitende trauen Teilnehmenden tendenziell mehr zu, als diese sich selbst</p>' +
-        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Neues Wissen:</strong> Lerneffekt ist beidseitig, bei Teilnehmenden als "Expert*innen" sogar leicht stärker</p>' +
-        '<p style="margin:0; line-height:1.5;"><strong>Hierarchien:</strong> Mitarbeitende skeptisch, ob sich an Hierarchien etwas ändert<br>Teilnehmende wünschen sich ausdrücklich mehr <strong>als Experten auftreten</strong> zu können</p>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Zutrauen:</strong><br> Mitarbeitende trauen Teilnehmenden tendenziell mehr zu, als diese sich selbst</p>' +
+        '<p style="margin:0 0 1.2em 0; line-height:1.5;"><strong>Neues Wissen:</strong><br> Lerneffekt ist beidseitig, bei Teilnehmenden als "Expert*innen" sogar leicht stärker</p>' +
+        '<p style="margin:0; line-height:1.5;"><strong>Hierarchien:</strong><br> Mitarbeitende skeptisch, ob sich an Hierarchien etwas ändert<br>Teilnehmende wünschen sich ausdrücklich mehr <strong>als Experten auftreten</strong> zu können</p>' +
       '</div>',
       '<img src="images/rollentausch_ergebnis_chart.jpg" alt="">'
     ]
